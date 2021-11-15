@@ -1,9 +1,9 @@
-package esgi.barrie.cc1.model.serialization;
+package esgi.barrie.al.common.serialization;
 
-import esgi.barrie.cc1.model.user.Address;
-import esgi.barrie.cc1.model.user.Credentials;
-import esgi.barrie.cc1.model.user.Phone;
-import esgi.barrie.cc1.model.user.User;
+import esgi.barrie.al.common.user.Address;
+import esgi.barrie.al.common.user.Credentials;
+import esgi.barrie.al.common.user.Phone;
+import esgi.barrie.al.common.user.User;
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
 import com.google.gson.stream.JsonReader;
@@ -16,17 +16,21 @@ public class UserTypeAdapter extends TypeAdapter<User> {
     @Override
     public void write(JsonWriter jsonWriter, User user) throws IOException {
         jsonWriter.beginObject();
-        jsonWriter.name("ID").value(user.getId());
-        jsonWriter.name("Firstname").value(user.getFirstName());
-        jsonWriter.name("Lastname").value(user.getLastName());
-        jsonWriter.name("Birth").value(user.getBirth());
-        jsonWriter.name("Email").value(user.getEmail());
-
+        jsonWriter.name("ID").value(user.getId()).
+                   name("Firstname").value(user.getFirstName()).
+                   name("Lastname").value(user.getLastName()).
+                   name("Birth").value(user.getBirth()).
+                   name("Email").value(user.getEmail());
+        jsonWriter.name("Phone");
         gson.getAdapter(Phone.class).write(jsonWriter, user.getPhone());
+        jsonWriter.name("Credentials");
         gson.getAdapter(Credentials.class).write(jsonWriter, user.getCredentials());
+
         if(user.getAddress().isPresent()) {
+            jsonWriter.name("Address");
             gson.getAdapter(Address.class).write(jsonWriter, user.getAddress().get());
         }
+        jsonWriter.endObject();
 
     }
 
@@ -63,6 +67,7 @@ public class UserTypeAdapter extends TypeAdapter<User> {
                     break;
             }
         }
-        return null;
+        jsonReader.endObject();
+        return user;
     }
 }

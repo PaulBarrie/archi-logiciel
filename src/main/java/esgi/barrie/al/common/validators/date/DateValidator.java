@@ -1,4 +1,4 @@
-package esgi.barrie.cc1.model.validators.date;
+package esgi.barrie.al.model.validators.date;
 
 public interface DateValidator {
     public void check(String dateStr) throws IllegalArgumentException;

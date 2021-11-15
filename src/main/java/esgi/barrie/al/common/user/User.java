@@ -1,6 +1,6 @@
-package esgi.barrie.cc1.model.user;
+package esgi.barrie.al.model.user;
 
-import esgi.barrie.cc1.model.validators.user.UserValidator;
+import esgi.barrie.al.model.validators.user.UserValidator;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.Objects;

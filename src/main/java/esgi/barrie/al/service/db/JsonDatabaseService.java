@@ -4,14 +4,14 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import esgi.barrie.al.infrastructure.db.JsonFsDB;
-import esgi.barrie.al.model.user.User;
+import esgi.barrie.al.common.user.User;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.Objects;
 
-public abstract class JsonDatabaseService<T> extends DatabaseService<JsonObject, T>{
+public abstract class JsonDatabaseService<T> extends DatabaseService<JsonObject>{
     protected Class<T> class_;
     protected JsonObject db;
 

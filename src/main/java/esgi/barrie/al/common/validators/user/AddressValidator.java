@@ -1,6 +1,6 @@
-package esgi.barrie.cc1.model.validators.user;
+package esgi.barrie.al.model.validators.user;
 
-import esgi.barrie.cc1.model.user.Address;
+import esgi.barrie.al.model.user.Address;
 
 public final class AddressValidator {
     private final Address address;
@@ -15,7 +15,7 @@ public final class AddressValidator {
 
     public void check() throws IllegalArgumentException {
         //Check street number under French format
-        if(!this.address.getStreetNumber().matches("(?:\\d{0,3} +(bis|ter|quat)|\\G(?<!^)) (\\S+) ")) {
+        if(!this.address.getStreetNumber().matches("^\\d{1,4}(?:[a-zA-z]{1,2}\\d{0,3})?$")) {
             throw new IllegalArgumentException("Invalid street number.");
         }
         //Check street name: check no symbol

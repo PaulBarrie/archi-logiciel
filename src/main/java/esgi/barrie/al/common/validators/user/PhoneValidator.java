@@ -1,6 +1,6 @@
-package esgi.barrie.cc1.model.validators.user;
+package esgi.barrie.al.model.validators.user;
 
-import esgi.barrie.cc1.model.user.Phone;
+import esgi.barrie.al.model.user.Phone;
 
 import java.util.Objects;
 
@@ -21,7 +21,7 @@ public final class PhoneValidator {
             throw new IllegalArgumentException("Invalid phone country code.");
         }
         //Check if phone number contains only digits
-        if(!this.phone.getNumber().matches(" \\d+")) {
+        if(!this.phone.getNumber().matches("\\d+")) {
             throw new IllegalArgumentException("Invalid phone number");
         }
     }

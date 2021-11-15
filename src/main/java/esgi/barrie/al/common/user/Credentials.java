@@ -1,14 +1,15 @@
-package esgi.barrie.cc1.model.user;
+package esgi.barrie.al.model.user;
 
-import esgi.barrie.cc1.model.validators.user.CredentialsValidator;
-import esgi.barrie.cc1.service.hash.Hash;
-import esgi.barrie.cc1.service.hash.SHA256;
+import esgi.barrie.al.model.validators.user.CredentialsValidator;
+import esgi.barrie.al.service.hash.Hash;
+import esgi.barrie.al.service.hash.SHA256;
 
 import java.security.NoSuchAlgorithmException;
 import java.util.Objects;
 
 public class Credentials {
-    private final String username;
+
+    private String username;
     private String password;
     private final static Hash hash = new SHA256();
 
@@ -34,5 +35,13 @@ public class Credentials {
 
     public String getPassword() {
         return password;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }

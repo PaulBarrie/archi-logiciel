@@ -14,7 +14,7 @@ public class BirthDateValidator implements DateValidator {
 
     private final String dateFormat;
 
-    public DateValidatorUsingFormat(String dateFormat) {
+    public BirthDateValidator(String dateFormat) {
         this.dateFormat = dateFormat;
     }
 

@@ -1,13 +1,13 @@
-package esgi.barrie.cc1.model.user;
+package esgi.barrie.al.model.user;
 
-import esgi.barrie.cc1.model.validators.user.PhoneValidator;
+import esgi.barrie.al.model.validators.user.PhoneValidator;
 
 import java.util.Objects;
 
 public class Phone {
 
-    private final int countryCode;
-    private final String number;
+    private int countryCode;
+    private String number;
 
     private Phone(int countryCode, String number) {
         this.countryCode = Objects.requireNonNull(countryCode);
@@ -28,7 +28,15 @@ public class Phone {
         return countryCode;
     }
 
+    public void setCountryCode(int countryCode) {
+        this.countryCode = countryCode;
+    }
+
     public String getNumber() {
         return number;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
     }
 }

@@ -1,15 +1,15 @@
-package esgi.barrie.cc1.model.user;
+package esgi.barrie.al.model.user;
 
-import esgi.barrie.cc1.model.validators.user.AddressValidator;
+import esgi.barrie.al.model.validators.user.AddressValidator;
 
 import java.util.Objects;
 
 public class Address {
-    private final String streetNumber;
-    private final String streetName;
-    private final String zipCode;
-    private final String city;
-    private final String country;
+    private String streetNumber;
+    private String streetName;
+    private String zipCode;
+    private String city;
+    private String country;
 
     private Address(String streetNumber, String streetName, String zipCode, String city, String country) {
         this.streetNumber = Objects.requireNonNull(streetNumber);
@@ -28,24 +28,44 @@ public class Address {
     public static Address nullAddress() {
         return new Address(null, null, null, null, null);
     }
+
     public String getStreetNumber() {
         return streetNumber;
+    }
+
+    public void setStreetNumber(String streetNumber) {
+        this.streetNumber = streetNumber;
     }
 
     public String getStreetName() {
         return streetName;
     }
 
+    public void setStreetName(String streetName) {
+        this.streetName = streetName;
+    }
+
     public String getZipCode() {
         return zipCode;
+    }
+
+    public void setZipCode(String zipCode) {
+        this.zipCode = zipCode;
     }
 
     public String getCity() {
         return city;
     }
 
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     public String getCountry() {
         return country;
     }
 
+    public void setCountry(String country) {
+        this.country = country;
+    }
 }

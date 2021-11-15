@@ -1,6 +1,6 @@
-package esgi.barrie.cc1.model.validators.user;
+package esgi.barrie.al.model.validators.user;
 
-import esgi.barrie.cc1.model.user.Credentials;
+import esgi.barrie.al.model.user.Credentials;
 
 public class CredentialsValidator {
     private final Credentials credentials;
@@ -17,7 +17,7 @@ public class CredentialsValidator {
         if(credentials.getUsername().length() == 0) {
             throw new IllegalArgumentException("Invalid username");
         }
-        if(!credentials.getPassword().matches("\"^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!%*?&])[A-Za-z\\d@$!%*?&]{8,}$\"")) {
+        if(!credentials.getPassword().matches("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$")) {
             throw new IllegalArgumentException("Invalid password: Must be at least 8 char long and contain 1 uppercase, 1 lowercase, 1 number, 1 special char.");
         }
     }

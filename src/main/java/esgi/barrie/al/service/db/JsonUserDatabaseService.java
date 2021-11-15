@@ -5,15 +5,15 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import esgi.barrie.al.infrastructure.db.JsonFsDB;
-import esgi.barrie.al.model.serialization.UserTypeAdapter;
-import esgi.barrie.al.model.user.User;
+import esgi.barrie.al.infrastructure.serialization.UserTypeAdapter;
+import esgi.barrie.al.common.user.User;
 import esgi.barrie.al.service.serialization.AdapterEngineFactory;
 
 import java.io.IOException;
 import java.lang.reflect.Type;
 import java.util.*;
 
-public class JsonUserDatabaseService extends JsonDatabaseService<User> {
+public final class JsonUserDatabaseService extends JsonDatabaseService<User> {
     private final Gson adapter = AdapterEngineFactory.withJsonAdapter(User.class, new UserTypeAdapter());
 
     private JsonUserDatabaseService(JsonFsDB db)  {
@@ -21,7 +21,7 @@ public class JsonUserDatabaseService extends JsonDatabaseService<User> {
     }
 
 
-    public static DatabaseService<JsonObject, User> of(JsonFsDB db) {
+    public static DatabaseService<JsonObject> of(JsonFsDB db) {
         return new JsonUserDatabaseService(db);
     }
 
