@@ -3,7 +3,7 @@ package org.esgi.trademe.payment.exposition.payment_mode;
 
 import java.util.Objects;
 
-public class AccountIdentityPaymentDTO implements PaymentModeDTO {
+public final class AccountIdentityPaymentDTO implements PaymentModeDTO {
     private final String accountIdentifier;
     private final String bankIdentifier;
 

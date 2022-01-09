@@ -9,7 +9,7 @@ import org.esgi.trademe.payment.exposition.PaymentDTO;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class RetrievePaymentHandler implements QueryHandler<RetrievePayment, Payment> {
+public final class RetrievePaymentHandler implements QueryHandler<RetrievePayment, Payment> {
 
     private final PaymentRepository paymentRepository;
 

@@ -8,7 +8,7 @@ import org.esgi.trademe.kernel.query.QueryHandler;
 
 import java.util.List;
 
-public class RetrieveContractorByIDHandler implements QueryHandler<RetrieveContractorByID, ContractorDTO> {
+public final class RetrieveContractorByIDHandler implements QueryHandler<RetrieveContractorByID, ContractorDTO> {
 
     private final ContractorRepository contractorRepository;
 

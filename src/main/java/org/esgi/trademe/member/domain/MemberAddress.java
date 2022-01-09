@@ -1,6 +1,6 @@
 package org.esgi.trademe.member.domain;
 
-public class MemberAddress {
+public final class MemberAddress {
 
     private final String streetNumber;
     private final String streetName;

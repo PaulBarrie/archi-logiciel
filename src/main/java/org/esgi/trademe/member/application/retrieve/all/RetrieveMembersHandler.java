@@ -8,7 +8,7 @@ import org.esgi.trademe.member.exposition.MemberDTO;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class RetrieveMembersHandler implements QueryHandler<RetrieveMembers, List<MemberDTO>> {
+public final class RetrieveMembersHandler implements QueryHandler<RetrieveMembers, List<MemberDTO>> {
 
     private final MemberRepository memberRepository;
 

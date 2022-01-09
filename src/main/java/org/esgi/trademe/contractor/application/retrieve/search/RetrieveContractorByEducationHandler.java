@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class RetrieveContractorByEducationHandler implements QueryHandler<RetrieveContractorByEducation, ContractorsDTO> {
+public final class RetrieveContractorByEducationHandler implements QueryHandler<RetrieveContractorByEducation, ContractorsDTO> {
 
     private final ContractorRepository contractorRepository;
 

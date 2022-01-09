@@ -24,7 +24,7 @@ import java.security.NoSuchAlgorithmException;
 
 @SuppressWarnings("unused")
 @RestController
-public class ProjectController {
+public final class ProjectController {
 
     private final QueryBus queryBus;
     private final CommandBus commandBus;
@@ -75,7 +75,7 @@ public class ProjectController {
     }
 
     @PutMapping(value = "/project/accept", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<String> addEducation(@RequestParam(required = true) String project_id) throws InvalidEntryException, NoSuchAlgorithmException {
+    public ResponseEntity<String> acceptProject(@RequestParam(required = true) String project_id) throws InvalidEntryException, NoSuchAlgorithmException {
         ProjectID projectID = toProjectID(project_id);
         commandBus.send(AcceptProject.of(projectID));
         return ResponseEntity.ok(String.format("Project %s accepted by contractor", project_id));

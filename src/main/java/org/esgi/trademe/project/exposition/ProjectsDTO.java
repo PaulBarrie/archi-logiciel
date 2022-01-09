@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("all")
-public class ProjectsDTO {
+public final class ProjectsDTO {
     public List<Project> projects = new ArrayList<>();
 
     private ProjectsDTO(List<Project> projects) {

@@ -4,7 +4,7 @@ package org.esgi.trademe.member.application.update;
 import org.esgi.trademe.kernel.command.Command;
 import org.esgi.trademe.member.exposition.MemberAddressDTO;
 
-public class ModifyMemberAddress implements Command {
+public final class ModifyMemberAddress implements Command {
 
     public final int memberId;
     public final MemberAddressDTO address;

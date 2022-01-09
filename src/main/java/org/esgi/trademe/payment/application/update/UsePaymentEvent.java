@@ -4,7 +4,7 @@ package org.esgi.trademe.payment.application.update;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 import org.esgi.trademe.payment.domain.PaymentID;
 
-public class UsePaymentEvent implements ApplicationEvent {
+public final class UsePaymentEvent implements ApplicationEvent {
     private final PaymentID paymentID;
 
     public UsePaymentEvent(PaymentID paymentID) {

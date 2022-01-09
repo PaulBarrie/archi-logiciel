@@ -5,7 +5,7 @@ import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Map;
 
-public class SimpleCommandBus implements CommandBus {
+public final class SimpleCommandBus implements CommandBus {
     private final Map<Class<? extends Command>, CommandHandler> dataMap;
 
     public SimpleCommandBus(Map<Class<? extends Command>, CommandHandler> dataMap) {

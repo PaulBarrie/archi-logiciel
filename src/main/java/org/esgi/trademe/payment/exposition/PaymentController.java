@@ -1,6 +1,5 @@
 package org.esgi.trademe.payment.exposition;
 
-import org.esgi.trademe.kernel.Timer;
 import org.esgi.trademe.kernel.command.CommandBus;
 import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.kernel.exceptions.PaymentRejectedException;
@@ -8,6 +7,7 @@ import org.esgi.trademe.kernel.query.QueryBus;
 import org.esgi.trademe.member.application.retrieve.all.RetrieveMembers;
 import org.esgi.trademe.member.domain.Member;
 import org.esgi.trademe.member.domain.MemberID;
+import org.esgi.trademe.member.exposition.MemberDTO;
 import org.esgi.trademe.payment.application.create.CreatePayment;
 import org.esgi.trademe.payment.application.retrieve.RetrievePaymentsByMemberID;
 import org.esgi.trademe.payment.application.update.UsePayment;
@@ -29,7 +29,7 @@ import java.util.Map;
 
 @SuppressWarnings("unused")
 @RestController
-public class PaymentController {
+public final class PaymentController {
 
     private final QueryBus queryBus;
     private final CommandBus commandBus;
@@ -75,13 +75,17 @@ public class PaymentController {
     }
 
     //Every Month on the last Friday
-    @Scheduled(cron = "30 0 0 ? * * *", zone = "Europe/Paris")
+    @Scheduled(cron = "* * * * * *", zone = "Europe/Paris")
     public void paySubscription() throws InvalidEntryException, NoSuchAlgorithmException {
-        List<Member> members = queryBus.send(new RetrieveMembers());
-        for(Member member: members) {
-            Payment payment =queryBus.send(new RetrievePaymentsByMemberID(member.getId()));
+        List<MemberDTO> members = queryBus.send(new RetrieveMembers());
+        for(MemberDTO member: members) {
+            List<Payment> payments = queryBus.send(new RetrievePaymentsByMemberID(member.getId()));
+            if(payments.size() == 0) break;
+            Payment payment = payments.get(0);
             Boolean response = commandBus.send(new UsePayment(payment.getPaymentMode(), subscriptionDetails.getPaymentMode(),
                     subscriptionDetails.getMonthlyAmount()));
+            System.out.println(String.format("%s %s paid subscription", member.getFirstname(), member.getLastname()));
+
             if(!response) {
                 throw new PaymentRejectedException(String.format("Member %s can't pay subscription with payment %s",
                         member.getId().toString(), payment.getId().toString()));
@@ -94,7 +98,7 @@ public class PaymentController {
 //        List<Project> projects = queryBus.send(new RetrieveProjectByStatus(ProjectStatus.ACCEPTED));
 //        for(Project project: projects) {
 //            Payment fromPayment =queryBus.send(new RetrievePaymentsByMemberID(project.getMemberID()));
-//            Payment fromPayment =queryBus.send(new RetrievePaymentsByContractorID(project.getMemberID()));
+//            Payment toPayment =queryBus.send(new RetrievePaymentsByContractorID(project.getMemberID()));
 //            Boolean response = commandBus.send(new UsePayment(payment, null, 10F));
 //            if(!response) {
 //                throw new PaymentRejectedException(String.format("Member %s can't pay subscritpion with payment %s",

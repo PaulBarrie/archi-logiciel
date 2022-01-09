@@ -3,7 +3,7 @@ package org.esgi.trademe.member.validation.validator.member;
 
 import org.esgi.trademe.member.domain.MemberCredentials;
 
-public class MemberCredentialsValidator {
+public final class MemberCredentialsValidator {
     private final MemberCredentials credentials;
 
     private MemberCredentialsValidator(MemberCredentials credentials) {

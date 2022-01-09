@@ -3,7 +3,7 @@ package org.esgi.trademe.kernel.hash;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-public class SHA256Engine implements HashEngine {
+public final class SHA256Engine implements HashEngine {
 
     @Override
     public String encrypt(String str) throws NoSuchAlgorithmException {

@@ -1,6 +1,6 @@
 package org.esgi.trademe.kernel.exceptions;
 
-public class InvalidChoiceException extends IllegalArgumentException {
+public final class InvalidChoiceException extends IllegalArgumentException {
     public InvalidChoiceException(String message) {super(message);}
 
     public static InvalidChoiceException withEnum(Class<? extends Enum> enumType, String constantName) {

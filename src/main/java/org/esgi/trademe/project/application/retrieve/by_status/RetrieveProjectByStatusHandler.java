@@ -8,7 +8,7 @@ import org.esgi.trademe.project.exposition.ProjectsDTO;
 
 import java.util.List;
 
-public class RetrieveProjectByStatusHandler implements QueryHandler<RetrieveProjectByStatus, ProjectsDTO> {
+public final class RetrieveProjectByStatusHandler implements QueryHandler<RetrieveProjectByStatus, ProjectsDTO> {
 
     private final ProjectRepository projectRepository;
 

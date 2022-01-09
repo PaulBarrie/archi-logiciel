@@ -1,6 +1,5 @@
 package org.esgi.trademe.member.validation.credentials;
 
-import org.esgi.trademe.contractor.domain.ContractorRepository;
 import org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterException;
 import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.member.domain.Member;
@@ -10,7 +9,7 @@ import org.esgi.trademe.member.validation.MemberHandler;
 import java.util.List;
 import java.util.Objects;
 
-public class UsernameUnicityHandler extends MemberHandler {
+public final class UsernameUnicityHandler extends MemberHandler {
     private MemberHandler next;
     private final MemberRepository memberRepository;
 

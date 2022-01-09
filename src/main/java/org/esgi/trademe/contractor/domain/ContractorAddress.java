@@ -1,6 +1,6 @@
 package org.esgi.trademe.contractor.domain;
 
-public class ContractorAddress {
+public final class ContractorAddress {
     private final String streetNumber;
     private final String streetName;
     private final String zipCode;

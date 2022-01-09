@@ -5,10 +5,7 @@ import org.esgi.trademe.kernel.query.QueryHandler;
 import org.esgi.trademe.member.domain.MemberRepository;
 import org.esgi.trademe.member.exposition.MemberDTO;
 
-import java.util.List;
-import java.util.stream.Collectors;
-
-public class RetrieveMemberByIDHandler implements QueryHandler<RetrieveMemberByID,MemberDTO> {
+public final class RetrieveMemberByIDHandler implements QueryHandler<RetrieveMemberByID,MemberDTO> {
 
     private final MemberRepository memberRepository;
 

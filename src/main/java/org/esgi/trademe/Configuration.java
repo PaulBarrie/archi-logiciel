@@ -1,6 +1,12 @@
 package org.esgi.trademe;
 
 import org.esgi.trademe.kernel.Timer;
+import org.esgi.trademe.payment.application.retrieve.RetrievePaymentsByMemberID;
+import org.esgi.trademe.payment.application.retrieve.RetrievePaymentsByMemberIDHandler;
+import org.esgi.trademe.payment.application.update.UsePayment;
+import org.esgi.trademe.payment.application.update.UsePaymentCommandHandler;
+import org.esgi.trademe.payment.application.update.UsePaymentEvent;
+import org.esgi.trademe.payment.application.update.UsePaymentEventListener;
 import org.esgi.trademe.payment.domain.AccountIdentityPayment;
 import org.esgi.trademe.payment.domain.PaymentService;
 import org.esgi.trademe.payment.domain.SubscriptionDetails;
@@ -100,13 +106,6 @@ public class Configuration {
     @Bean
     public PaymentService paymentService() {return new StubbedPaymentService();}
 
-    // "0 0 12 6L * ?" -> every month
-//    @Bean
-//    public Timer paymentTimer() {
-//        return Timer.of("30 0 0 ? * * *", "Europe/Paris");
-//    }
-
-
     @Bean
     public SubscriptionDetails subscriptionDetails() {
         return new SubscriptionDetails(AccountIdentityPayment.of("FR45664654556744", "CMUT678797"), 10F);
@@ -127,6 +126,7 @@ public class Configuration {
     public EventDispatcher<Event> paymentEventDispatcher() {
         final Map<Class<? extends Event>, List<EventListener<? extends Event>>> listenerMap = new HashMap<>();
         listenerMap.put(CreatePaymentEvent.class, List.of(new CreatePaymentEventListener()));
+        listenerMap.put(UsePaymentEvent.class, List.of(new UsePaymentEventListener()));
         return new DefaultEventDispatcher(listenerMap);
     }
 
@@ -189,6 +189,7 @@ public class Configuration {
         final Map<Class<? extends Command>, CommandHandler> commandHandlerMap = Map.ofEntries(
                 Map.entry(CreateMember.class, CreateMemberCommandHandler.of(memberRepository(), memberEventDispatcher())),
                 Map.entry(CreatePayment.class, CreatePaymentCommandHandler.of(paymentRepository(), paymentEventDispatcher())),
+                Map.entry(UsePayment.class, UsePaymentCommandHandler.of(paymentRepository(), paymentService(), paymentEventDispatcher())),
                 Map.entry(CreateContractor.class, CreateContractorCommandHandler.of(contractorRepository(), contractorEventDispatcher())),
                 Map.entry(AddContractorExperience.class, AddContractorExperienceCommandHandler.of(contractorRepository(), contractorEventDispatcher())),
                 Map.entry(AddContractorEducationLevel.class, AddContractorEducationLevelCommandHandler.of(contractorRepository(), contractorEventDispatcher())),
@@ -207,6 +208,7 @@ public class Configuration {
         final Map<Class<? extends Query>, QueryHandler> queryHandlerMap = Map.ofEntries(
                 Map.entry(RetrieveMembers.class, new RetrieveMembersHandler(memberRepository())),
                 Map.entry(RetrieveMemberByID.class, new RetrieveMemberByIDHandler(memberRepository())),
+                Map.entry(RetrievePaymentsByMemberID.class, new RetrievePaymentsByMemberIDHandler(paymentRepository())),
                 Map.entry(RetrieveContractors.class, new RetrieveContractorsHandler(contractorRepository())),
                 Map.entry(RetrieveContractorByID.class, new RetrieveContractorByIDHandler(contractorRepository())),
                 Map.entry(RetrieveContractorByEducation.class, new RetrieveContractorByEducationHandler(contractorRepository())),

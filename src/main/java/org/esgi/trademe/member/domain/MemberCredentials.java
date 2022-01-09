@@ -8,7 +8,7 @@ import org.esgi.trademe.kernel.hash.SHA256Engine;
 import java.security.NoSuchAlgorithmException;
 import java.util.Objects;
 
-public class MemberCredentials {
+public final class MemberCredentials {
 
     private final static HashEngine HASH = new SHA256Engine();
     private String username;

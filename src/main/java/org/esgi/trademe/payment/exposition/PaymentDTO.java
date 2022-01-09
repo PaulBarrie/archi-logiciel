@@ -4,7 +4,7 @@ package org.esgi.trademe.payment.exposition;
 import org.esgi.trademe.payment.domain.Payment;
 
 @SuppressWarnings("all")
-public class PaymentDTO {
+public final class PaymentDTO {
     public final Payment payment;
 
     public PaymentDTO(Payment payment) {

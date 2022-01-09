@@ -6,7 +6,7 @@ import org.esgi.trademe.contractor.validation.validator.contractor.ContractorCre
 import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 
 
-public class ContractorCredentialsDataHandler extends ContractorHandler {
+public final class ContractorCredentialsDataHandler extends ContractorHandler {
     @Override
     public void check(Contractor entity) throws InvalidEntryException {
         ContractorCredentialsValidator validator = ContractorCredentialsValidator.of(entity.getCredentials());

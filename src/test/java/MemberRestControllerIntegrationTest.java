@@ -1,4 +1,6 @@
 import org.esgi.trademe.Configuration;
+import org.esgi.trademe.ExceptionController;
+import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.kernel.hash.SHA256Engine;
 import org.esgi.trademe.member.exposition.MemberController;
 import org.junit.Before;
@@ -8,31 +10,38 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.context.annotation.Import;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import java.util.Objects;
+
+import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+
 
 @ExtendWith(SpringExtension.class)
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = Configuration.class)
+@ContextConfiguration(classes = {Configuration.class, ExceptionController.class})
 @Import(MemberController.class)
 @WebMvcTest(controllers = MemberController.class)
 public class MemberRestControllerIntegrationTest {
 
     @Autowired
     WebApplicationContext wac;
+
 
     private MockMvc mockMvc;
 
@@ -74,23 +83,76 @@ public class MemberRestControllerIntegrationTest {
     @Test
     public void testCreateMemberWithInvalidEmail() throws Exception {
         String expected = "paul@gmail is not a valid value for the field Email";
-        MockHttpServletResponse response = this.mockMvc.perform(post("/member")
-                        .contentType(MediaType.APPLICATION_JSON)
-                        .param("first_name", "Paul")
-                        .param("last_name", "Barrié")
-                        .param("email", "paul@gmail")
-                        .param("birth", "31/10/1995")
-                        .param("street_number", "2")
-                        .param("street_name", "rue de la Paix")
-                        .param("zip_code", "75002")
-                        .param("city", "Paris")
-                        .param("country", "FRANCE")
-                        .param("username", "paulb")
-                        .param("password", "P@55w0rd"))
-                .andReturn().getResponse();
+        String error = this.mockMvc.perform(
+                post("/member")
+                .contentType(MediaType.APPLICATION_JSON)
+                .param("first_name", "Paul")
+                .param("last_name", "Barrié")
+                .param("email", "paul@gmail")
+                .param("birth", "31/10/1995")
+                .param("street_number", "2")
+                .param("street_name", "rue de la Paix")
+                .param("zip_code", "75002")
+                .param("city", "Paris")
+                .param("country", "FRANCE")
+                .param("username", "paulb")
+                .param("password", "P@55w0rd"))
+                .andExpect(status().is(400))
+                .andReturn().getResolvedException().getMessage();
+        assertEquals(error, expected);
+    }
 
-        assertThat(response.getStatus()).isEqualTo(HttpStatus.EXPECTATION_FAILED.value());
-        assertThat(response.getContentAsString()).isEqualTo(expected);
+    @Test
+    public void testCreateMemberWithInvalidFirstname() throws Exception {
+        String expected = "P@ul is not a valid value for the field Firstname";
+        String error = this.mockMvc.perform(
+                        post("/member")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .param("first_name", "P@ul")
+                                .param("last_name", "Barrié")
+                                .param("email", "paul@gmail.com")
+                                .param("birth", "10/31/1995")
+                                .param("street_number", "2")
+                                .param("street_name", "rue de la Paix")
+                                .param("zip_code", "75002")
+                                .param("city", "Paris")
+                                .param("country", "FRANCE")
+                                .param("username", "paulb")
+                                .param("password", "P@55w0rd"))
+                .andExpect(status().is(400))
+                .andReturn().getResolvedException().getMessage();
+        assertEquals(error, expected);
+    }
+
+    @Test
+    public void testCreateMemberWithInvalidLastname() throws Exception {
+        String expected = "Barri& is not a valid value for the field Lastname";
+        String error = this.mockMvc.perform(
+                        post("/member")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .param("first_name", "Paul")
+                                .param("last_name", "Barri&")
+                                .param("email", "paul@gmail.com")
+                                .param("birth", "10/31/1995")
+                                .param("street_number", "2")
+                                .param("street_name", "rue de la Paix")
+                                .param("zip_code", "75002")
+                                .param("city", "Paris")
+                                .param("country", "FRANCE")
+                                .param("username", "paulb")
+                                .param("password", "P@55w0rd"))
+                .andExpect(status().is(400))
+                .andReturn().getResolvedException().getMessage();
+        assertEquals(error, expected);
+    }
+
+
+    @Test
+    public void testGetOneMember() throws Exception {
+        this.mockMvc.perform(get("/members")
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andDo(print())
+                .andExpect(status().is(200));
     }
 
     @Test
