@@ -1,6 +1,6 @@
 package org.esgi.trademe.payment.domain;
 
-public class SubscriptionDetails {
+public final class SubscriptionDetails {
     private final PaymentMode paymentMode;
     private final Float monthlyAmount;
 

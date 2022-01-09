@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
-public class ExceptionController {
+public final class ExceptionController {
 
     @ExceptionHandler(value = NoSuchEntityException.class)
     public ResponseEntity<Object> noSuchEntityException(NoSuchEntityException exception) {
@@ -16,7 +16,7 @@ public class ExceptionController {
 
     @ExceptionHandler(value = InvalidEntryException.class)
     public ResponseEntity<Object> invalidEntryException(InvalidEntryException exception) {
-        return new ResponseEntity<>(exception.getMessage(), HttpStatus.EXPECTATION_FAILED);
+        return new ResponseEntity<>(exception.getMessage(), HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(value = InvalidChoiceException.class)

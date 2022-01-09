@@ -1,8 +1,6 @@
 package org.esgi.trademe.payment.exposition.payment_mode;
 
-import org.esgi.trademe.payment.domain.CreditCardPayment;
-
-public class CreditCardPaymentDTO implements PaymentModeDTO {
+public final class CreditCardPaymentDTO implements PaymentModeDTO {
     private final String ownerName;
     private final String cardNumber;
     private final String expirationDate;

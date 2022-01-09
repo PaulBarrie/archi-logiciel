@@ -4,7 +4,7 @@ package org.esgi.trademe.contractor.application.retrieve.by_id;
 import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 
-public class RetrieveContractorByIDEvent implements ApplicationEvent {
+public final class RetrieveContractorByIDEvent implements ApplicationEvent {
     private final ContractorID contractorID;
 
     public RetrieveContractorByIDEvent(ContractorID contractorID) {

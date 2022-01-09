@@ -24,7 +24,6 @@ public final class UsePaymentCommandHandler implements CommandHandler<UsePayment
 
     public Boolean handle(UsePayment createPayment) {
         Boolean response = paymentService.pay(createPayment.getFromPayment(), createPayment.getToPayment(), createPayment.getAmount());
-
         return response;
     }
 }

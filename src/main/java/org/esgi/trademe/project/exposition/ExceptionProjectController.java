@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
-public class ExceptionProjectController {
+public final class ExceptionProjectController {
 
     @ExceptionHandler(value = NoSuchEntityException.class)
     public ResponseEntity<Object> noSuchEntityException(NoSuchEntityException exception) {

@@ -1,8 +1,6 @@
 package org.esgi.trademe.kernel.exceptions;
 
-import javax.management.InvalidAttributeValueException;
-
-public class AlreadyUsedParameterException extends InvalidParameterException {
+public final class AlreadyUsedParameterException extends InvalidParameterException {
 
     public AlreadyUsedParameterException(String message) {
         super(message);

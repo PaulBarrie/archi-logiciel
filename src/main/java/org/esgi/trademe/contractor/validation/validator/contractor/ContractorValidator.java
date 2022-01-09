@@ -6,7 +6,7 @@ import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.kernel.validator.Validator;
 
 
-public class ContractorValidator implements Validator<Contractor> {
+public final class ContractorValidator implements Validator<Contractor> {
     public void isValid(Contractor entity) throws InvalidEntryException {
         String regexName = "^[^±!@£$%^&*_+§¡€#¢§¶•ªº«\\\\/<>?:;|=.,]{1,20}$";
         //Check firstname

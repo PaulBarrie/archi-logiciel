@@ -8,7 +8,7 @@ import org.esgi.trademe.member.domain.MemberAddress;
 import org.esgi.trademe.member.domain.MemberID;
 import org.esgi.trademe.member.domain.MemberRepository;
 
-public class ModifyMemberAddressCommandHandler implements CommandHandler<ModifyMemberAddress, Void> {
+public final class ModifyMemberAddressCommandHandler implements CommandHandler<ModifyMemberAddress, Void> {
 
     private final MemberRepository memberRepository;
     private final EventDispatcher<Event> eventEventDispatcher;

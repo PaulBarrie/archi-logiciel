@@ -4,7 +4,7 @@ package org.esgi.trademe.member.application.retrieve.by_id;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 import org.esgi.trademe.member.domain.MemberID;
 
-public class RetrieveMemberByIDEvent implements ApplicationEvent {
+public final class RetrieveMemberByIDEvent implements ApplicationEvent {
     private final MemberID memberID;
 
     public RetrieveMemberByIDEvent(MemberID memberID) {

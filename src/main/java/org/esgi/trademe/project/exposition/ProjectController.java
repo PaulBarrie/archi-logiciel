@@ -24,7 +24,7 @@ import java.security.NoSuchAlgorithmException;
 
 @SuppressWarnings("unused")
 @RestController
-public class ProjectController {
+public final class ProjectController {
 
     private final QueryBus queryBus;
     private final CommandBus commandBus;

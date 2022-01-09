@@ -5,7 +5,7 @@ import org.esgi.trademe.member.domain.Member;
 import org.esgi.trademe.member.domain.MemberID;
 
 @SuppressWarnings("all")
-public class MemberDTO {
+public final class MemberDTO {
     private final MemberID id;
     private final String lastname;
     private final String firstname;

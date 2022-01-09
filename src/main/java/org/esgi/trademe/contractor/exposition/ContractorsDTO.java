@@ -4,6 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SuppressWarnings("all")
-public class ContractorsDTO {
+public final class ContractorsDTO {
     public List<ContractorDTO> contractors = new ArrayList<>();
 }

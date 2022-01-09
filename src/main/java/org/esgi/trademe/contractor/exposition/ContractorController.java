@@ -26,7 +26,7 @@ import java.util.Map;
 
 @SuppressWarnings("unused")
 @RestController
-public class ContractorController {
+public final class ContractorController {
 
     private final QueryBus queryBus;
     private final CommandBus commandBus;

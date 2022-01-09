@@ -2,7 +2,7 @@ package org.esgi.trademe.payment.domain;
 
 import java.util.Objects;
 
-public class CreditCardPayment implements PaymentMode {
+public final class CreditCardPayment implements PaymentMode {
     private final String ownerName;
     private final String cardNumber;
     private final String expirationDate;

@@ -1,6 +1,6 @@
 package org.esgi.trademe.contractor.exposition;
 
-public class AddressDTO {
+public final class AddressDTO {
     private final String streetNumber;
     private final String streetName;
     private final String zipCode;

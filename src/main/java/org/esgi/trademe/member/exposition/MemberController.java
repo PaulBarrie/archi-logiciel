@@ -20,7 +20,7 @@ import java.util.List;
 
 @SuppressWarnings("unused")
 @RestController
-public class MemberController {
+public final class MemberController {
 
     private final QueryBus queryBus;
     private final CommandBus commandBus;
@@ -31,12 +31,18 @@ public class MemberController {
     }
 
     @PostMapping(value="/member", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<MemberDTO> register(@RequestParam(required = true) String first_name, @RequestParam(required = true) String last_name,
-                                              @RequestParam(required = true) String email, @RequestParam(required = true) String birth,
-                                              @RequestParam(required = true) String username, @RequestParam(required = true) String password,
-                                              @RequestParam(required = true) String street_number,
-                                              @RequestParam(required = true) String street_name, @RequestParam(required = true) String zip_code,
-                                              @RequestParam(required = true) String city, @RequestParam(required = true) String country) throws InvalidEntryException, NoSuchAlgorithmException {
+    public ResponseEntity<MemberDTO> register(@RequestParam(required = true, name = "first_name" ) String first_name,
+                                              @RequestParam(required = true, name = "last_name") String last_name,
+                                              @RequestParam(required = true, name= "email") String email,
+                                              @RequestParam(required = true, name= "birth") String birth,
+                                              @RequestParam(required = true, name= "username") String username,
+                                              @RequestParam(required = true, name= "password") String password,
+                                              @RequestParam(required = true, name= "street_number") String street_number,
+                                              @RequestParam(required = true, name= "street_name") String street_name,
+                                              @RequestParam(required = true, name= "zip_code") String zip_code,
+                                              @RequestParam(required = true, name= "city") String city,
+                                              @RequestParam(required = true, name= "country") String country)
+            throws InvalidEntryException, NoSuchAlgorithmException {
 
         final Member member = commandBus.send(CreateMember.of(first_name, last_name, email, birth, MemberCredentialsDTO.of(username, password),
                 MemberAddressDTO.of(street_number, street_name, zip_code, city, country)));

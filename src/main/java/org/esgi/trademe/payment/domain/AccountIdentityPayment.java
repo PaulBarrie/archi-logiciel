@@ -2,7 +2,7 @@ package org.esgi.trademe.payment.domain;
 
 import java.util.Objects;
 
-public class AccountIdentityPayment implements PaymentMode {
+public final class AccountIdentityPayment implements PaymentMode {
     private final String accountIdentifier;
     private final String bankIdentifier;
 

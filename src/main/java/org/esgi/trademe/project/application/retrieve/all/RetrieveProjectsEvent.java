@@ -2,7 +2,7 @@ package org.esgi.trademe.project.application.retrieve.all;
 
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 
-public class RetrieveProjectsEvent implements ApplicationEvent {
+public final class RetrieveProjectsEvent implements ApplicationEvent {
 
     public RetrieveProjectsEvent(){
     }

@@ -5,7 +5,7 @@ import org.esgi.trademe.kernel.query.Query;
 import org.esgi.trademe.project.domain.ProjectID;
 import org.esgi.trademe.project.domain.ProjectStatus;
 
-public class RetrieveProjectByStatus implements Query {
+public final class RetrieveProjectByStatus implements Query {
     private final ProjectStatus status;
 
     public RetrieveProjectByStatus(ProjectStatus status) {

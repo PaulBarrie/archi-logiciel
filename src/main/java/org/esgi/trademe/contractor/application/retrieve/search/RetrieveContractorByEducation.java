@@ -6,7 +6,7 @@ import org.esgi.trademe.kernel.query.Query;
 
 import java.util.List;
 
-public class RetrieveContractorByEducation implements Query {
+public final class RetrieveContractorByEducation implements Query {
     private final List<WorkDomain> domains;
 
     public RetrieveContractorByEducation(List<WorkDomain> domains) {

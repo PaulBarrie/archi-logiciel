@@ -8,7 +8,7 @@ import org.esgi.trademe.kernel.event.EventListener;
 import java.util.List;
 import java.util.Map;
 
-public class DefaultEventDispatcher<E extends Event> implements EventDispatcher<E> {
+public final class DefaultEventDispatcher<E extends Event> implements EventDispatcher<E> {
 
     private final Map<Class<E>, List<EventListener<E>>> eventListenersMap;
 

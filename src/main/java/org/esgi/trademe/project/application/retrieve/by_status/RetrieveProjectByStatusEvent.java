@@ -5,7 +5,7 @@ import org.esgi.trademe.kernel.event.ApplicationEvent;
 import org.esgi.trademe.project.domain.ProjectID;
 import org.esgi.trademe.project.domain.ProjectStatus;
 
-public class RetrieveProjectByStatusEvent implements ApplicationEvent {
+public final class RetrieveProjectByStatusEvent implements ApplicationEvent {
     private final ProjectStatus projectStatus;
 
     public RetrieveProjectByStatusEvent(ProjectStatus projectStatus) {

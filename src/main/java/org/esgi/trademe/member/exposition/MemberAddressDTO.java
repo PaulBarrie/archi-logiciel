@@ -1,6 +1,6 @@
 package org.esgi.trademe.member.exposition;
 
-public class MemberAddressDTO {
+public final class MemberAddressDTO {
     private final String streetNumber;
     private final String streetName;
     private final String zipCode;

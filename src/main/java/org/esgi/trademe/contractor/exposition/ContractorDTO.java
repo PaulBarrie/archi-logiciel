@@ -6,7 +6,7 @@ import org.esgi.trademe.contractor.domain.ContractorCredentials;
 import org.esgi.trademe.contractor.domain.Education;
 
 @SuppressWarnings("all")
-public class ContractorDTO {
+public final class ContractorDTO {
     private final String lastname;
     private final String firstname;
     private final String email;
