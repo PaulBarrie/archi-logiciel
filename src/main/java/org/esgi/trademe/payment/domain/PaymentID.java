@@ -20,8 +20,8 @@ public final class PaymentID implements ValueObjectID {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        PaymentID memberID = (PaymentID) o;
-        return value == memberID.value;
+        PaymentID contractorID = (PaymentID) o;
+        return value == contractorID.value;
     }
 
     @Override

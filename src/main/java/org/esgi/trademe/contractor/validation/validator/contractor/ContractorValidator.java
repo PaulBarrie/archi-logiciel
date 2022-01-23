@@ -1,12 +1,14 @@
 package org.esgi.trademe.contractor.validation.validator.contractor;
 
 
-import org.esgi.trademe.contractor.domain.Contractor;
-import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.kernel.validator.Validator;
+import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
+import org.esgi.trademe.contractor.domain.Contractor;
+import org.esgi.trademe.contractor.validation.validator.date.ContractorBirthDateValidator;
+import org.esgi.trademe.kernel.validator.DateValidator;
 
 
-public final class ContractorValidator implements Validator<Contractor> {
+public class ContractorValidator implements Validator<Contractor> {
     public void isValid(Contractor entity) throws InvalidEntryException {
         String regexName = "^[^±!@£$%^&*_+§¡€#¢§¶•ªº«\\\\/<>?:;|=.,]{1,20}$";
         //Check firstname
@@ -22,6 +24,9 @@ public final class ContractorValidator implements Validator<Contractor> {
         if (!entity.getEmail().matches(emailRegex)) {
             throw InvalidEntryException.forField("Email", entity.getEmail());
         }
+        //Check birth
+        DateValidator validator = new ContractorBirthDateValidator("dd/MM/yyyy");
+        validator.isValid(entity.getBirth());
     }
 
 }

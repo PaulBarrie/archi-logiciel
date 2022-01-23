@@ -3,7 +3,6 @@ package org.esgi.trademe.contractor.validation.validator.contractor;
 
 import org.esgi.trademe.contractor.domain.ContractorCredentials;
 
-
 public final class ContractorCredentialsValidator {
     private final ContractorCredentials credentials;
 

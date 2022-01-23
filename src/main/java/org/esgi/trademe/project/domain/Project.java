@@ -2,26 +2,26 @@ package org.esgi.trademe.project.domain;
 
 
 
-import org.esgi.trademe.contractor.domain.ContractorID;
-import org.esgi.trademe.contractor.domain.WorkDomain;
+import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.trademan.domain.WorkDomain;
 import org.esgi.trademe.kernel.Entity;
-import org.esgi.trademe.member.domain.MemberID;
+import org.esgi.trademe.contractor.domain.ContractorID;
 
 import java.util.Objects;
 
 public final class Project implements Entity<ProjectID> {
     private final ProjectID contractID;
-    private final MemberID memberID;
     private final ContractorID contractorID;
+    private final TradesmanID tradesmanID;
     private final Float hourlyWage;
     private final Integer hoursPerMonth;
     private final WorkDomain workDomain;
     private ProjectStatus contractStatus;
 
-    public Project(ProjectID contractID, MemberID memberID, ContractorID contractorID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
+    public Project(ProjectID contractID, ContractorID contractorID, TradesmanID tradesmanID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
         this.contractID = contractID;
-        this.memberID = memberID;
         this.contractorID = contractorID;
+        this.tradesmanID = tradesmanID;
         this.hourlyWage = hourlyWage;
         this.hoursPerMonth = hoursPerMonth;
         this.workDomain = workDomain;
@@ -29,8 +29,8 @@ public final class Project implements Entity<ProjectID> {
     }
 
 
-    public static Project of(ProjectID contractID, MemberID memberID, ContractorID contractorID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
-        return new Project(contractID, memberID, contractorID, hourlyWage, hoursPerMonth, workDomain);
+    public static Project of(ProjectID contractID, ContractorID contractorID, TradesmanID tradesmanID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
+        return new Project(contractID, contractorID, tradesmanID, hourlyWage, hoursPerMonth, workDomain);
     }
 
 
@@ -38,23 +38,23 @@ public final class Project implements Entity<ProjectID> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Project contractor = (Project) o;
-        return Objects.equals(contractID, contractor.contractID) && Objects.equals(contractorID, contractor.contractorID)
-                && Objects.equals(memberID, contractor.memberID) && Objects.equals(hourlyWage, contractor.hourlyWage)
-                && Objects.equals(hoursPerMonth, contractor.hoursPerMonth) && Objects.equals(workDomain, contractor.workDomain);
+        Project tradesman = (Project) o;
+        return Objects.equals(contractID, tradesman.contractID) && Objects.equals(tradesmanID, tradesman.tradesmanID)
+                && Objects.equals(contractorID, tradesman.contractorID) && Objects.equals(hourlyWage, tradesman.hourlyWage)
+                && Objects.equals(hoursPerMonth, tradesman.hoursPerMonth) && Objects.equals(workDomain, tradesman.workDomain);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(contractID, memberID, contractID, hourlyWage, hoursPerMonth, workDomain);
+        return Objects.hash(contractID, contractorID, contractID, hourlyWage, hoursPerMonth, workDomain);
     }
 
     @Override
     public String toString() {
         return "Contract{" +
                 "id=" + contractID.toString() +
-                ", member_id='" + memberID.toString() + '\'' +
-                ", contractor_id='" + contractID.toString() + '\'' +
+                ", contractor_id='" + contractorID.toString() + '\'' +
+                ", tradesman_id='" + contractID.toString() + '\'' +
                 ", hourly_work='" + hourlyWage + '\'' +
                 ", hours_per_month='" + hoursPerMonth + '\'' +
                 ", work_domain=" + workDomain +
@@ -65,12 +65,12 @@ public final class Project implements Entity<ProjectID> {
         return contractID;
     }
 
-    public MemberID getMemberID() {
-        return memberID;
-    }
-
     public ContractorID getContractorID() {
         return contractorID;
+    }
+
+    public TradesmanID getTradesmanID() {
+        return tradesmanID;
     }
 
     public Float getHourlyWage() {

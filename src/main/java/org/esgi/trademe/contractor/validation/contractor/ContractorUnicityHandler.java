@@ -1,10 +1,10 @@
 package org.esgi.trademe.contractor.validation.contractor;
 
+import org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterException;
+import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.contractor.domain.Contractor;
 import org.esgi.trademe.contractor.domain.ContractorRepository;
 import org.esgi.trademe.contractor.validation.ContractorHandler;
-import org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterException;
-import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 
 
 import java.util.List;
@@ -25,8 +25,8 @@ public final class ContractorUnicityHandler extends ContractorHandler {
             if (Objects.equals(contractor.getEmail(), m.getEmail())) {
                 throw  AlreadyUsedParameterException.forField("Email", contractor.getEmail());
             }
-            if (Objects.equals(contractor.getFirstname(), m.getFirstname()) & Objects.equals(contractor.getLastname(), m.getLastname())) {
-                throw new AlreadyUsedParameterException("Contractor " + contractor.getFirstname() + " " + contractor.getLastname() + " already exists.");
+            if (Objects.equals(contractor.getFirstname(), m.getFirstname()) & Objects.equals(contractor.getLastname(), m.getLastname()) && Objects.equals(m.getBirth(), m.getBirth())) {
+                throw new AlreadyUsedParameterException("Contractor " + contractor.getFirstname() + " " + contractor.getLastname() + ", born in " + m.getBirth() + " already exists.");
             }
         }
         checkNext(contractor);

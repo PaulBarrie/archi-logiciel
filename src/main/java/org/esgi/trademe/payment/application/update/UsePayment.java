@@ -2,8 +2,6 @@ package org.esgi.trademe.payment.application.update;
 
 
 import org.esgi.trademe.kernel.command.Command;
-import org.esgi.trademe.member.domain.MemberID;
-import org.esgi.trademe.payment.domain.Payment;
 import org.esgi.trademe.payment.domain.PaymentMode;
 
 

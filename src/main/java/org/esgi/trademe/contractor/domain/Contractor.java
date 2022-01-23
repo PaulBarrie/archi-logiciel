@@ -11,35 +11,22 @@ public final class Contractor implements Entity<ContractorID> {
     private final String lastname;
     private final String firstname;
     private final String email;
+    private final String birth;
     private final ContractorCredentials credentials;
-    private  Education education;
     private ContractorAddress address;
 
-    private Contractor(ContractorID id, String lastname, String firstname, String email, ContractorCredentials credentials, Education education, ContractorAddress address) {
+    private Contractor(ContractorID id, String lastname, String firstname, String email, String birth, ContractorCredentials credentials, ContractorAddress address) {
         this.id = id;
         this.lastname = lastname;
         this.firstname = firstname;
         this.email = email;
-        this.credentials = credentials;
-        this.education = education;
-        this.address = address;
-    }
-
-    public static Contractor of(ContractorID id, String lastname, String firstname, String email, ContractorCredentials credentials, Education education, ContractorAddress address) {
-        return new Contractor(id, lastname, firstname, email, credentials, education, address);
-    }
-
-    private Contractor(ContractorID id, String lastname, String firstname, String email, ContractorCredentials credentials, ContractorAddress address) {
-        this.id = id;
-        this.lastname = lastname;
-        this.firstname = firstname;
-        this.email = email;
+        this.birth = birth;
         this.credentials = credentials;
         this.address = address;
     }
 
-    public static Contractor of(ContractorID id, String lastname, String firstname, String email, ContractorCredentials credentials, ContractorAddress address) {
-        return new Contractor(id, lastname, firstname, email, credentials, address);
+    public static Contractor of(ContractorID id, String lastname, String firstname, String email, String birth, ContractorCredentials credentials, ContractorAddress address) {
+        return new Contractor(id, lastname, firstname, email, birth, credentials, address);
     }
 
     public ContractorID getId() {
@@ -59,32 +46,24 @@ public final class Contractor implements Entity<ContractorID> {
         return firstname;
     }
 
-    public ContractorAddress getAddress() {
-        return address;
+    public String getBirth() {
+        return birth;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public Education getEducation() {
-        return education;
+    public ContractorCredentials getCredentials() {
+        return credentials;
     }
 
-    public void setEducation(Education education) {
-        this.education = education;
-    }
-
-    public void setAddress(ContractorAddress address) {
-        this.address = address;
+    public ContractorAddress getAddress() {
+        return address;
     }
 
     public void changeAddress(ContractorAddress address) {
         this.address = address;
-    }
-
-    public ContractorCredentials getCredentials() {
-        return credentials;
     }
 
     @Override
@@ -92,8 +71,7 @@ public final class Contractor implements Entity<ContractorID> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Contractor contractor = (Contractor) o;
-        return Objects.equals(id, contractor.id) && Objects.equals(lastname, contractor.lastname) && Objects.equals(firstname, contractor.firstname) 
-                && Objects.equals(address, contractor.address) && Objects.equals(education, contractor.education );
+        return Objects.equals(id, contractor.id) && Objects.equals(lastname, contractor.lastname) && Objects.equals(firstname, contractor.firstname) && Objects.equals(address, contractor.address);
     }
 
     @Override
@@ -103,12 +81,10 @@ public final class Contractor implements Entity<ContractorID> {
 
     @Override
     public String toString() {
-        return "Member{" +
+        return "Contractor{" +
                 "id=" + id +
                 ", lastname='" + lastname + '\'' +
                 ", firstname='" + firstname + '\'' +
-                ", email='" + email + '\'' +
-                ", education='" + education + '\'' +
                 ", address=" + address +
                 '}';
     }

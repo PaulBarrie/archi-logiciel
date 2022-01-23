@@ -1,7 +1,7 @@
 package org.esgi.trademe.project.infrastructure;
 
 
-import org.esgi.trademe.contractor.domain.ContractorID;
+import org.esgi.trademe.trademan.domain.TradesmanID;
 import org.esgi.trademe.project.domain.Project;
 import org.esgi.trademe.project.domain.ProjectID;
 import org.esgi.trademe.project.domain.ProjectStatus;
@@ -32,9 +32,9 @@ public final class InMemoryProjectRepository implements ProjectRepository {
     }
 
     @Override
-    public List<Project> findByContractor(ContractorID contractorID) {
+    public List<Project> findByTradesman(TradesmanID tradesmanID) {
         return List.copyOf(data.values().stream()
-                .filter(project -> project.getContractorID() == contractorID)
+                .filter(project -> project.getTradesmanID() == tradesmanID)
                 .collect(Collectors.toList()));
     }
 

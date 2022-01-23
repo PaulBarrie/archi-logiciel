@@ -3,23 +3,23 @@ package org.esgi.trademe.payment.domain;
 
 
 import org.esgi.trademe.kernel.Entity;
-import org.esgi.trademe.member.domain.MemberID;
+import org.esgi.trademe.contractor.domain.ContractorID;
 
 import java.util.Objects;
 
 public final class Payment implements Entity<PaymentID> {
     private final PaymentID id;
-    private final MemberID memberID;
+    private final ContractorID contractorID;
     private final PaymentMode paymentMode;
 
-    private Payment(PaymentID id, MemberID memberID, PaymentMode paymentMode) {
+    private Payment(PaymentID id, ContractorID contractorID, PaymentMode paymentMode) {
         this.id = id;
-        this.memberID = memberID;
+        this.contractorID = contractorID;
         this.paymentMode = paymentMode;
     }
 
-    public static Payment of(PaymentID id, MemberID memberID, PaymentMode paymentMode) {
-        return new Payment(id, memberID, paymentMode);
+    public static Payment of(PaymentID id, ContractorID contractorID, PaymentMode paymentMode) {
+        return new Payment(id, contractorID, paymentMode);
     }
 
 
@@ -32,8 +32,8 @@ public final class Payment implements Entity<PaymentID> {
         return id;
     }
 
-    public MemberID getMemberID() {
-        return memberID;
+    public ContractorID getContractorID() {
+        return contractorID;
     }
 
     public PaymentMode getPaymentMode() {
@@ -45,7 +45,7 @@ public final class Payment implements Entity<PaymentID> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Payment payment = (Payment) o;
-        return Objects.equals(id, payment.id) && Objects.equals(memberID, payment.getMemberID())  &&
+        return Objects.equals(id, payment.id) && Objects.equals(contractorID, payment.getContractorID())  &&
                 Objects.equals(paymentMode, payment.getPaymentMode());
     }
 
@@ -58,7 +58,7 @@ public final class Payment implements Entity<PaymentID> {
     public String toString() {
         return "Payment{" +
                 "id=" + id +
-                ", memberID='" + memberID + '\'' +
+                ", contractorID='" + contractorID + '\'' +
                 ", payment='" + paymentMode + '\'' +
                 '}';
     }

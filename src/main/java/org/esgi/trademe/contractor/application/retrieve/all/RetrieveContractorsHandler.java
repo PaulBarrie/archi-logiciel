@@ -1,9 +1,9 @@
 package org.esgi.trademe.contractor.application.retrieve.all;
 
 
+import org.esgi.trademe.kernel.query.QueryHandler;
 import org.esgi.trademe.contractor.domain.ContractorRepository;
 import org.esgi.trademe.contractor.exposition.ContractorDTO;
-import org.esgi.trademe.kernel.query.QueryHandler;
 
 import java.util.List;
 import java.util.stream.Collectors;

@@ -2,7 +2,7 @@ package org.esgi.trademe.payment.infrastructure;
 
 
 import org.esgi.trademe.kernel.exceptions.NoSuchEntityException;
-import org.esgi.trademe.member.domain.MemberID;
+import org.esgi.trademe.contractor.domain.ContractorID;
 
 import org.esgi.trademe.payment.domain.Payment;
 import org.esgi.trademe.payment.domain.PaymentID;
@@ -47,9 +47,9 @@ public final class InMemoryPaymentRepository implements PaymentRepository {
 
 
     @Override
-    public List<Payment> findByMember(MemberID memberID) {
+    public List<Payment> findByContractor(ContractorID contractorID) {
         return List.copyOf(data.values().stream()
-                .filter(payment -> payment.getMemberID().equals(memberID))
+                .filter(payment -> payment.getContractorID().equals(contractorID))
                 .collect(Collectors.toList()));
     }
 }

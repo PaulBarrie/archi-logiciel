@@ -4,5 +4,5 @@ import java.util.List;
 
 @SuppressWarnings("all")
 public final class PaymentsDTO {
-    public List<PaymentDTO> members;
+    public List<PaymentDTO> contractors;
 }

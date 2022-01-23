@@ -1,5 +1,6 @@
 package org.esgi.trademe.contractor.exposition;
 
+
 public final class ContractorCredentialsDTO {
     private final String username;
     private final String password;
@@ -23,10 +24,9 @@ public final class ContractorCredentialsDTO {
 
     @Override
     public String toString() {
-        return "CredentialsDTO{" +
-                "username='" + username + '\'' +
-                "password='" + password + '\'' +
-                '}';
+        return "CredentialsDTO {" +
+                    "username='" + username + '\'' +
+                    ", password='" + password + '\'' +
+                "}";
     }
-
 }

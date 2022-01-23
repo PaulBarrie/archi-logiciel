@@ -1,8 +1,8 @@
 package org.esgi.trademe.kernel.exceptions;
 
 import org.esgi.trademe.project.domain.ProjectID;
+import org.esgi.trademe.trademan.domain.TradesmanID;
 import org.esgi.trademe.contractor.domain.ContractorID;
-import org.esgi.trademe.member.domain.MemberID;
 import org.esgi.trademe.payment.domain.PaymentID;
 
 public final class NoSuchEntityException extends RuntimeException {
@@ -11,16 +11,16 @@ public final class NoSuchEntityException extends RuntimeException {
         super(message);
     }
 
-    public static NoSuchEntityException withId(MemberID id) {
-        return new NoSuchEntityException(String.format("No member found with ID %d.", id.getValue()));
+    public static NoSuchEntityException withId(ContractorID id) {
+        return new NoSuchEntityException(String.format("No contractor found with ID %d.", id.getValue()));
     }
 
     public static NoSuchEntityException withId(PaymentID id) {
         return new NoSuchEntityException(String.format("No payment found with ID %d.", id.getValue()));
     }
 
-    public static NoSuchEntityException withId(ContractorID id) {
-        return new NoSuchEntityException(String.format("No contractor found with ID %d.", id.getValue()));
+    public static NoSuchEntityException withId(TradesmanID id) {
+        return new NoSuchEntityException(String.format("No tradesman found with ID %d.", id.getValue()));
     }
 
     public static NoSuchEntityException withId(ProjectID id) {

@@ -26,10 +26,10 @@ public final class CreatePaymentCommandHandler implements CommandHandler<CreateP
 
         if(createPayment.getPaymentMode().getClass().equals(CreditCardPayment.class)) {
             CreditCardPayment creditCardPayment = (CreditCardPayment) createPayment.getPaymentMode();
-            payment =  Payment.of(paymentID, createPayment.getMemberID(), creditCardPayment);
+            payment =  Payment.of(paymentID, createPayment.getContractorID(), creditCardPayment);
         } else if(createPayment.getPaymentMode().getClass().equals(AccountIdentityPayment.class)) {
             AccountIdentityPayment accountIdentityPayment = (AccountIdentityPayment) createPayment.getPaymentMode();
-            payment =  Payment.of(paymentID, createPayment.getMemberID(), accountIdentityPayment);
+            payment =  Payment.of(paymentID, createPayment.getContractorID(), accountIdentityPayment);
         }
 
         paymentRepository.add(payment);

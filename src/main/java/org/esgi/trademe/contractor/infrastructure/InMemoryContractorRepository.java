@@ -1,10 +1,11 @@
 package org.esgi.trademe.contractor.infrastructure;
 
 
-import org.esgi.trademe.contractor.domain.*;
 import org.esgi.trademe.kernel.exceptions.NoSuchEntityException;
+import org.esgi.trademe.contractor.domain.Contractor;
+import org.esgi.trademe.contractor.domain.ContractorID;
+import org.esgi.trademe.contractor.domain.ContractorRepository;
 
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -24,11 +25,11 @@ public final class InMemoryContractorRepository implements ContractorRepository 
 
     @Override
     public Contractor findById(ContractorID id) {
-        final Contractor contractor = data.get(id);
-        if (contractor == null) {
+        final Contractor user = data.get(id);
+        if (user == null) {
             throw NoSuchEntityException.withId(id);
         }
-        return contractor;
+        return user;
     }
 
     @Override
@@ -46,68 +47,9 @@ public final class InMemoryContractorRepository implements ContractorRepository 
         return List.copyOf(data.values());
     }
 
-    public static boolean hasEducationDomain(Contractor contractor, List<WorkDomain> workDomains) {
-        boolean res = false;
-        if(contractor.getEducation() == null) {
-            return false;
-        }
-        for(WorkDomain workDomain: workDomains) {
-            if(contractor.getEducation().getEducationLevel() != null) {
-                  res = contractor.getEducation().getEducationLevel().containsKey(workDomain);
-                    System.out.println(res);
-
-            } else if(contractor.getEducation().getYearExperiences() != null) {
-                  res = contractor.getEducation().getYearExperiences().containsKey(workDomain);
-            }
-            if(res) {
-                return res;
-            }
-        }
-        return res;
-    }
-
     @Override
-    public List<Contractor> findByEducationOrExperience(List<WorkDomain> workDomains) {
+    public List<Contractor> findByCity(String city) {
         return List.copyOf(data.values().stream()
-                .filter(contractor -> hasEducationDomain(contractor, workDomains))
-                .collect(Collectors.toList()));
+                .filter(contractor -> contractor.getAddress().getCity().equals(city)).collect(Collectors.toList()));
     }
-
-    @Override
-    public void addEducation(ContractorID contractorID, WorkDomain workDomain, EducationLevel educationLevel) {
-        Contractor contractor = findById(contractorID);
-        Map<WorkDomain, EducationLevel> education = new HashMap<>();
-        if(contractor.getEducation() ==  null) {
-            contractor.setEducation(Education.of(new HashMap<>(), new HashMap<>()));
-        } else if(contractor.getEducation().getEducationLevel() == null) {
-            contractor.getEducation().setEducationLevel(new HashMap<>());
-        } else {
-            education = contractor.getEducation().getEducationLevel();
-        }
-        education.put(workDomain, educationLevel);
-        contractor.setEducation(Education.of(education, contractor.getEducation().getYearExperiences()));
-        add(contractor);
-
-        Map<WorkDomain, EducationLevel> educationDetails = contractor.getEducation().getEducationLevel();
-        educationDetails.put(workDomain, educationLevel);
-        contractor.setEducation(Education.of(educationDetails, contractor.getEducation().getYearExperiences()));
-        add(contractor);
-    }
-
-    @Override
-    public void addExperience(ContractorID contractorID, WorkDomain workDomain, Integer experienceYear) {
-        Contractor contractor = findById(contractorID);
-        Map<WorkDomain, Integer> experience = new HashMap<>();
-        if(contractor.getEducation() ==  null) {
-            contractor.setEducation(Education.of(new HashMap<>(), new HashMap<>()));
-        } else if(contractor.getEducation().getYearExperiences() == null) {
-            contractor.getEducation().setYearExperiences(new HashMap<>());
-        } else {
-            experience = contractor.getEducation().getYearExperiences();
-        }
-        experience.put(workDomain, experienceYear);
-        contractor.setEducation(Education.of(contractor.getEducation().getEducationLevel(), experience));
-        add(contractor);
-    }
-
 }

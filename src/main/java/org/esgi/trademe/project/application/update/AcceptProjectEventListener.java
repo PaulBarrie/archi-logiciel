@@ -6,6 +6,6 @@ import org.esgi.trademe.kernel.event.EventListener;
 public final class AcceptProjectEventListener implements EventListener<AcceptProjectEvent> {
     @Override
     public void listenTo(AcceptProjectEvent event) {
-        System.out.println("listening CreateMemberEvent.");
+        System.out.println("listening CreateContractorEvent.");
     }
 }

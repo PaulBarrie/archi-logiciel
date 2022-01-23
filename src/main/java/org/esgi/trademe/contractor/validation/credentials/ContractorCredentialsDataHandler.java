@@ -1,9 +1,9 @@
 package org.esgi.trademe.contractor.validation.credentials;
 
+import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.contractor.domain.Contractor;
 import org.esgi.trademe.contractor.validation.ContractorHandler;
 import org.esgi.trademe.contractor.validation.validator.contractor.ContractorCredentialsValidator;
-import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 
 
 public final class ContractorCredentialsDataHandler extends ContractorHandler {

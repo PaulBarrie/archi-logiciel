@@ -24,8 +24,8 @@ public final class AcceptProjectCommandHandler implements CommandHandler<AcceptP
         return new AcceptProjectCommandHandler(contractRepository,eventEventDispatcher);
     }
 
-    public Project handle(AcceptProject createContractor) {
-        Project contract = contractRepository.findById(createContractor.getContractID());
+    public Project handle(AcceptProject createTradesman) {
+        Project contract = contractRepository.findById(createTradesman.getContractID());
         contract.setContractStatus(ProjectStatus.ACCEPTED);
         contractRepository.add(contract);
         return contract;

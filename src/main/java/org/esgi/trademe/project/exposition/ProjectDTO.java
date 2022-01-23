@@ -20,8 +20,8 @@ public final class ProjectDTO {
     public String toString() {
         return "ProjectDTO{" +
                 "id=" + project.getContractID().toString() + '\'' +
-                ", member_id='" + project.getMemberID().toString() + '\'' +
                 ", contractor_id='" + project.getContractorID().toString() + '\'' +
+                ", tradesman_id='" + project.getTradesmanID().toString() + '\'' +
                 ", hourly_work='" + project.getHourlyWage() + '\'' +
                 ", hours_per_month='" + project.getHoursPerMonth() + '\'' +
                 ", work_domain=" + project.getWorkDomain() +

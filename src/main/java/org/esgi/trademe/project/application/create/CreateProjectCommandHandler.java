@@ -26,7 +26,7 @@ public final class CreateProjectCommandHandler implements CommandHandler<CreateP
 
     public Project handle(CreateProject createContract) {
         final ProjectID projectID = projectRepository.nextIdentity();
-        Project project = Project.of(projectID, createContract.getMemberID(), createContract.getContractorID(),
+        Project project = Project.of(projectID, createContract.getContractorID(), createContract.getTradesmanID(),
                 createContract.getHourlyWage(), createContract.getHoursPerMonth(), createContract.getWorkDomain());
         projectRepository.add(project);
         eventDispatcher.dispatch(new CreateProjectEvent(projectID));

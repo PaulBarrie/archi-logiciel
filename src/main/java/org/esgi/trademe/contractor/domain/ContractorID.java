@@ -34,8 +34,8 @@ public final class ContractorID implements ValueObjectID {
 
     @Override
     public String toString() {
-        return "ContractorID{" +
+        return "ContractorId{" +
                 "value=" + value +
-                '}';
+                "}";
     }
 }

@@ -1,17 +1,17 @@
 package org.esgi.trademe.contractor.application.create;
 
 
-import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
+import org.esgi.trademe.contractor.domain.ContractorID;
 
 public final class CreateContractorEvent implements ApplicationEvent {
-    private final ContractorID memberID;
+    private final ContractorID contractorID;
 
-    public CreateContractorEvent(ContractorID memberID) {
-        this.memberID = memberID;
+    public CreateContractorEvent(ContractorID contractorID) {
+        this.contractorID = contractorID;
     }
 
-    public static CreateContractorEvent of(ContractorID memberID) {
-        return new CreateContractorEvent(memberID);
+    public static CreateContractorEvent of(ContractorID contractorID) {
+        return new CreateContractorEvent(contractorID);
     }
 }
