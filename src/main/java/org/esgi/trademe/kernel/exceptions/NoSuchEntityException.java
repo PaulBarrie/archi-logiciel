@@ -1,5 +1,6 @@
 package org.esgi.trademe.kernel.exceptions;
 
+import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.project.domain.ProjectID;
 import org.esgi.trademe.trademan.domain.TradesmanID;
 import org.esgi.trademe.contractor.domain.ContractorID;
@@ -24,6 +25,10 @@ public final class NoSuchEntityException extends RuntimeException {
     }
 
     public static NoSuchEntityException withId(ProjectID id) {
+        return new NoSuchEntityException(String.format("No project found with ID %d.", id.getValue()));
+    }
+
+    public static NoSuchEntityException withId(ContractID id) {
         return new NoSuchEntityException(String.format("No contract found with ID %d.", id.getValue()));
     }
 }

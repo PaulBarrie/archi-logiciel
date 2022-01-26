@@ -1,22 +1,22 @@
 package org.esgi.trademe.project.application.retrieve.by_id;
 
 
+import org.esgi.trademe.kernel.query.QueryHandler;
 import org.esgi.trademe.project.domain.Project;
 import org.esgi.trademe.project.exposition.ProjectDTO;
 import org.esgi.trademe.project.exposition.ProjectRepository;
-import org.esgi.trademe.kernel.query.QueryHandler;
 
 public class RetrieveProjectByIDHandler implements QueryHandler<RetrieveProjectByID, ProjectDTO> {
 
-    private final ProjectRepository projectRepository;
+    private final ProjectRepository contractRepository;
 
-    public RetrieveProjectByIDHandler(ProjectRepository projectRepository) {
-        this.projectRepository = projectRepository;
+    public RetrieveProjectByIDHandler(ProjectRepository contractRepository) {
+        this.contractRepository = contractRepository;
     }
 
     @Override
     public ProjectDTO handle(RetrieveProjectByID query) {
-        Project project = projectRepository.findById(query.getId());
-        return ProjectDTO.of(project);
+        Project contract = contractRepository.findById(query.getId());
+        return ProjectDTO.of(contract);
     }
 }

@@ -3,9 +3,9 @@ package org.esgi.trademe.project.application.update;
 
 import org.esgi.trademe.kernel.event.EventListener;
 
-public final class AcceptProjectEventListener implements EventListener<AcceptProjectEvent> {
+public final class ActivateProjectEventListener implements EventListener<ActivateProjectEvent> {
     @Override
-    public void listenTo(AcceptProjectEvent event) {
+    public void listenTo(ActivateProjectEvent event) {
         System.out.println("listening CreateContractorEvent.");
     }
 }

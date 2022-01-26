@@ -3,12 +3,13 @@ package org.esgi.trademe.project.application.create;
 
 
 
-import org.esgi.trademe.project.domain.Project;
-import org.esgi.trademe.project.domain.ProjectID;
-import org.esgi.trademe.project.exposition.ProjectRepository;
+import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.kernel.command.CommandHandler;
 import org.esgi.trademe.kernel.event.Event;
 import org.esgi.trademe.kernel.event.EventDispatcher;
+import org.esgi.trademe.project.domain.Project;
+import org.esgi.trademe.project.domain.ProjectID;
+import org.esgi.trademe.project.exposition.ProjectRepository;
 
 public final class CreateProjectCommandHandler implements CommandHandler<CreateProject, Project> {
 
@@ -26,10 +27,10 @@ public final class CreateProjectCommandHandler implements CommandHandler<CreateP
 
     public Project handle(CreateProject createContract) {
         final ProjectID projectID = projectRepository.nextIdentity();
-        Project project = Project.of(projectID, createContract.getContractorID(), createContract.getTradesmanID(),
+        Project contract = Project.of(projectID, createContract.getContractorID(),
                 createContract.getHourlyWage(), createContract.getHoursPerMonth(), createContract.getWorkDomain());
-        projectRepository.add(project);
+        projectRepository.add(contract);
         eventDispatcher.dispatch(new CreateProjectEvent(projectID));
-        return project;
+        return contract;
     }
 }

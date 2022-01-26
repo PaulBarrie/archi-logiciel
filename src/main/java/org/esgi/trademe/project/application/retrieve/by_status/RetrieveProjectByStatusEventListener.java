@@ -6,6 +6,6 @@ import org.esgi.trademe.kernel.event.EventListener;
 public final class RetrieveProjectByStatusEventListener implements EventListener<RetrieveProjectByStatusEvent> {
     @Override
     public void listenTo(RetrieveProjectByStatusEvent event) {
-        System.out.println("listening RetrieveProjectByStatusEvent.");
+        System.out.println("listening RetrieveContractByStatusEvent.");
     }
 }

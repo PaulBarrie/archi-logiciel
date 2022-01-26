@@ -108,7 +108,7 @@ public final class TradesmanController {
         return ResponseEntity.ok(String.format("%s years experience in %s added to tradesman %s.", year, domain, tradesman_id.toString()));
     }
 
-    @GetMapping(value = "/tradesmans/search", produces =  MediaType.APPLICATION_JSON_VALUE)
+    @GetMapping(value = "/tradesmen/search", produces =  MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<TradesmenDTO> getByEducationOrExperience(@RequestParam(required = true) List<String> domains) {
         List<WorkDomain> domainsTypes = new ArrayList<>();
         for(String domain: domains) {

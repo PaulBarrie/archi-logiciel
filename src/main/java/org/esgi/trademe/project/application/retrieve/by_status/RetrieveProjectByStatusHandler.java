@@ -10,15 +10,15 @@ import java.util.List;
 
 public final class RetrieveProjectByStatusHandler implements QueryHandler<RetrieveProjectByStatus, ProjectsDTO> {
 
-    private final ProjectRepository projectRepository;
+    private final ProjectRepository contractRepository;
 
-    public RetrieveProjectByStatusHandler(ProjectRepository projectRepository) {
-        this.projectRepository = projectRepository;
+    public RetrieveProjectByStatusHandler(ProjectRepository contractRepository) {
+        this.contractRepository = contractRepository;
     }
 
     @Override
     public ProjectsDTO handle(RetrieveProjectByStatus query) {
-        List<Project> projects = projectRepository.findByStatus(query.getStatus());
-        return ProjectsDTO.of(projects);
+        List<Project> contracts = contractRepository.findByStatus(query.getStatus());
+        return ProjectsDTO.of(contracts);
     }
 }

@@ -10,21 +10,21 @@ import org.esgi.trademe.payment.domain.AccountIdentityPayment;
 import org.esgi.trademe.payment.domain.PaymentService;
 import org.esgi.trademe.payment.domain.SubscriptionDetails;
 import org.esgi.trademe.payment.infrastructure.StubbedPaymentService;
-import org.esgi.trademe.project.application.create.CreateProject;
-import org.esgi.trademe.project.application.create.CreateProjectCommandHandler;
-import org.esgi.trademe.project.application.create.CreateProjectEvent;
-import org.esgi.trademe.project.application.retrieve.all.RetrieveProjects;
-import org.esgi.trademe.project.application.retrieve.all.RetrieveProjectsHandler;
-import org.esgi.trademe.project.application.retrieve.by_tradesman.RetrieveProjectByTradesman;
-import org.esgi.trademe.project.application.retrieve.by_tradesman.RetrieveProjectByTradesmanHandler;
-import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID;
-import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDHandler;
-import org.esgi.trademe.project.application.update.AcceptProject;
-import org.esgi.trademe.project.application.update.AcceptProjectCommandHandler;
-import org.esgi.trademe.project.application.update.AcceptProjectEvent;
-import org.esgi.trademe.project.application.update.AcceptProjectEventListener;
-import org.esgi.trademe.project.exposition.ProjectRepository;
-import org.esgi.trademe.project.infrastructure.InMemoryProjectRepository;
+import org.esgi.trademe.contract.application.create.CreateContract;
+import org.esgi.trademe.contract.application.create.CreateContractCommandHandler;
+import org.esgi.trademe.contract.application.create.CreateContractEvent;
+import org.esgi.trademe.contract.application.retrieve.all.RetrieveContracts;
+import org.esgi.trademe.contract.application.retrieve.all.RetrieveContractsHandler;
+import org.esgi.trademe.contract.application.retrieve.by_tradesman.RetrieveContractByTradesman;
+import org.esgi.trademe.contract.application.retrieve.by_tradesman.RetrieveContractByTradesmanHandler;
+import org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID;
+import org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByIDHandler;
+import org.esgi.trademe.contract.application.update.AcceptContract;
+import org.esgi.trademe.contract.application.update.AcceptContractCommandHandler;
+import org.esgi.trademe.contract.application.update.AcceptContractEvent;
+import org.esgi.trademe.contract.application.update.AcceptContractEventListener;
+import org.esgi.trademe.contract.exposition.ContractRepository;
+import org.esgi.trademe.contract.infrastructure.InMemoryContractRepository;
 import org.esgi.trademe.trademan.application.create.CreateTradesman;
 import org.esgi.trademe.trademan.application.create.CreateTradesmanCommandHandler;
 import org.esgi.trademe.trademan.application.create.CreateTrademanEventListener;
@@ -99,7 +99,7 @@ public class Configuration {
     public TradesmanRepository tradesmanRepository() { return new InMemoryTradesmanRepository();}
 
     @Bean
-    public ProjectRepository contractRepository() {return new InMemoryProjectRepository();}
+    public ContractRepository contractRepository() {return new InMemoryContractRepository();}
 
     @Bean
     public PaymentService paymentService() {return new StubbedPaymentService();}
@@ -138,8 +138,8 @@ public class Configuration {
     @Bean
     public EventDispatcher<Event> contractEventDispatcher() {
         final Map<Class<? extends Event>, List<EventListener<? extends Event>>> listenerMap = new HashMap<>();
-        listenerMap.put(CreateProjectEvent.class, List.of(new CreateTrademanEventListener()));
-        listenerMap.put(AcceptProjectEvent.class, List.of(new AcceptProjectEventListener()));
+        listenerMap.put(CreateContractEvent.class, List.of(new CreateTrademanEventListener()));
+        listenerMap.put(AcceptContractEvent.class, List.of(new AcceptContractEventListener()));
         return new DefaultEventDispatcher(listenerMap);
     }
 
@@ -173,13 +173,13 @@ public class Configuration {
     /* CONTRACTS */
 
     @Bean
-    public CreateProjectCommandHandler createContractCommandHandler() {
-        return CreateProjectCommandHandler.of(contractRepository(), contractEventDispatcher());
+    public CreateContractCommandHandler createContractCommandHandler() {
+        return CreateContractCommandHandler.of(contractRepository(), contractEventDispatcher());
     }
 
     @Bean
-    public AcceptProjectCommandHandler acceptContractCommandHandler() {
-        return AcceptProjectCommandHandler.of(contractRepository(), tradesmanEventDispatcher());
+    public AcceptContractCommandHandler acceptContractCommandHandler() {
+        return AcceptContractCommandHandler.of(contractRepository(), tradesmanEventDispatcher());
     }
 
     @Bean
@@ -191,8 +191,8 @@ public class Configuration {
                 Map.entry(CreateTradesman.class, CreateTradesmanCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
                 Map.entry(AddTradesmanExperience.class, AddTradesmanExperienceCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
                 Map.entry(AddTradesmanEducationLevel.class, AddTradesmanEducationLevelCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
-                Map.entry(CreateProject.class, CreateProjectCommandHandler.of(contractRepository(), contractEventDispatcher())),
-                Map.entry(AcceptProject.class, AcceptProjectCommandHandler.of(contractRepository(), contractEventDispatcher()))
+                Map.entry(CreateContract.class, CreateContractCommandHandler.of(contractRepository(), contractEventDispatcher())),
+                Map.entry(AcceptContract.class, AcceptContractCommandHandler.of(contractRepository(), contractEventDispatcher()))
                 );
         return new SimpleCommandBus(commandHandlerMap);
     }
@@ -210,9 +210,9 @@ public class Configuration {
                 Map.entry(RetrieveTradesmen.class, new RetrieveTradesmenHandler(tradesmanRepository())),
                 Map.entry(RetrieveTradesmanByID.class, new RetrieveTradesmanByIDHandler(tradesmanRepository())),
                 Map.entry(RetrieveTradesmanByEducation.class, new RetrieveTradesmanByEducationHandler(tradesmanRepository())),
-                Map.entry(RetrieveProjects.class, new RetrieveProjectsHandler(contractRepository())),
-                Map.entry(RetrieveProjectByID.class, new RetrieveProjectByIDHandler(contractRepository())),
-                Map.entry(RetrieveProjectByTradesman.class, new RetrieveProjectByTradesmanHandler(contractRepository()))
+                Map.entry(RetrieveContracts.class, new RetrieveContractsHandler(contractRepository())),
+                Map.entry(RetrieveContractByID.class, new RetrieveContractByIDHandler(contractRepository())),
+                Map.entry(RetrieveContractByTradesman.class, new RetrieveContractByTradesmanHandler(contractRepository()))
                 );
         return new SimpleQueryBus(queryHandlerMap);
     }

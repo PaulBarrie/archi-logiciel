@@ -1,21 +1,21 @@
 package org.esgi.trademe.project.application.retrieve.all;
 
 
+import org.esgi.trademe.kernel.query.QueryHandler;
 import org.esgi.trademe.project.exposition.ProjectRepository;
 import org.esgi.trademe.project.exposition.ProjectsDTO;
-import org.esgi.trademe.kernel.query.QueryHandler;
 
 
 public final class RetrieveProjectsHandler implements QueryHandler<RetrieveProjects, ProjectsDTO> {
 
-    private final ProjectRepository projectRepository;
+    private final ProjectRepository contractRepository;
 
-    public RetrieveProjectsHandler(ProjectRepository projectRepository) {
-        this.projectRepository = projectRepository;
+    public RetrieveProjectsHandler(ProjectRepository contractRepository) {
+        this.contractRepository = contractRepository;
     }
 
     @Override
     public ProjectsDTO handle(RetrieveProjects query) {
-        return ProjectsDTO.of(projectRepository.findAll());
+        return ProjectsDTO.of(contractRepository.findAll());
     }
 }

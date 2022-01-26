@@ -1,17 +1,17 @@
 package org.esgi.trademe.project.application.retrieve.by_id;
 
 
-import org.esgi.trademe.project.domain.ProjectID;
+import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 
 public class RetrieveProjectByIDEvent implements ApplicationEvent {
-    private final ProjectID projectID;
+    private final ContractID contractID;
 
-    public RetrieveProjectByIDEvent(ProjectID projectID) {
-        this.projectID = projectID;
+    public RetrieveProjectByIDEvent(ContractID contractID) {
+        this.contractID = contractID;
     }
 
-    public static RetrieveProjectByIDEvent of(ProjectID projectID) {
-        return new RetrieveProjectByIDEvent(projectID);
+    public static RetrieveProjectByIDEvent of(ContractID contractID) {
+        return new RetrieveProjectByIDEvent(contractID);
     }
 }

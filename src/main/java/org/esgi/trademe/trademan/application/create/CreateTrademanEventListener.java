@@ -1,12 +1,12 @@
 package org.esgi.trademe.trademan.application.create;
 
 
-import org.esgi.trademe.project.application.create.CreateProjectEvent;
+import org.esgi.trademe.contract.application.create.CreateContractEvent;
 import org.esgi.trademe.kernel.event.EventListener;
 
-public final class CreateTrademanEventListener implements EventListener<CreateProjectEvent> {
+public final class CreateTrademanEventListener implements EventListener<CreateContractEvent> {
     @Override
-    public void listenTo(CreateProjectEvent event) {
+    public void listenTo(CreateContractEvent event) {
         System.out.println("listening CreateContractEvent.");
     }
 }

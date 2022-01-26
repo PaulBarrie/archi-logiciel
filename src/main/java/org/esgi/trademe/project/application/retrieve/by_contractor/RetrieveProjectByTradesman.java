@@ -1,8 +1,8 @@
-package org.esgi.trademe.project.application.retrieve.by_tradesman;
+package org.esgi.trademe.project.application.retrieve.by_contractor;
 
 
-import org.esgi.trademe.trademan.domain.TradesmanID;
 import org.esgi.trademe.kernel.query.Query;
+import org.esgi.trademe.trademan.domain.TradesmanID;
 
 public class RetrieveProjectByTradesman implements Query {
     private final TradesmanID tradesmanID;

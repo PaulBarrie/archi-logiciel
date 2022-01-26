@@ -1,36 +1,34 @@
 package org.esgi.trademe.project.domain;
 
 
+import org.esgi.trademe.contractor.domain.ContractorID;
 
+import org.esgi.trademe.kernel.Entity;
 import org.esgi.trademe.trademan.domain.TradesmanID;
 import org.esgi.trademe.trademan.domain.WorkDomain;
-import org.esgi.trademe.kernel.Entity;
-import org.esgi.trademe.contractor.domain.ContractorID;
 
 import java.util.Objects;
 
 public final class Project implements Entity<ProjectID> {
-    private final ProjectID contractID;
-    private final ContractorID contractorID;
-    private final TradesmanID tradesmanID;
+    private final ProjectID projectID;
+    private final ContractorID contractID;
     private final Float hourlyWage;
     private final Integer hoursPerMonth;
     private final WorkDomain workDomain;
-    private ProjectStatus contractStatus;
+    private ProjectStatus projectStatus;
 
-    public Project(ProjectID contractID, ContractorID contractorID, TradesmanID tradesmanID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
+    public Project(ProjectID projectID, ContractorID contractID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
+        this.projectID = projectID;
         this.contractID = contractID;
-        this.contractorID = contractorID;
-        this.tradesmanID = tradesmanID;
         this.hourlyWage = hourlyWage;
         this.hoursPerMonth = hoursPerMonth;
         this.workDomain = workDomain;
-        this.contractStatus = ProjectStatus.PENDING;
+        this.projectStatus = ProjectStatus.PENDING;
     }
 
 
-    public static Project of(ProjectID contractID, ContractorID contractorID, TradesmanID tradesmanID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
-        return new Project(contractID, contractorID, tradesmanID, hourlyWage, hoursPerMonth, workDomain);
+    public static Project of(ProjectID projectID, ContractorID contractID, Float hourlyWage, Integer hoursPerMonth, WorkDomain workDomain) {
+        return new Project(projectID, contractID, hourlyWage, hoursPerMonth, workDomain);
     }
 
 
@@ -39,38 +37,34 @@ public final class Project implements Entity<ProjectID> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Project tradesman = (Project) o;
-        return Objects.equals(contractID, tradesman.contractID) && Objects.equals(tradesmanID, tradesman.tradesmanID)
-                && Objects.equals(contractorID, tradesman.contractorID) && Objects.equals(hourlyWage, tradesman.hourlyWage)
+        return Objects.equals(projectID, tradesman.projectID)
+                && Objects.equals(contractID, tradesman.contractID) && Objects.equals(hourlyWage, tradesman.hourlyWage)
                 && Objects.equals(hoursPerMonth, tradesman.hoursPerMonth) && Objects.equals(workDomain, tradesman.workDomain);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(contractID, contractorID, contractID, hourlyWage, hoursPerMonth, workDomain);
+        return Objects.hash(projectID, contractID, projectID, hourlyWage, hoursPerMonth, workDomain);
     }
 
     @Override
     public String toString() {
-        return "Contract{" +
-                "id=" + contractID.toString() +
-                ", contractor_id='" + contractorID.toString() + '\'' +
-                ", tradesman_id='" + contractID.toString() + '\'' +
+        return "Project{" +
+                "id=" + projectID.toString() +
+                ", contract_id='" + contractID.toString() + '\'' +
+                ", tradesman_id='" + projectID.toString() + '\'' +
                 ", hourly_work='" + hourlyWage + '\'' +
                 ", hours_per_month='" + hoursPerMonth + '\'' +
                 ", work_domain=" + workDomain +
                 '}';
     }
 
-    public ProjectID getContractID() {
-        return contractID;
+    public ProjectID getProjectID() {
+        return projectID;
     }
 
     public ContractorID getContractorID() {
-        return contractorID;
-    }
-
-    public TradesmanID getTradesmanID() {
-        return tradesmanID;
+        return contractID;
     }
 
     public Float getHourlyWage() {
@@ -87,14 +81,14 @@ public final class Project implements Entity<ProjectID> {
 
     @Override
     public ProjectID id() {
-        return contractID;
+        return projectID;
     }
 
     public ProjectStatus getContractStatus() {
-        return contractStatus;
+        return projectStatus;
     }
 
-    public void setContractStatus(ProjectStatus contractStatus) {
-        this.contractStatus = contractStatus;
+    public void setContractStatus(ProjectStatus projectStatus) {
+        this.projectStatus = projectStatus;
     }
 }

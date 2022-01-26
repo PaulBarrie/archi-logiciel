@@ -7,13 +7,13 @@ import java.util.List;
 
 @SuppressWarnings("all")
 public final class ProjectsDTO {
-    public List<Project> projects = new ArrayList<>();
+    public List<Project> contracts = new ArrayList<>();
 
-    private ProjectsDTO(List<Project> projects) {
-        this.projects = projects;
+    private ProjectsDTO(List<Project> contracts) {
+        this.contracts = contracts;
     }
 
-    public static ProjectsDTO of(List<Project> projects) {
-        return new ProjectsDTO(projects);
+    public static ProjectsDTO of(List<Project> contracts) {
+        return new ProjectsDTO(contracts);
     }
 }

@@ -23,8 +23,8 @@ public final class ProjectID implements ValueObjectID {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        ProjectID contractID = (ProjectID) o;
-        return value == contractID.value;
+        ProjectID tradesmanID = (ProjectID) o;
+        return value == tradesmanID.value;
     }
 
     @Override
@@ -34,7 +34,7 @@ public final class ProjectID implements ValueObjectID {
 
     @Override
     public String toString() {
-        return "ContractID{" +
+        return "TradesmanID{" +
                 "value=" + value +
                 '}';
     }

@@ -1,12 +1,14 @@
 package org.esgi.trademe.project.infrastructure;
 
 
-import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.contract.domain.ContractID;
+import org.esgi.trademe.contractor.domain.ContractorID;
+import org.esgi.trademe.kernel.exceptions.NoSuchEntityException;
 import org.esgi.trademe.project.domain.Project;
 import org.esgi.trademe.project.domain.ProjectID;
 import org.esgi.trademe.project.domain.ProjectStatus;
 import org.esgi.trademe.project.exposition.ProjectRepository;
-import org.esgi.trademe.kernel.exceptions.NoSuchEntityException;
+import org.esgi.trademe.trademan.domain.TradesmanID;
 
 import java.util.List;
 import java.util.Map;
@@ -15,7 +17,6 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public final class InMemoryProjectRepository implements ProjectRepository {
-
     private final AtomicInteger count = new AtomicInteger(0);
 
     private final Map<ProjectID, Project> data = new ConcurrentHashMap<>();
@@ -27,21 +28,21 @@ public final class InMemoryProjectRepository implements ProjectRepository {
     }
 
     @Override
-    public Project update(ProjectID projectID, Project project) {
+    public Project update(ProjectID contractID, Project contract) {
         return null;
     }
 
     @Override
-    public List<Project> findByTradesman(TradesmanID tradesmanID) {
+    public List<Project> findByContractor(ContractorID contractorID) {
         return List.copyOf(data.values().stream()
-                .filter(project -> project.getTradesmanID() == tradesmanID)
+                .filter(contract -> contract.getContractorID() == contractorID)
                 .collect(Collectors.toList()));
     }
 
     @Override
     public List<Project> findByStatus(ProjectStatus status) {
         return List.copyOf(data.values().stream()
-                .filter(project -> project.getContractStatus() == status)
+                .filter(contract -> contract.getContractStatus() == status)
                 .collect(Collectors.toList()));
     };
     
@@ -53,16 +54,16 @@ public final class InMemoryProjectRepository implements ProjectRepository {
 
     @Override
     public Project findById(ProjectID id) throws NoSuchEntityException {
-        final Project project = data.get(id);
-        if (project == null) {
+        final Project contract = data.get(id);
+        if (contract == null) {
             throw NoSuchEntityException.withId(id);
         }
-        return project;
+        return contract;
     }
 
     @Override
     public void add(Project entity) {
-        data.put(entity.getContractID(), entity);
+        data.put(entity.getProjectID(), entity);
     }
 
     @Override
