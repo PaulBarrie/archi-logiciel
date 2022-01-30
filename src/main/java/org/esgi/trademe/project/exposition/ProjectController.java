@@ -1,6 +1,7 @@
 package org.esgi.trademe.project.exposition;
 
 
+import org.esgi.trademe.contractor.domain.Contractor;
 import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.kernel.command.CommandBus;
 import org.esgi.trademe.kernel.exceptions.InvalidChoiceException;
@@ -9,13 +10,13 @@ import org.esgi.trademe.kernel.exceptions.InvalidParameterException;
 import org.esgi.trademe.kernel.query.QueryBus;
 import org.esgi.trademe.project.application.create.CreateProject;
 import org.esgi.trademe.project.application.retrieve.all.RetrieveProjects;
+import org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor;
 import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID;
 import org.esgi.trademe.project.application.update.ActivateProject;
 import org.esgi.trademe.project.domain.Project;
 import org.esgi.trademe.project.domain.ProjectID;
-import org.esgi.trademe.trademan.domain.EducationLevel;
-import org.esgi.trademe.trademan.domain.TradesmanID;
-import org.esgi.trademe.trademan.domain.WorkDomain;
+import org.esgi.trademe.tradesman.domain.EducationLevel;
+import org.esgi.trademe.tradesman.domain.WorkDomain;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -35,14 +36,13 @@ public final class ProjectController {
     }
 
     @PostMapping(value="/project", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<ProjectDTO> register(@RequestParam(required = true) String contractor_id,
+    public ResponseEntity<ProjectDTO> create(@RequestParam(required = true) String contractor_id,
                                                @RequestParam(required = true) String tradesman_id,
                                                @RequestParam(required = true) String hourly_wage,
                                                @RequestParam(required = true) String hours_per_month,
                                                @RequestParam(required = true) String work_domain) throws InvalidEntryException, NoSuchAlgorithmException {
 
         ContractorID contractorID;
-        TradesmanID tradesmanID = toTradesmanID(tradesman_id);
         WorkDomain workDomain;
         EducationLevel educationLevel;
         Float hourlyWage;
@@ -68,7 +68,7 @@ public final class ProjectController {
         } catch (EnumConstantNotPresentException | IllegalArgumentException e) {
             throw InvalidChoiceException.withEnum(WorkDomain.class, work_domain);
         }
-        Project project = commandBus.send(CreateProject.of(contractorID, tradesmanID, hourlyWage, hoursPerMonth, workDomain));
+        Project project = commandBus.send(CreateProject.of(contractorID, hourlyWage, hoursPerMonth, workDomain));
 
         return ResponseEntity.ok(ProjectDTO.of(project));
 
@@ -76,23 +76,22 @@ public final class ProjectController {
 
     @PutMapping(value = "/project/accept", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<String> acceptProject(@RequestParam(required = true) String project_id) throws InvalidEntryException, NoSuchAlgorithmException {
-        ProjectID projectID = toProjectID(project_id);
-        commandBus.send(ActivateProject.of(projectID));
+        Project project = queryBus.send(RetrieveProjectByContractor.of(ContractorID.of(Integer.parseInt(project_id))));
+        commandBus.send(ActivateProject.of(ProjectID.of(Integer.parseInt(project_id))));
         return ResponseEntity.ok(String.format("Project %s accepted by tradesman", project_id));
     }
 
-    @GetMapping(value = "/tradesman/projects", produces =  MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<ProjectsDTO> getByTradesman(@RequestParam(required = true) String tradesman_id) {
-        TradesmanID tradesmanID = toTradesmanID(tradesman_id);
-        final ProjectsDTO projects = queryBus.send(new RetrieveProjectByTradesman(tradesmanID));
+    @GetMapping(value = "/contractor/projects", produces =  MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<ProjectsDTO> getByContractor(@RequestParam(required = true) String contractor_id) {
+        Contractor contractor = queryBus.send(RetrieveProjectByContractor.of(ContractorID.of(Integer.parseInt(contractor_id))));
+        final ProjectsDTO projects = queryBus.send(RetrieveProjectByContractor.of(contractor.getId()));
         return ResponseEntity.ok(projects);
     }
 
     @GetMapping(value = "/project", produces =  MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<ProjectDTO> getByID(@RequestParam(required = true) String id) {
-        ProjectID projectID = toProjectID(id);
-        final ProjectDTO project = queryBus.send(new RetrieveProjectByID(projectID));
-        return ResponseEntity.ok(project);
+        Project project = queryBus.send(RetrieveProjectByID.of(ProjectID.of(Integer.parseInt(id))));
+        return ResponseEntity.ok(ProjectDTO.of(project));
     }
 
     @GetMapping(value = "/projects", produces =  MediaType.APPLICATION_JSON_VALUE)
@@ -101,20 +100,5 @@ public final class ProjectController {
         return ResponseEntity.ok(projects);
     }
 
-    public static TradesmanID toTradesmanID(String id) {
-        try {
-            return TradesmanID.of(Integer.parseInt(id));
-        } catch (NumberFormatException e) {
-            throw InvalidParameterException.withStringInteger(id);
-        }
-    }
-
-    public static ProjectID toProjectID(String id) {
-        try {
-            return ProjectID.of(Integer.parseInt(id));
-        } catch (NumberFormatException e) {
-            throw InvalidParameterException.withStringInteger(id);
-        }
-    }
 
 }

@@ -20,7 +20,7 @@ public final class ContractDTO {
     public String toString() {
         return "ContractDTO{" +
                 "id=" + contract.getContractID().toString() + '\'' +
-                ", contractor_id='" + contract.getContractorID().toString() + '\'' +
+                ", project_id='" + contract.getProjectID().toString() + '\'' +
                 ", tradesman_id='" + contract.getTradesmanID().toString() + '\'' +
                 ", hourly_work='" + contract.getHourlyWage() + '\'' +
                 ", hours_per_month='" + contract.getHoursPerMonth() + '\'' +

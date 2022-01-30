@@ -2,16 +2,17 @@ package org.esgi.trademe.project.application.update;
 
 
 import org.esgi.trademe.kernel.event.ApplicationEvent;
-import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.project.domain.ProjectID;
+
 
 public final class ActivateProjectEvent implements ApplicationEvent {
-    private final TradesmanID contractorID;
+    private final ProjectID projectID;
 
-    public ActivateProjectEvent(TradesmanID contractorID) {
-        this.contractorID = contractorID;
+    public ActivateProjectEvent(ProjectID projectID) {
+        this.projectID = projectID;
     }
 
-    public static ActivateProjectEvent of(TradesmanID contractorID) {
-        return new ActivateProjectEvent(contractorID);
+    public static ActivateProjectEvent of(ProjectID projectID) {
+        return new ActivateProjectEvent(projectID);
     }
 }

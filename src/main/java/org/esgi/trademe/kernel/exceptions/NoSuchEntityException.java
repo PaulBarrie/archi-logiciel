@@ -2,7 +2,7 @@ package org.esgi.trademe.kernel.exceptions;
 
 import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.project.domain.ProjectID;
-import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.tradesman.domain.TradesmanID;
 import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.payment.domain.PaymentID;
 

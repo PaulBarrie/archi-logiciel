@@ -1,6 +1,6 @@
 package org.esgi.trademe.contract.application.retrieve.by_tradesman;
 
-import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.tradesman.domain.TradesmanID;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 
 public class RetrieveContractByTradesmanEvent implements ApplicationEvent {

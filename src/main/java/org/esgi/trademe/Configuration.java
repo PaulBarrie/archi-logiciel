@@ -25,23 +25,29 @@ import org.esgi.trademe.contract.application.update.AcceptContractEvent;
 import org.esgi.trademe.contract.application.update.AcceptContractEventListener;
 import org.esgi.trademe.contract.exposition.ContractRepository;
 import org.esgi.trademe.contract.infrastructure.InMemoryContractRepository;
-import org.esgi.trademe.trademan.application.create.CreateTradesman;
-import org.esgi.trademe.trademan.application.create.CreateTradesmanCommandHandler;
-import org.esgi.trademe.trademan.application.create.CreateTrademanEventListener;
-import org.esgi.trademe.trademan.application.create.education_level.AddTradesmanEducationLevel;
-import org.esgi.trademe.trademan.application.create.education_level.AddTradesmanEducationLevelCommandHandler;
-import org.esgi.trademe.trademan.application.create.experience.AddTradesmanExperience;
-import org.esgi.trademe.trademan.application.create.experience.AddTradesmanExperienceCommandHandler;
-import org.esgi.trademe.trademan.application.create.experience.AddTradesmanExperienceEvent;
-import org.esgi.trademe.trademan.application.create.experience.AddTrademanExperienceEventListener;
-import org.esgi.trademe.trademan.application.retrieve.all.RetrieveTradesmen;
-import org.esgi.trademe.trademan.application.retrieve.all.RetrieveTradesmenHandler;
-import org.esgi.trademe.trademan.application.retrieve.by_id.RetrieveTradesmanByID;
-import org.esgi.trademe.trademan.application.retrieve.by_id.RetrieveTradesmanByIDHandler;
-import org.esgi.trademe.trademan.application.retrieve.search.RetrieveTradesmanByEducation;
-import org.esgi.trademe.trademan.application.retrieve.search.RetrieveTradesmanByEducationHandler;
-import org.esgi.trademe.trademan.domain.TradesmanRepository;
-import org.esgi.trademe.trademan.infrastructure.InMemoryTradesmanRepository;
+import org.esgi.trademe.project.application.create.CreateProject;
+import org.esgi.trademe.project.application.create.CreateProjectCommandHandler;
+import org.esgi.trademe.project.application.create.CreateProjectEvent;
+import org.esgi.trademe.project.application.create.CreateProjectEventListener;
+import org.esgi.trademe.project.exposition.ProjectRepository;
+import org.esgi.trademe.project.infrastructure.InMemoryProjectRepository;
+import org.esgi.trademe.tradesman.application.create.CreateTradesman;
+import org.esgi.trademe.tradesman.application.create.CreateTradesmanCommandHandler;
+import org.esgi.trademe.tradesman.application.create.CreateTrademanEventListener;
+import org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel;
+import org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler;
+import org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience;
+import org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler;
+import org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceEvent;
+import org.esgi.trademe.tradesman.application.create.experience.AddTrademanExperienceEventListener;
+import org.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmen;
+import org.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenHandler;
+import org.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByID;
+import org.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDHandler;
+import org.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByEducation;
+import org.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByEducationHandler;
+import org.esgi.trademe.tradesman.domain.TradesmanRepository;
+import org.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository;
 import org.esgi.trademe.kernel.command.Command;
 import org.esgi.trademe.kernel.command.CommandBus;
 import org.esgi.trademe.kernel.command.CommandHandler;
@@ -99,6 +105,9 @@ public class Configuration {
     public TradesmanRepository tradesmanRepository() { return new InMemoryTradesmanRepository();}
 
     @Bean
+    public ProjectRepository projectRepository() { return new InMemoryProjectRepository();}
+
+    @Bean
     public ContractRepository contractRepository() {return new InMemoryContractRepository();}
 
     @Bean
@@ -132,6 +141,13 @@ public class Configuration {
     public EventDispatcher<Event> tradesmanEventDispatcher() {
         final Map<Class<? extends Event>, List<EventListener<? extends Event>>> listenerMap = new HashMap<>();
         listenerMap.put(AddTradesmanExperienceEvent.class, List.of(new AddTrademanExperienceEventListener()));
+        return new DefaultEventDispatcher(listenerMap);
+    }
+
+    @Bean
+    public EventDispatcher<Event> projectEventDispatcher() {
+        final Map<Class<? extends Event>, List<EventListener<? extends Event>>> listenerMap = new HashMap<>();
+        listenerMap.put(CreateProjectEvent.class, List.of(new CreateProjectEventListener()));
         return new DefaultEventDispatcher(listenerMap);
     }
 
@@ -170,6 +186,10 @@ public class Configuration {
         return AddTradesmanExperienceCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher());
     }
 
+    @Bean
+    public CreateProjectCommandHandler createProjectCommandHandler() {
+        return CreateProjectCommandHandler.of(projectRepository(), projectEventDispatcher());
+    }
     /* CONTRACTS */
 
     @Bean
@@ -191,6 +211,7 @@ public class Configuration {
                 Map.entry(CreateTradesman.class, CreateTradesmanCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
                 Map.entry(AddTradesmanExperience.class, AddTradesmanExperienceCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
                 Map.entry(AddTradesmanEducationLevel.class, AddTradesmanEducationLevelCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
+                Map.entry(CreateProject.class, CreateProjectCommandHandler.of(projectRepository(), projectEventDispatcher())),
                 Map.entry(CreateContract.class, CreateContractCommandHandler.of(contractRepository(), contractEventDispatcher())),
                 Map.entry(AcceptContract.class, AcceptContractCommandHandler.of(contractRepository(), contractEventDispatcher()))
                 );

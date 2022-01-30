@@ -1,14 +1,12 @@
 package org.esgi.trademe.project.infrastructure;
 
 
-import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.kernel.exceptions.NoSuchEntityException;
 import org.esgi.trademe.project.domain.Project;
 import org.esgi.trademe.project.domain.ProjectID;
 import org.esgi.trademe.project.domain.ProjectStatus;
 import org.esgi.trademe.project.exposition.ProjectRepository;
-import org.esgi.trademe.trademan.domain.TradesmanID;
 
 import java.util.List;
 import java.util.Map;

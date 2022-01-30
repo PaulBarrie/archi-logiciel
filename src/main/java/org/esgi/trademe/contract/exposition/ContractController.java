@@ -8,9 +8,10 @@ import org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID
 import org.esgi.trademe.contract.application.update.AcceptContract;
 import org.esgi.trademe.contract.domain.Contract;
 import org.esgi.trademe.contract.domain.ContractID;
-import org.esgi.trademe.trademan.domain.TradesmanID;
-import org.esgi.trademe.trademan.domain.EducationLevel;
-import org.esgi.trademe.trademan.domain.WorkDomain;
+import org.esgi.trademe.project.domain.ProjectID;
+import org.esgi.trademe.tradesman.domain.TradesmanID;
+import org.esgi.trademe.tradesman.domain.EducationLevel;
+import org.esgi.trademe.tradesman.domain.WorkDomain;
 import org.esgi.trademe.kernel.command.CommandBus;
 import org.esgi.trademe.kernel.exceptions.InvalidChoiceException;
 import org.esgi.trademe.kernel.exceptions.InvalidParameterException;
@@ -34,14 +35,14 @@ public final class ContractController {
         this.commandBus = commandBus;
     }
 
-    @PostMapping(value="/contract", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<ContractDTO> register(@RequestParam(required = true) String contractor_id,
+    @PostMapping(value="/project/contract", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<ContractDTO> addContract(@RequestParam(required = true) String contractor_id,
                                                 @RequestParam(required = true) String tradesman_id,
                                                 @RequestParam(required = true) String hourly_wage,
                                                 @RequestParam(required = true) String hours_per_month,
                                                 @RequestParam(required = true) String work_domain) throws InvalidEntryException, NoSuchAlgorithmException {
 
-        ContractorID contractorID;
+        ProjectID projectID;
         TradesmanID tradesmanID = toTradesmanID(tradesman_id);
         WorkDomain workDomain;
         EducationLevel educationLevel;
@@ -49,7 +50,7 @@ public final class ContractController {
         Integer hoursPerMonth;
 
         try {
-            contractorID = ContractorID.of(Integer.parseInt(contractor_id));
+            projectID = ProjectID.of(Integer.parseInt(contractor_id));
         } catch (NumberFormatException e) {
             throw InvalidParameterException.withStringInteger(contractor_id);
         }
@@ -68,7 +69,7 @@ public final class ContractController {
         } catch (EnumConstantNotPresentException | IllegalArgumentException e) {
             throw InvalidChoiceException.withEnum(WorkDomain.class, work_domain);
         }
-        Contract contract = commandBus.send(CreateContract.of(contractorID, tradesmanID, hourlyWage, hoursPerMonth, workDomain));
+        Contract contract = commandBus.send(CreateContract.of(projectID, tradesmanID, hourlyWage, hoursPerMonth, workDomain));
 
         return ResponseEntity.ok(ContractDTO.of(contract));
 

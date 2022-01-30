@@ -1,7 +1,7 @@
 package org.esgi.trademe.contract.application.update;
 
 
-import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.tradesman.domain.TradesmanID;
 import org.esgi.trademe.kernel.event.ApplicationEvent;
 
 public final class AcceptContractEvent implements ApplicationEvent {

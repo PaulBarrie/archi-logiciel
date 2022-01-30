@@ -1,17 +1,19 @@
 package org.esgi.trademe.project.domain;
 
 
+import org.esgi.trademe.contract.domain.Contract;
 import org.esgi.trademe.contractor.domain.ContractorID;
 
 import org.esgi.trademe.kernel.Entity;
-import org.esgi.trademe.trademan.domain.TradesmanID;
-import org.esgi.trademe.trademan.domain.WorkDomain;
+import org.esgi.trademe.tradesman.domain.WorkDomain;
 
+import java.util.List;
 import java.util.Objects;
 
 public final class Project implements Entity<ProjectID> {
     private final ProjectID projectID;
     private final ContractorID contractID;
+    private List<Contract> contractList;
     private final Float hourlyWage;
     private final Integer hoursPerMonth;
     private final WorkDomain workDomain;
@@ -91,4 +93,14 @@ public final class Project implements Entity<ProjectID> {
     public void setContractStatus(ProjectStatus projectStatus) {
         this.projectStatus = projectStatus;
     }
+
+    public List<Contract> getContractList() {
+        return contractList;
+    }
+
+    public void setContractList(List<Contract> contractList) {
+        this.contractList = contractList;
+    }
+
 }
+

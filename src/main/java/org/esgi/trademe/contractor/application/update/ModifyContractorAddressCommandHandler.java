@@ -1,6 +1,7 @@
 package org.esgi.trademe.contractor.application.update;
 
 
+import org.esgi.trademe.contractor.domain.Contractor;
 import org.esgi.trademe.kernel.command.CommandHandler;
 import org.esgi.trademe.kernel.event.Event;
 import org.esgi.trademe.kernel.event.EventDispatcher;
@@ -20,9 +21,9 @@ public final class ModifyContractorAddressCommandHandler implements CommandHandl
 
     @Override
     public Void handle(ModifyContractorAddress command) {
-        var contractorId =  ContractorID.of(command.contractorId);
-        var contractor = contractorRepository.findById(contractorId);
-        var address =  ContractorAddress.of(command.address.getStreetNumber(), command.address.getStreetNumber(),
+        ContractorID contractorId =  ContractorID.of(command.contractorId);
+        Contractor contractor = contractorRepository.findById(contractorId);
+        ContractorAddress address =  ContractorAddress.of(command.address.getStreetNumber(), command.address.getStreetNumber(),
                 command.address.getZipCode(), command.address.getCity(), command.address.getCountry());
         contractor.changeAddress(address);
         contractorRepository.add(contractor);

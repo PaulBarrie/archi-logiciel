@@ -2,7 +2,7 @@ package org.esgi.trademe.contract.exposition;
 
 import org.esgi.trademe.contract.domain.Contract;
 import org.esgi.trademe.contract.domain.ContractID;
-import org.esgi.trademe.trademan.domain.TradesmanID;
+import org.esgi.trademe.tradesman.domain.TradesmanID;
 import org.esgi.trademe.kernel.Repository;
 import org.esgi.trademe.contract.domain.ContractStatus;
 

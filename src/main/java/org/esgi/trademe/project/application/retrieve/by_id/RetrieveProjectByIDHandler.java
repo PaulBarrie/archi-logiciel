@@ -19,4 +19,6 @@ public class RetrieveProjectByIDHandler implements QueryHandler<RetrieveProjectB
         Project contract = contractRepository.findById(query.getId());
         return ProjectDTO.of(contract);
     }
+
+
 }

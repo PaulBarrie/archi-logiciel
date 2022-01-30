@@ -3,8 +3,7 @@ package org.esgi.trademe.project.application.create;
 
 import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.kernel.command.Command;
-import org.esgi.trademe.trademan.domain.TradesmanID;
-import org.esgi.trademe.trademan.domain.WorkDomain;
+import org.esgi.trademe.tradesman.domain.WorkDomain;
 
 /**
  * Command object

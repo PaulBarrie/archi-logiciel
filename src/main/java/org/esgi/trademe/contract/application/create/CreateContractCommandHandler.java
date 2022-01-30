@@ -26,7 +26,7 @@ public final class CreateContractCommandHandler implements CommandHandler<Create
 
     public Contract handle(CreateContract createContract) {
         final ContractID contractID = contractRepository.nextIdentity();
-        Contract contract = Contract.of(contractID, createContract.getContractorID(), createContract.getTradesmanID(),
+        Contract contract = Contract.of(contractID, createContract.getProjectID(), createContract.getTradesmanID(),
                 createContract.getHourlyWage(), createContract.getHoursPerMonth(), createContract.getWorkDomain());
         contractRepository.add(contract);
         eventDispatcher.dispatch(new CreateContractEvent(contractID));

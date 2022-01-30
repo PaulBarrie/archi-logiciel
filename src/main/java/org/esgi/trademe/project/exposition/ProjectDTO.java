@@ -5,26 +5,26 @@ import org.esgi.trademe.project.domain.Project;
 @SuppressWarnings("all")
 public final class ProjectDTO {
 
-    public final Project contract;
+    public final Project project;
 
-    public ProjectDTO(Project contract) {
-        this.contract = contract;
+    public ProjectDTO(Project project) {
+        this.project = project;
     }
 
 
-    public static ProjectDTO of(Project contract){
-        return new ProjectDTO(contract);
+    public static ProjectDTO of(Project project){
+        return new ProjectDTO(project);
     }
 
     @Override
     public String toString() {
         return "ProjectDTO{" +
-                "id=" + contract.getProjectID().toString() + '\'' +
-                ", contractor_id='" + contract.getContractorID().toString() + '\'' +
-                ", tradesman_id='" + contract.getTradesmanID().toString() + '\'' +
-                ", hourly_work='" + contract.getHourlyWage() + '\'' +
-                ", hours_per_month='" + contract.getHoursPerMonth() + '\'' +
-                ", work_domain=" + contract.getWorkDomain() +
+                "id=" + project.getProjectID().toString() + '\'' +
+                ", projector_id='" + project.getContractorID().toString() + '\'' +
+                ", contract_list='" + project.getContractList().toString() + '\'' +
+                ", hourly_work='" + project.getHourlyWage() + '\'' +
+                ", hours_per_month='" + project.getHoursPerMonth() + '\'' +
+                ", work_domain=" + project.getWorkDomain() +
                 '}';
     }
 }
