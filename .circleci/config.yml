@@ -1,0 +1,85 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine.
+# See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+
+orbs:
+  security-report: dreamquark-ai/security-report@1.0.1
+
+executors:
+  security-report: dreamquark-ai/security-report@1.0.1
+
+
+# Define a job to be invoked later in a workflow.
+# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+jobs:
+  build-and-test:
+    # These next lines define a Docker executor: https://circleci.com/docs/2.0/executor-types/
+    # You can specify an image from Dockerhub or use one of our Convenience Images from CircleCI's Developer Hub.
+    # Be sure to update the Docker image tag below to openjdk version of your application.
+    # A list of available CircleCI Docker Convenience Images are available here: https://circleci.com/developer/images/image/cimg/openjdk
+    docker:
+      - image: cimg/openjdk:11.0
+    # Add steps to the job
+    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+    steps:
+      # Checkout the code as the first step.
+      - checkout
+      # Use mvn clean and package as the standard maven build phase
+      - run:
+          name: Build
+          command: mvn -B -DskipTests clean package
+      # Then run your tests!
+      - run:
+          name: Test
+          command: mvn test
+
+  docker-security:
+    executor: security-report/default
+    working_directory: /root/trademe
+    steps:
+      - checkout
+      - setup_remote_docker:
+          docker_layer_caching: false
+          version: 20.10.11
+      - run:
+          name: "Build & pull the images for security report"
+          command: |
+            docker pull quay.io/paulbarrie7/trademe:1.0.0
+            make build IMAGE_NAME=quay.io/paulbarrie7/trademe IMAGE_TAG=security-test
+
+      - security-report/security-report:
+          image: 'quay.io/paulbarrie7/trademe'
+          base-tag: '1.0.0'
+          new-tag: 'security-test'
+          orga: 'PaulBarrie'
+          repo: 'trade-me'
+          topic: 'trademe-security-report'
+
+docker-deploy:
+  working_directory: /root/trademe
+    steps:
+        - checkout
+          - setup_remote_docker:
+          docker_layer_caching: false
+          version: 20.10.11
+            - run:
+                name: "Build the image"
+                command: |
+                  make build IMAGE_NAME=quay.io/paulbarrie7/trademe IMAGE_TAG=latest
+            - run:
+                name: "Deploy the image"
+                command: |
+                  make deploy IMAGE_NAME=quay.io/paulbarrie7/trademe IMAGE_TAG=latest
+  # Invoke jobs via workflows
+  # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+workflows:
+  test:
+    jobs:
+      - build-and-test
+      - docker-security
+
+  deploy:
+    jobs:
+      - docker-deploy
+
+

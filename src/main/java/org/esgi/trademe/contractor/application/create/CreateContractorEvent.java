@@ -1,10 +1,11 @@
 package org.esgi.trademe.contractor.application.create;
 
 
-import org.esgi.trademe.kernel.event.ApplicationEvent;
-import org.esgi.trademe.contractor.domain.ContractorID;
 
-public final class CreateContractorEvent implements ApplicationEvent {
+import org.esgi.trademe.contractor.domain.ContractorID;
+import org.esgi.trademe.kernel.event.Event;
+
+public final class CreateContractorEvent implements Event {
     private final ContractorID contractorID;
 
     public CreateContractorEvent(ContractorID contractorID) {

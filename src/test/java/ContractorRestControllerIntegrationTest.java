@@ -1,25 +1,18 @@
-import org.esgi.trademe.Configuration;
-import org.esgi.trademe.ExceptionController;
+
+
 import org.esgi.trademe.kernel.hash.SHA256Engine;
-import org.esgi.trademe.contractor.exposition.ContractorController;
+import org.esgi.trademe.tradesman.exposition.TradesmanController;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
-import org.springframework.context.annotation.Import;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
-
-import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
@@ -28,15 +21,11 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 @ExtendWith(SpringExtension.class)
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes = {Configuration.class, ExceptionController.class})
-@Import(ContractorController.class)
-@WebMvcTest(controllers = ContractorController.class)
+@WebMvcTest(TradesmanController.class)
 public class ContractorRestControllerIntegrationTest {
 
     @Autowired
     WebApplicationContext wac;
-
 
     private MockMvc mockMvc;
 
@@ -48,18 +37,18 @@ public class ContractorRestControllerIntegrationTest {
     @Test
     public void testCreateValidContractor() throws Exception {
         this.mockMvc.perform(post("/contractor")
-                .contentType(MediaType.APPLICATION_JSON)
-                .param("first_name", "Paul")
-                .param("last_name", "Barrié")
-                .param("email", "paul@gmail.com")
-                .param("birth", "31/10/1995")
-                .param("street_number", "2")
-                .param("street_name", "rue de la Paix")
-                .param("zip_code", "75002")
-                .param("city", "Paris")
-                .param("country", "FRANCE")
-                .param("username", "paulb")
-                .param("password", "P@55w0rd"))
+                        .contentType(MediaType.APPLICATION_JSON)
+                        .param("first_name", "Paul")
+                        .param("last_name", "Barrié")
+                        .param("email", "paul@gmail.com")
+                        .param("birth", "31/10/1995")
+                        .param("street_number", "2")
+                        .param("street_name", "rue de la Paix")
+                        .param("zip_code", "75002")
+                        .param("city", "Paris")
+                        .param("country", "FRANCE")
+                        .param("username", "paulb")
+                        .param("password", "P@55w0rd"))
                 .andExpect(status().is(200))
                 .andExpect(jsonPath("$.id.value").value(1))
                 .andExpect(jsonPath("$.firstname").value("Paul"))
@@ -79,19 +68,19 @@ public class ContractorRestControllerIntegrationTest {
     public void testCreateContractorWithInvalidEmail() throws Exception {
         String expected = "paul@gmail is not a valid value for the field Email";
         String error = this.mockMvc.perform(
-                post("/contractor")
-                .contentType(MediaType.APPLICATION_JSON)
-                .param("first_name", "Paul")
-                .param("last_name", "Barrié")
-                .param("email", "paul@gmail")
-                .param("birth", "31/10/1995")
-                .param("street_number", "2")
-                .param("street_name", "rue de la Paix")
-                .param("zip_code", "75002")
-                .param("city", "Paris")
-                .param("country", "FRANCE")
-                .param("username", "paulb")
-                .param("password", "P@55w0rd"))
+                        post("/contractor")
+                                .contentType(MediaType.APPLICATION_JSON)
+                                .param("first_name", "Paul")
+                                .param("last_name", "Barrié")
+                                .param("email", "paul@gmail")
+                                .param("birth", "31/10/1995")
+                                .param("street_number", "2")
+                                .param("street_name", "rue de la Paix")
+                                .param("zip_code", "75002")
+                                .param("city", "Paris")
+                                .param("country", "FRANCE")
+                                .param("username", "paulb")
+                                .param("password", "P@55w0rd"))
                 .andExpect(status().is(400))
                 .andReturn().getResolvedException().getMessage();
         assertEquals(error, expected);

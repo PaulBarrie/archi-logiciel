@@ -16,7 +16,6 @@ import org.esgi.trademe.kernel.command.CommandBus;
 import org.esgi.trademe.kernel.exceptions.InvalidChoiceException;
 import org.esgi.trademe.kernel.exceptions.InvalidParameterException;
 import org.esgi.trademe.kernel.query.QueryBus;
-import org.esgi.trademe.contractor.domain.ContractorID;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

@@ -1,6 +1,7 @@
 package org.esgi.trademe.tradesman.infrastructure;
 
 
+import org.esgi.trademe.tradesman.domain.Tradesman;
 import org.esgi.trademe.tradesman.domain.*;
 import org.esgi.trademe.kernel.exceptions.NoSuchEntityException;
 
@@ -58,9 +59,6 @@ public final class InMemoryTradesmanRepository implements TradesmanRepository {
 
             } else if(tradesman.getEducation().getYearExperiences() != null) {
                   res = tradesman.getEducation().getYearExperiences().containsKey(workDomain);
-            }
-            if(res) {
-                return res;
             }
         }
         return res;

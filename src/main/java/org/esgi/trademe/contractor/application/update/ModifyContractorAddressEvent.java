@@ -6,7 +6,6 @@ import org.esgi.trademe.contractor.domain.ContractorID;
 
 public final class ModifyContractorAddressEvent implements ApplicationEvent {
     private final ContractorID contractorId;
-
     public ModifyContractorAddressEvent(ContractorID contractorId) {
         this.contractorId = contractorId;
     }

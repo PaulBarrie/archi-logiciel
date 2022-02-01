@@ -3,7 +3,6 @@ package org.esgi.trademe.project.application.create;
 
 
 
-import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.kernel.command.CommandHandler;
 import org.esgi.trademe.kernel.event.Event;
 import org.esgi.trademe.kernel.event.EventDispatcher;
