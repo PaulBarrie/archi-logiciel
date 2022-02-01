@@ -13,7 +13,7 @@ RUN mvn clean package -DskipTests=true
 FROM openjdk:${OPENJDK_TAG}@${OPENJDK_DIGEST} AS java
 
 WORKDIR /run
-COPY --from=maven /usr/src/app/target/*.jar .
+COPY --from=maven /usr/src/app/target/trademe-1.0-SNAPSHOT.jar .
 
 ENTRYPOINT ["java","-jar","trademe-1.0-SNAPSHOT.jar"]
 

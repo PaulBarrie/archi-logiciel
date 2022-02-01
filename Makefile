@@ -25,7 +25,7 @@ test:
 .PHONY: test
 
 deploy:
-	docker push $(IMAGE_NAME):$(TEST_TAG)
+	docker push $(IMAGE_NAME):$(IMAGE_TAG)
 .PHONY: deploy
 
 debug:
