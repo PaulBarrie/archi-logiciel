@@ -50,14 +50,14 @@ jobs:
           repo: 'trade-me'
           topic: 'trademe-security-report'
 
-    sonar-test:
-      docker:
-        - image: 'circleci/openjdk:11-jdk'
-        steps:
-          - checkout
-          - run:
-              name: Analyze on SonarCloud
-              command: mvn verify sonar:sonar -Dsonar.projectKey=PaulBarrie_trade-me
+  sonar-test:
+    docker:
+      - image: 'circleci/openjdk:11-jdk'
+    steps:
+      - checkout
+      - run:
+          name: Analyze on SonarCloud
+          command: mvn verify sonar:sonar -Dsonar.projectKey=PaulBarrie_trade-me
 
   deploy-docker:
     docker:
