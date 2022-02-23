@@ -17,6 +17,7 @@ org/esgi/trademe/project/application/retrieve/by_id/RetrieveProjectByIDEvent.cla
 org/esgi/trademe/tradesman/infrastructure/InMemoryTradesmanRepository.class
 org/esgi/trademe/payment/exposition/payment_mode/CreditCardPaymentDTO.class
 org/esgi/trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEventListener.class
+org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.class
 org/esgi/trademe/contract/application/retrieve/all/RetrieveContracts.class
 org/esgi/trademe/contractor/application/update/ModifyContractorAddressEventListener.class
 org/esgi/trademe/contract/application/create/CreateContractEvent.class
@@ -35,8 +36,8 @@ org/esgi/trademe/contractor/domain/validator/ContractorValidator.class
 org/esgi/trademe/payment/domain/PaymentRepository.class
 org/esgi/trademe/kernel/validator/Validator.class
 org/esgi/trademe/project/application/retrieve/by_status/RetrieveProjectByStatusEventListener.class
-org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducation.class
 org/esgi/trademe/Main.class
+org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEventListener.class
 org/esgi/trademe/tradesman/domain/TradesmanRepository.class
 org/esgi/trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.class
 org/esgi/trademe/kernel/Entity.class
@@ -74,18 +75,17 @@ org/esgi/trademe/contractor/validation/contractor/ContractorDataHandler.class
 org/esgi/trademe/kernel/Timer.class
 org/esgi/trademe/kernel/event/EventListener.class
 org/esgi/trademe/contractor/exposition/ContractorDTO.class
+org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.class
 org/esgi/trademe/contractor/application/retrieve/by_id/RetrieveContractorByID.class
 org/esgi/trademe/payment/exposition/PaymentController.class
 org/esgi/trademe/payment/domain/PaymentID.class
 org/esgi/trademe/contractor/domain/ContractorID.class
 org/esgi/trademe/project/application/retrieve/all/RetrieveProjectsEvent.class
-org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducationEventListener.class
 org/esgi/trademe/payment/application/retrieve/RetrievePaymentHandler.class
 org/esgi/trademe/tradesman/validation/validator/tradesman/TradesmanCredentialsValidator.class
 org/esgi/trademe/contract/application/retrieve/by_status/RetrieveContractByStatus.class
 org/esgi/trademe/tradesman/validation/validator/tradesman/TradesmanValidator.class
 org/esgi/trademe/tradesman/domain/EducationLevel.class
-org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducationEvent.class
 org/esgi/trademe/contract/application/retrieve/by_status/RetrieveContractByStatusEventListener.class
 org/esgi/trademe/payment/domain/AccountIdentityPayment.class
 org/esgi/trademe/contractor/exposition/ContractorController.class
@@ -105,6 +105,7 @@ org/esgi/trademe/project/application/retrieve/by_status/RetrieveProjectByStatusE
 org/esgi/trademe/contract/infrastructure/InMemoryContractRepository.class
 org/esgi/trademe/tradesman/application/create/experience/AddTrademanExperienceEventListener.class
 org/esgi/trademe/payment/exposition/PaymentDTO.class
+org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainHandler.class
 org/esgi/trademe/project/application/create/CreateProjectCommandHandler.class
 org/esgi/trademe/contractor/application/create/CreateContractorEvent.class
 org/esgi/trademe/contract/application/retrieve/by_tradesman/RetrieveContractByTradesmanEventListener.class
@@ -130,7 +131,6 @@ org/esgi/trademe/contractor/application/retrieve/by_id/RetrieveContractorByIDEve
 org/esgi/trademe/contractor/application/update/ModifyContractorAddressEvent.class
 org/esgi/trademe/tradesman/exposition/TradesmanController.class
 org/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperienceCommandHandler.class
-org/esgi/trademe/tradesman/application/create/CreateTrademanEventListener.class
 org/esgi/trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.class
 org/esgi/trademe/contract/application/update/AcceptContract.class
 org/esgi/trademe/contract/application/retrieve/all/RetrieveContractsHandler.class
@@ -153,7 +153,6 @@ org/esgi/trademe/contractor/validation/contractor/ContractorUnicityHandler.class
 org/esgi/trademe/tradesman/domain/WorkDomain.class
 org/esgi/trademe/payment/infrastructure/DefaultEventDispatcher.class
 org/esgi/trademe/kernel/command/Command.class
-org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducationHandler.class
 org/esgi/trademe/contract/application/retrieve/by_id/RetrieveContractByID.class
 org/esgi/trademe/Configuration.class
 org/esgi/trademe/contractor/application/create/CreateContractorCommandHandler.class
@@ -185,9 +184,11 @@ org/esgi/trademe/kernel/command/CommandBus.class
 org/esgi/trademe/contractor/infrastructure/DefaultEventDispatcher.class
 org/esgi/trademe/project/application/update/ActivateProjectCommandHandler.class
 org/esgi/trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.class
+org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProjectEventListener.class
 org/esgi/trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByID.class
 org/esgi/trademe/kernel/query/Query.class
 org/esgi/trademe/contract/domain/ContractID.class
+org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomain.class
 org/esgi/trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.class
 org/esgi/trademe/contract/application/retrieve/by_id/RetrieveContractByIDHandler.class
 org/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperienceEvent.class
@@ -197,8 +198,11 @@ org/esgi/trademe/project/exposition/ExceptionProjectController.class
 org/esgi/trademe/kernel/ValueObjectID.class
 org/esgi/trademe/tradesman/domain/TradesmanAddress.class
 org/esgi/trademe/contractor/application/retrieve/all/RetrieveContractors.class
+org/esgi/trademe/tradesman/application/create/CreateTradesmanEventListener.class
 org/esgi/trademe/payment/exposition/PaymentsDTO.class
 org/esgi/trademe/contract/application/retrieve/by_tradesman/RetrieveContractByTradesmanEvent.class
+org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProjectEvent.class
+org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProject.class
 org/esgi/trademe/project/application/retrieve/by_id/RetrieveProjectByIDEventListener.class
 org/esgi/trademe/kernel/command/CommandHandler.class
 org/esgi/trademe/contractor/infrastructure/InMemoryContractorRepository.class

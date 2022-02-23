@@ -1,0 +1,27 @@
+
+…org.esgi.trademe.Configuration#createPaymentCommandHandler()Lorg/esgi/trademe/payment/application/create/CreatePaymentCommandHandler;x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÒ' Ò(B"1*‡
+1x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÓ Ó(*ÖÓ
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÓ. Ó(A7
+%01org.esgi.trademe.payment.domain.PaymentRepository"eorg.esgi.trademe.Configuration#paymentRepository()Lorg/esgi/trademe/payment/domain/PaymentRepository;*" 
+org.esgi.trademe.Configuration2paymentRepository()ØÕ
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÓC Ó([3
+%1-org.esgi.trademe.kernel.event.EventDispatcher"forg.esgi.trademe.Configuration#paymentEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
+org.esgi.trademe.Configuration2paymentEventDispatcher()…
+‚
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÓ Ó(\M
+%2Gorg.esgi.trademe.payment.application.create.CreatePaymentCommandHandler"÷org.esgi.trademe.payment.application.create.CreatePaymentCommandHandler#of(Lorg/esgi/trademe/payment/domain/PaymentRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/payment/application/create/CreatePaymentCommandHandler;*K"I
+Gorg.esgi.trademe.payment.application.create.CreatePaymentCommandHandler*9
+7
+%01org.esgi.trademe.payment.domain.PaymentRepository*5
+3
+%1-org.esgi.trademe.kernel.event.EventDispatcher"Ë
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÓ Ó(]O
+M
+%2Gorg.esgi.trademe.payment.application.create.CreatePaymentCommandHandlerB" 
+org.esgi.trademe.Configuration

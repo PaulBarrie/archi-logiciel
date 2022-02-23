@@ -1,0 +1,45 @@
+
+Ïorg.esgi.trademe.contract.infrastructure.InMemoryContractRepository#update(Lorg/esgi/trademe/contract/domain/ContractID;Lorg/esgi/trademe/contract/domain/Contract;)Lorg/esgi/trademe/contract/domain/Contract;œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java ("startingBlock*¯	
+startingBlockœ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (D‰
+†
+œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (
+%0"
+__annotate*
+java.lang.Override*;
+9
+
+contractID+org.esgi.trademe.contract.domain.ContractIDó
+ð
+œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java& (09
+
+contractID+org.esgi.trademe.contract.domain.ContractID"__annotation*
+
+%0…
+‚
+œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (
+%1"
+__annotate*
+java.lang.Override*7
+5
+contract)org.esgi.trademe.contract.domain.Contractï
+ì
+œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java; (C5
+contract)org.esgi.trademe.contract.domain.Contract"__annotation*
+
+%1*
+1*Ì
+1œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java   ("§
+œ
+‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java   (
+"":9
+
+contractID+org.esgi.trademe.contract.domain.ContractID:5
+contract)org.esgi.trademe.contract.domain.ContractBGE
+Corg.esgi.trademe.contract.infrastructure.InMemoryContractRepository

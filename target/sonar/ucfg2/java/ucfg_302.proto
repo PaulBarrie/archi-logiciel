@@ -1,0 +1,28 @@
+
+Þorg.esgi.trademe.payment.domain.Payment#of(Lorg/esgi/trademe/payment/domain/PaymentID;Lorg/esgi/trademe/contractor/domain/ContractorID;Lorg/esgi/trademe/payment/domain/PaymentMode;)Lorg/esgi/trademe/payment/domain/Payment;
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java ("1*Ç
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java (ÜÙ
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java (-
+%0'org.esgi.trademe.payment.domain.Payment"'org.esgi.trademe.payment.domain.Payment¬
+©
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java (9
+%1"ºorg.esgi.trademe.payment.domain.Payment#<init>(Lorg/esgi/trademe/payment/domain/PaymentID;Lorg/esgi/trademe/contractor/domain/ContractorID;Lorg/esgi/trademe/payment/domain/PaymentMode;)V*/
+-
+%0'org.esgi.trademe.payment.domain.Payment*1
+/
+id)org.esgi.trademe.payment.domain.PaymentID*A
+?
+contractorID/org.esgi.trademe.contractor.domain.ContractorID*<
+:
+paymentMode+org.esgi.trademe.payment.domain.PaymentMode"²
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java (:/
+-
+%0'org.esgi.trademe.payment.domain.Payment:/
+id)org.esgi.trademe.payment.domain.PaymentID:?
+contractorID/org.esgi.trademe.contractor.domain.ContractorID::
+paymentMode+org.esgi.trademe.payment.domain.PaymentModeB+")
+'org.esgi.trademe.payment.domain.Payment

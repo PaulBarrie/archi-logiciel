@@ -1,0 +1,26 @@
+
+ûorg.esgi.trademe.project.application.create.CreateProjectCommandHandler#of(Lorg/esgi/trademe/project/exposition/ProjectRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/project/application/create/CreateProjectCommandHandler; 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java. (0"1*ª
+
+1 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java/ (@¾»
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (.M
+%0Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler"Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandlerÉ
+Æ
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (R
+%1"·org.esgi.trademe.project.application.create.CreateProjectCommandHandler#<init>(Lorg/esgi/trademe/project/exposition/ProjectRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)V*O
+M
+%0Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler*L
+J
+projectRepository5org.esgi.trademe.project.exposition.ProjectRepository*B
+@
+eventDispatcher-org.esgi.trademe.kernel.event.EventDispatcher"ô
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (SO
+M
+%0Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler:J
+projectRepository5org.esgi.trademe.project.exposition.ProjectRepository:@
+eventDispatcher-org.esgi.trademe.kernel.event.EventDispatcherBK"I
+Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler

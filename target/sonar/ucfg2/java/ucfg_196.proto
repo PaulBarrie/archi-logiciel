@@ -1,0 +1,47 @@
+
+9org.esgi.trademe.contractor.domain.Contractor#hashCode()IÖ
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaN N("1*ò
+1Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO O(É
+Ä
+Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO O(5
+%0/org.esgi.trademe.contractor.domain.ContractorID"__id*9*7/
+-org.esgi.trademe.contractor.domain.Contractor"
+idÍ
+Á
+Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO  O((
+%1java.lang.String"__id*?*=/
+-org.esgi.trademe.contractor.domain.Contractor"
+
+lastnameÎ
+Ë
+Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO* O(3
+%2java.lang.String"__id*@*>/
+-org.esgi.trademe.contractor.domain.Contractor"
+	firstnameç
+ä
+Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO5 O(<:
+%34org.esgi.trademe.contractor.domain.ContractorAddress"__id*>*</
+-org.esgi.trademe.contractor.domain.Contractor"	
+addressÜ
+É
+Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO O(=	
+%4int",java.util.Objects#hash([Ljava/lang/Object;)I*"
+java.util.Objects*7
+5
+%0/org.esgi.trademe.contractor.domain.ContractorID*
+
+%1java.lang.String*
+
+%2java.lang.String*<
+:
+%34org.esgi.trademe.contractor.domain.ContractorAddress"ê
+Ö
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaO O(>
+""B1/
+-org.esgi.trademe.contractor.domain.Contractor

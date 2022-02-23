@@ -1,0 +1,41 @@
+
+Êorg.esgi.trademe.contractor.domain.Contractor#of(Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/contractor/domain/ContractorCredentials;Lorg/esgi/trademe/contractor/domain/ContractorAddress;)Lorg/esgi/trademe/contractor/domain/Contractor;…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.java ("1*ï
+
+1…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.java ( ïì
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.java (3
+%0-org.esgi.trademe.contractor.domain.Contractor"-org.esgi.trademe.contractor.domain.Contractor­
+ª
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.java (Z
+%1" org.esgi.trademe.contractor.domain.Contractor#<init>(Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/contractor/domain/ContractorCredentials;Lorg/esgi/trademe/contractor/domain/ContractorAddress;)V*5
+3
+%0-org.esgi.trademe.contractor.domain.Contractor*7
+5
+id/org.esgi.trademe.contractor.domain.ContractorID*
+
+lastnamejava.lang.String*
+
+	firstnamejava.lang.String*
+
+emailjava.lang.String*
+
+birthjava.lang.String*I
+G
+credentials8org.esgi.trademe.contractor.domain.ContractorCredentials*A
+?
+address4org.esgi.trademe.contractor.domain.ContractorAddress"¿
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.java ([5
+3
+%0-org.esgi.trademe.contractor.domain.Contractor:5
+id/org.esgi.trademe.contractor.domain.ContractorID:
+lastnamejava.lang.String:
+	firstnamejava.lang.String:
+emailjava.lang.String:
+birthjava.lang.String:G
+credentials8org.esgi.trademe.contractor.domain.ContractorCredentials:?
+address4org.esgi.trademe.contractor.domain.ContractorAddressB1"/
+-org.esgi.trademe.contractor.domain.Contractor

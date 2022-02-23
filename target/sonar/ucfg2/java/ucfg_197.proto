@@ -1,0 +1,116 @@
+
+Jorg.esgi.trademe.contractor.domain.Contractor#toString()Ljava/lang/String;…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaS S("1*Ð
+1…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT T(Ç
+Ä
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT U(
+%0java.lang.String"__concat*
+Contractor{*
+id=ƒ
+€
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaU U(5
+%1/org.esgi.trademe.contractor.domain.ContractorID"__id*9*7/
+-org.esgi.trademe.contractor.domain.Contractor"
+id€
+ý
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT U(
+%2java.lang.String"__concat*
+
+%0java.lang.String*7
+5
+%1/org.esgi.trademe.contractor.domain.ContractorIDÙ
+Ö
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT V(
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+, lastname='ê
+ç
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaV! V()
+%4java.lang.String"__id*?*=/
+-org.esgi.trademe.contractor.domain.Contractor"
+
+lastnameá
+Þ
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT V()
+%5java.lang.String"__concat*
+
+%3java.lang.String*
+
+%4java.lang.StringÏ
+Ì
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT V(0
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+\'Ú
+×
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT W(
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+, firstname='ë
+è
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaW" W(+
+%8java.lang.String"__id*@*>/
+-org.esgi.trademe.contractor.domain.Contractor"
+	firstnameá
+Þ
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT W(+
+%9java.lang.String"__concat*
+
+%7java.lang.String*
+
+%8java.lang.StringÐ
+Í
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT W(2
+%10java.lang.String"__concat*
+
+%9java.lang.String*
+\'Ù
+Ö
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT X(
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+
+, address=Ž
+‹
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaX X(&;
+%124org.esgi.trademe.contractor.domain.ContractorAddress"__id*>*</
+-org.esgi.trademe.contractor.domain.Contractor"	
+addressˆ
+…
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT X(&
+%13java.lang.String"__concat*
+
+%11java.lang.String*=
+;
+%124org.esgi.trademe.contractor.domain.ContractorAddressÐ
+Í
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT Y(
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+}"£
+…
+{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/Contractor.javaT Y(
+
+%14java.lang.StringB1/
+-org.esgi.trademe.contractor.domain.Contractor

@@ -1,6 +1,8 @@
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProject.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/application/update/ModifyContractorAddressEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/CreateTradesmanEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/application/retrieve/all/RetrieveContractors.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProjectEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/exceptions/InvalidEntryException.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/infrastructure/DefaultEventDispatcher.java
@@ -11,7 +13,6 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/all/RetrieveContractsHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/domain/validator/ContractorValidator.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/exposition/AddressDTO.java
-/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducation.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/application/update/UsePaymentEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/domain/ContractorAddress.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent.java
@@ -20,13 +21,13 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/validation/tradesman/TradesmanDataHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/validation/validator/tradesman/TradesmanValidator.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/experience/AddTrademanExperienceEventListener.java
-/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducationHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/exposition/ExceptionContractController.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_tradesman/RetrieveContractByTradesmanEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/validation/contractor/ContractorUnicityHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/update/AcceptContractEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/application/update/UsePaymentEventListener.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomain.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/exceptions/PaymentRejectedException.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/validation/validator/contractor/ContractorCredentialsValidator.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java
@@ -44,6 +45,7 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/domain/validator/ContractorBirthDateValidator.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/exposition/PaymentController.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/exceptions/InvalidParameterException.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/project/infrastructure/InMemoryProjectRepository.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/domain/AccountIdentityPayment.java
@@ -82,6 +84,7 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/application/update/UsePaymentCommandHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/update/AcceptContract.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/domain/Payment.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_status/RetrieveContractByStatusHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/exposition/ContractorController.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/domain/ContractStatus.java
@@ -107,8 +110,8 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/ValueObjectID.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/exceptions/AlreadyUsedParameterException.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/project/application/create/CreateProject.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProjectEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/domain/WorkDomain.java
-/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducationEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/domain/EducationLevel.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/validator/Validator.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_id/RetrieveContractByIDEvent.java
@@ -130,8 +133,6 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/query/Query.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperienceCommandHandler.java
-/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/CreateTrademanEventListener.java
-/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByEducationEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/application/retrieve/by_id/RetrieveContractorByID.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/project/application/retrieve/all/RetrieveProjects.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/infrastructure/InMemoryContractorRepository.java
@@ -155,6 +156,8 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/infrastructure/InMemoryContractRepository.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/domain/TradesmanID.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/event/EventDispatcher.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEventListener.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/create/CreateTradesmanEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/query/QueryBus.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/project/exposition/ProjectsDTO.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.java
@@ -203,6 +206,7 @@
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/validation/credentials/TradesmanCredentialsDataHandler.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_id/RetrieveContractByIDEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/kernel/command/CommandHandler.java
+/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contract/application/retrieve/by_tradesman/RetrieveContractByTradesmanEventListener.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/contractor/exposition/ContractorsDTO.java
 /home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org/esgi/trademe/payment/domain/PaymentMode.java

@@ -1,0 +1,36 @@
+
+…org.esgi.trademe.contractor.domain.ContractorAddress#of(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/contractor/domain/ContractorAddress;ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorAddress.java$ (&"1*É	
+1ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorAddress.java% (1ÖÇ
+ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorAddress.java ($:
+%04org.esgi.trademe.contractor.domain.ContractorAddress"4org.esgi.trademe.contractor.domain.ContractorAddressî
+ë
+ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorAddress.java (X
+%1"òorg.esgi.trademe.contractor.domain.ContractorAddress#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*<
+:
+%04org.esgi.trademe.contractor.domain.ContractorAddress*"
+ 
+streetNumberjava.lang.String* 
+
+
+streetNamejava.lang.String*
+
+zipCodejava.lang.String*
+
+streetjava.lang.String*
+
+countryjava.lang.String"Œ
+ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorAddress.java (Y<
+:
+%04org.esgi.trademe.contractor.domain.ContractorAddress: 
+streetNumberjava.lang.String:
+
+streetNamejava.lang.String:
+zipCodejava.lang.String:
+streetjava.lang.String:
+countryjava.lang.StringB8"6
+4org.esgi.trademe.contractor.domain.ContractorAddress

@@ -1,0 +1,30 @@
+
+Æorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;Lorg/esgi/trademe/tradesman/domain/WorkDomain;Lorg/esgi/trademe/tradesman/domain/EducationLevel;)Lorg/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel;±
+¦/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel.java- (/"1*ž
+1±
+¦/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel.java. (9ñî
+±
+¦/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel.java (-^
+%0Xorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel"Xorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel×
+Ô
+±
+¦/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel.java (V
+%1"ñorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;Lorg/esgi/trademe/tradesman/domain/WorkDomain;Lorg/esgi/trademe/tradesman/domain/EducationLevel;)V*`
+^
+%0Xorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel*>
+<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID*<
+:
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomain*D
+B
+educationLevel0org.esgi.trademe.tradesman.domain.EducationLevel"–
+±
+¦/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevel.java (W`
+^
+%0Xorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel:<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID::
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomain:B
+educationLevel0org.esgi.trademe.tradesman.domain.EducationLevelB\"Z
+Xorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevel

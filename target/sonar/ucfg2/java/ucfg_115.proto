@@ -1,0 +1,36 @@
+
+Áorg.esgi.trademe.tradesman.exposition.AddressDTO#of(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/tradesman/exposition/AddressDTO;ˆ
+~/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/AddressDTO.java ("1*Ù
+1ˆ
+~/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/AddressDTO.java (*øõ
+ˆ
+~/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/AddressDTO.java (6
+%00org.esgi.trademe.tradesman.exposition.AddressDTO"0org.esgi.trademe.tradesman.exposition.AddressDTO…
+‚
+ˆ
+~/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/AddressDTO.java (O
+%1"”org.esgi.trademe.tradesman.exposition.AddressDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*8
+6
+%00org.esgi.trademe.tradesman.exposition.AddressDTO*"
+ 
+streetNumberjava.lang.String* 
+
+
+streetNamejava.lang.String*
+
+zipCodejava.lang.String*
+
+cityjava.lang.String*
+
+countryjava.lang.String"Å
+ˆ
+~/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/AddressDTO.java (P8
+6
+%00org.esgi.trademe.tradesman.exposition.AddressDTO: 
+streetNumberjava.lang.String:
+
+streetNamejava.lang.String:
+zipCodejava.lang.String:
+cityjava.lang.String:
+countryjava.lang.StringB4"2
+0org.esgi.trademe.tradesman.exposition.AddressDTO

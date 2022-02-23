@@ -1,0 +1,46 @@
+
+Õorg.esgi.trademe.contract.application.retrieve.all.RetrieveContractsHandler#handle(Lorg/esgi/trademe/contract/application/retrieve/all/RetrieveContracts;)Lorg/esgi/trademe/contract/exposition/ContractsDTO;§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java ("startingBlock*ı
+startingBlock§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (7•
+¢
+§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (
+%3"
+__annotate*
+java.lang.Override*O
+M
+queryDorg.esgi.trademe.contract.application.retrieve.all.RetrieveContractsè
+å
+§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java1 (6M
+queryDorg.esgi.trademe.contract.application.retrieve.all.RetrieveContracts"__annotation*
+
+%3*
+1*¸
+1§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (ÿ
+’
+§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (1=
+%07org.esgi.trademe.contract.exposition.ContractRepository"__id*g*eM
+Korg.esgi.trademe.contract.application.retrieve.all.RetrieveContractsHandler"
+contractRepositoryﬂ‹
+§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (;
+%1java.util.List"Qorg.esgi.trademe.contract.exposition.ContractRepository#findAll()Ljava/util/List;*?
+=
+%07org.esgi.trademe.contract.exposition.ContractRepository2	findAll()≠
+™
+§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (<7
+%21org.esgi.trademe.contract.exposition.ContractsDTO"yorg.esgi.trademe.contract.exposition.ContractsDTO#of(Ljava/util/List;)Lorg/esgi/trademe/contract/exposition/ContractsDTO;*5"3
+1org.esgi.trademe.contract.exposition.ContractsDTO*
+
+%1java.util.List"‚
+§
+ô/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/all/RetrieveContractsHandler.java (=9
+7
+%21org.esgi.trademe.contract.exposition.ContractsDTO:M
+queryDorg.esgi.trademe.contract.application.retrieve.all.RetrieveContractsBOM
+Korg.esgi.trademe.contract.application.retrieve.all.RetrieveContractsHandler

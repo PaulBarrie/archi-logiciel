@@ -1,0 +1,147 @@
+
+∏org.esgi.trademe.project.application.update.ActivateProjectCommandHandler#handle(Lorg/esgi/trademe/project/application/update/ActivateProject;)Lorg/esgi/trademe/project/domain/Project;¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java ("6*Ü
+2¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java) )(“
+œ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java) )(<
+%145org.esgi.trademe.project.exposition.ProjectRepository"__id*d*bK
+Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler"
+projectRepositoryÅ˛
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java) )(*
+%15void";org.esgi.trademe.kernel.Repository#add(Ljava/lang/Object;)V*>
+<
+%145org.esgi.trademe.project.exposition.ProjectRepository*4
+2
+project'org.esgi.trademe.project.domain.Project2add(Ljava/lang/Object;)*
+1*Æ
+3¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java% %(!Ì
+Í
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java% %(!5
+contract)org.esgi.trademe.contract.domain.Contract"__id*
+""ã
+à
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java% %(!5
+contract)org.esgi.trademe.contract.domain.Contract"
+__arrayGet*
+
+%9java.util.List*
+""*
+2
+4*·
+4¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java& &(Ó
+Î
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java&+ &(C6
+%10/org.esgi.trademe.contract.domain.ContractStatus"__id*
+""ﬂ‹
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java& &(D
+%11void"oorg.esgi.trademe.contract.domain.Contract#setContractStatus(Lorg/esgi/trademe/contract/domain/ContractStatus;)V*7
+5
+contract)org.esgi.trademe.contract.domain.Contract*8
+6
+%10/org.esgi.trademe.contract.domain.ContractStatus2DsetContractStatus(Lorg/esgi/trademe/contract/domain/ContractStatus;)’
+“
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java' '(">
+%127org.esgi.trademe.contract.exposition.ContractRepository"__id*e*cK
+Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler"
+contractRepositoryÜÉ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java' '(0
+%13void";org.esgi.trademe.kernel.Repository#add(Ljava/lang/Object;)V*@
+>
+%127org.esgi.trademe.contract.exposition.ContractRepository*7
+5
+contract)org.esgi.trademe.contract.domain.Contract2add(Ljava/lang/Object;)*
+3*Ç
+5¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java%$ %(+“œ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java%$ %(=
+%9java.util.List"Iorg.esgi.trademe.project.domain.Project#getContractList()Ljava/util/List;*4
+2
+project'org.esgi.trademe.project.domain.Project2getContractList()*
+3*•
+6¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java   (+—
+Œ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java   (+;
+%05org.esgi.trademe.project.exposition.ProjectRepository"__id*d*bK
+Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler"
+projectRepository≤Ø
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java 5  (S/
+%1)org.esgi.trademe.project.domain.ProjectID"uorg.esgi.trademe.project.application.update.ActivateProject#getProjectID()Lorg/esgi/trademe/project/domain/ProjectID;*P
+N
+activateProject;org.esgi.trademe.project.application.update.ActivateProject2getProjectID()óî
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java   (T-
+%2'org.esgi.trademe.project.domain.Project"îorg.esgi.trademe.project.exposition.ProjectRepository#findById(Lorg/esgi/trademe/project/domain/ProjectID;)Lorg/esgi/trademe/project/domain/Project;*=
+;
+%05org.esgi.trademe.project.exposition.ProjectRepository*1
+/
+%1)org.esgi.trademe.project.domain.ProjectID25findById(Lorg/esgi/trademe/project/domain/ProjectID;)ì
+ê
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java   (U2
+project'org.esgi.trademe.project.domain.Project"__id*/
+-
+%2'org.esgi.trademe.project.domain.Project—
+Œ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java" "(
+%3java.io.PrintStream"__id*
+""ê
+ç
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java" "(1
+%4java.lang.String"__concat*
+
+project : *4
+2
+project'org.esgi.trademe.project.domain.Project∫∑
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java" "(2
+
+%5void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%3java.io.PrintStream*
+
+%4java.lang.String2println(Ljava/lang/String;)Î
+Ë
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java#" #(93
+%6-org.esgi.trademe.project.domain.ProjectStatus"__id*
+""“œ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java# #(:
+
+%7void"korg.esgi.trademe.project.domain.Project#setContractStatus(Lorg/esgi/trademe/project/domain/ProjectStatus;)V*4
+2
+project'org.esgi.trademe.project.domain.Project*5
+3
+%6-org.esgi.trademe.project.domain.ProjectStatus2BsetContractStatus(Lorg/esgi/trademe/project/domain/ProjectStatus;)“œ
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java$ $($
+%8java.util.List"Iorg.esgi.trademe.project.domain.Project#getContractList()Ljava/util/List;*4
+2
+project'org.esgi.trademe.project.domain.Project2getContractList()*
+5
+1*Ü
+1¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java, ,("€
+¢
+ó/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java, ,(4
+2
+project'org.esgi.trademe.project.domain.Project:N
+activateProject;org.esgi.trademe.project.application.update.ActivateProjectBMK
+Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler

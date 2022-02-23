@@ -1,0 +1,35 @@
+
+úorg.esgi.trademe.contract.application.create.CreateContract#of(Lorg/esgi/trademe/project/domain/ProjectID;Ljava/lang/Float;Ljava/lang/Integer;Lorg/esgi/trademe/tradesman/domain/WorkDomain;)Lorg/esgi/trademe/contract/application/create/CreateContract;”
+‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/create/CreateContract.java! (#"1*ü	
+1”
+‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/create/CreateContract.java" (+š—
+”
+‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/create/CreateContract.java (!A
+%0;org.esgi.trademe.contract.application.create.CreateContract";org.esgi.trademe.contract.application.create.CreateContractã
+à
+”
+‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/create/CreateContract.java (M
+%1"Âorg.esgi.trademe.contract.application.create.CreateContract#<init>(Lorg/esgi/trademe/project/domain/ProjectID;Ljava/lang/Float;Ljava/lang/Integer;Lorg/esgi/trademe/tradesman/domain/WorkDomain;)V*C
+A
+%0;org.esgi.trademe.contract.application.create.CreateContract*8
+6
+	projectID)org.esgi.trademe.project.domain.ProjectID*
+
+
+hourlyWagejava.lang.Float*
+
+nbHoursjava.lang.Integer*<
+:
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomain"Ü
+”
+‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/create/CreateContract.java (NC
+A
+%0;org.esgi.trademe.contract.application.create.CreateContract:6
+	projectID)org.esgi.trademe.project.domain.ProjectID:
+
+hourlyWagejava.lang.Float:
+nbHoursjava.lang.Integer::
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomainB?"=
+;org.esgi.trademe.contract.application.create.CreateContract

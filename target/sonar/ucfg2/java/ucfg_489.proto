@@ -1,0 +1,16 @@
+
+~org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID#getId()Lorg/esgi/trademe/contract/domain/ContractID;¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_id/RetrieveContractByID.java ("1*À
+1¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_id/RetrieveContractByID.java (¸
+µ
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_id/RetrieveContractByID.java (1
+%0+org.esgi.trademe.contract.domain.ContractID"__id*U*SK
+Iorg.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID"
+id"Ú
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_id/RetrieveContractByID.java (3
+1
+%0+org.esgi.trademe.contract.domain.ContractIDBMK
+Iorg.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID

@@ -1,0 +1,210 @@
+
+}org.esgi.trademe.tradesman.validation.tradesman.TradesmanUnicityHandler#check(Lorg/esgi/trademe/tradesman/domain/Tradesman;)V†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java ("startingBlock*≠
+2†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (Ê
+„
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (0
+m+org.esgi.trademe.tradesman.domain.Tradesman"__id*
+""ì
+ê
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (0
+m+org.esgi.trademe.tradesman.domain.Tradesman"
+__arrayGet*%
+#
+existingTradesmanjava.util.List*
+""*
+6
+1*Ô
+3†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java8 (DŸ÷
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.javaG (_
+%13java.lang.String"Lorg.esgi.trademe.tradesman.domain.Tradesman#getFirstname()Ljava/lang/String;*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman2getFirstname()Ù
+Ò
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java8 (_
+%14java.lang.String"__concat*
+
+Tradesman *
+
+%13java.lang.StringÎ
+Ë
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java8 (e
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+ ◊‘
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.javah (
+%16java.lang.String"Korg.esgi.trademe.tradesman.domain.Tradesman#getLastname()Ljava/lang/String;*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman2getLastname()ˇ
+¸
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java8 (
+%17java.lang.String"__concat*
+
+%15java.lang.String*
+
+%16java.lang.String˚
+¯
+°
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java8 (î
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+ already exists.±Æ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (7G
+%19@org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterException"@org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterExceptionÚ
+Ô
+°
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (ï
+%20"\org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterException#<init>(Ljava/lang/String;)V*I
+G
+%19@org.esgi.trademe.kernel.exceptions.AlreadyUsedParameterException*
+
+%18java.lang.String*
+0*¡
+startingBlock†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (*ç
+ä
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (
+%22"
+__annotate*
+java.lang.Override*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman˜
+Ù
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java  ()8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"__annotation*
+
+%22*
+8*ï
+4†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (ÿ’
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (7
+%7java.lang.String"Lorg.esgi.trademe.tradesman.domain.Tradesman#getFirstname()Ljava/lang/String;*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman2getFirstname()–Õ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java9 (I
+%8java.lang.String"Lorg.esgi.trademe.tradesman.domain.Tradesman#getFirstname()Ljava/lang/String;*2
+0
+m+org.esgi.trademe.tradesman.domain.Tradesman2getFirstname()¡
+æ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (J
+%9boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+%7java.lang.String*
+
+%8java.lang.String◊‘
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java\ (s
+%10java.lang.String"Korg.esgi.trademe.tradesman.domain.Tradesman#getLastname()Ljava/lang/String;*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman2getLastname()–Õ
+°
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.javau (Ñ
+%11java.lang.String"Korg.esgi.trademe.tradesman.domain.Tradesman#getLastname()Ljava/lang/String;*2
+0
+m+org.esgi.trademe.tradesman.domain.Tradesman2getLastname()≈
+¬
+°
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.javaM (Ö
+%12boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+%10java.lang.String*
+
+%11java.lang.String*
+2
+3*˛
+5†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (4–Õ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.javaG ([
+%5java.lang.String"Horg.esgi.trademe.tradesman.domain.Tradesman#getEmail()Ljava/lang/String;*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman2
+getEmail()˝
+˙
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (\B
+%6<org.esgi.trademe.kernel.exceptions.InvalidParameterException"©org.esgi.trademe.kernel.exceptions.InvalidParameterException#forField(Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/kernel/exceptions/InvalidParameterException;*@">
+<org.esgi.trademe.kernel.exceptions.InvalidParameterException*	
+Email*
+
+%5java.lang.String*
+0*ê	
+6†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (–Õ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (3
+%2java.lang.String"Horg.esgi.trademe.tradesman.domain.Tradesman#getEmail()Ljava/lang/String;*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman2
+getEmail()»≈
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java5 (A
+%3java.lang.String"Horg.esgi.trademe.tradesman.domain.Tradesman#getEmail()Ljava/lang/String;*2
+0
+m+org.esgi.trademe.tradesman.domain.Tradesman2
+getEmail()¡
+æ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (B
+%4boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+%2java.lang.String*
+
+%3java.lang.String*
+4
+5*√
+8†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java, (?œ
+Ã
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java, (?;
+%05org.esgi.trademe.tradesman.domain.TradesmanRepository"__id*d*bI
+Gorg.esgi.trademe.tradesman.validation.tradesman.TradesmanUnicityHandler"
+tradesmanRepository◊‘
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java, (I
+%1java.util.List"Oorg.esgi.trademe.tradesman.domain.TradesmanRepository#findAll()Ljava/util/List;*=
+;
+%05org.esgi.trademe.tradesman.domain.TradesmanRepository2	findAll()È
+Ê
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java (J#
+existingTradesmanjava.util.List"__id*
+
+%1java.util.List*
+2*¿
+0 "∏
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java! !(
+implicit return*ñ
+1†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java   (ËÂ
+†
+ï/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/tradesman/TradesmanUnicityHandler.java   (
+%21void"porg.esgi.trademe.tradesman.validation.TradesmanHandler#checkNext(Lorg/esgi/trademe/tradesman/domain/Tradesman;)V*KI
+Gorg.esgi.trademe.tradesman.validation.tradesman.TradesmanUnicityHandler*:
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman28checkNext(Lorg/esgi/trademe/tradesman/domain/Tradesman;)*
+0:8
+	tradesman+org.esgi.trademe.tradesman.domain.TradesmanBKI
+Gorg.esgi.trademe.tradesman.validation.tradesman.TradesmanUnicityHandler

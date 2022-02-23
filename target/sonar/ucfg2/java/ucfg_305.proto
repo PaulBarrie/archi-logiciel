@@ -1,0 +1,16 @@
+
+jorg.esgi.trademe.payment.domain.Payment#getContractorID()Lorg/esgi/trademe/contractor/domain/ContractorID;
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java# #('"1*Ä
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java$ $(€
+ý
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java$ $(5
+%0/org.esgi.trademe.contractor.domain.ContractorID"__id*=*;)
+'org.esgi.trademe.payment.domain.Payment"
+contractorID"º
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java$ $(7
+5
+%0/org.esgi.trademe.contractor.domain.ContractorIDB+)
+'org.esgi.trademe.payment.domain.Payment

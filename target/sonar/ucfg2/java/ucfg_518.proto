@@ -1,0 +1,30 @@
+
+ïorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;Lorg/esgi/trademe/tradesman/domain/WorkDomain;Ljava/lang/Integer;)Lorg/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperience;®
+ù/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/experience/AddTradesmanExperience.java) (+"1*è
+1®
+ù/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/experience/AddTradesmanExperience.java* (5÷”
+®
+ù/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/experience/AddTradesmanExperience.java ()U
+%0Oorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience"Oorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience˛
+˚
+®
+ù/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/experience/AddTradesmanExperience.java (R
+%1"…org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;Lorg/esgi/trademe/tradesman/domain/WorkDomain;Ljava/lang/Integer;)V*W
+U
+%0Oorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience*>
+<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID*<
+:
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomain*%
+#
+experienceYearjava.lang.Integer"Ñ
+®
+ù/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/experience/AddTradesmanExperience.java (SW
+U
+%0Oorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience:<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID::
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomain:#
+experienceYearjava.lang.IntegerBS"Q
+Oorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperience

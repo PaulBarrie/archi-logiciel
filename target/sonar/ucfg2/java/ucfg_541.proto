@@ -1,0 +1,57 @@
+
+›org.esgi.trademe.contractor.domain.ContractorCredentials#of(Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/contractor/domain/ContractorCredentials;‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java( (*"1*
+1‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.javaF (N‘Ž
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java0 (E>
+%08org.esgi.trademe.contractor.domain.ContractorCredentials"8org.esgi.trademe.contractor.domain.ContractorCredentials‡
+„
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java, (Y
+%1"forg.esgi.trademe.contractor.domain.ContractorCredentials#<init>(Ljava/lang/String;Ljava/lang/String;)V*@
+>
+%08org.esgi.trademe.contractor.domain.ContractorCredentials*
+
+usernamejava.lang.String*
+
+passwordjava.lang.String¨
+¥
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java (ZG
+credentials8org.esgi.trademe.contractor.domain.ContractorCredentials"__id*@
+>
+%08org.esgi.trademe.contractor.domain.ContractorCredentialsÔ
+Ñ
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java (#-
+%2'org.esgi.trademe.kernel.hash.HashEngine"__id*
+""ãà
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java, (E
+%3java.lang.String"Xorg.esgi.trademe.contractor.domain.ContractorCredentials#getPassword()Ljava/lang/String;*I
+G
+credentials8org.esgi.trademe.contractor.domain.ContractorCredentials2getPassword()îë
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java (F
+%4java.lang.String"Uorg.esgi.trademe.kernel.hash.HashEngine#encrypt(Ljava/lang/String;)Ljava/lang/String;*/
+-
+%2'org.esgi.trademe.kernel.hash.HashEngine*
+
+%3java.lang.String2encrypt(Ljava/lang/String;)Ž
+‹
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java (FU
+G
+credentials8org.esgi.trademe.contractor.domain.ContractorCredentials"
+
+password"__id*
+
+%4java.lang.String"ß
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/domain/ContractorCredentials.java (I
+G
+credentials8org.esgi.trademe.contractor.domain.ContractorCredentials:
+usernamejava.lang.String:
+passwordjava.lang.StringB<":
+8org.esgi.trademe.contractor.domain.ContractorCredentials

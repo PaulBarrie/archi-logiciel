@@ -1,0 +1,22 @@
+
+∫org.esgi.trademe.tradesman.application.create.CreateTradesmanEvent#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)Lorg/esgi/trademe/tradesman/application/create/CreateTradesmanEvent;õ
+ê/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesmanEvent.java' ()"1*Û
+1õ
+ê/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesmanEvent.java( (3Ø¨
+õ
+ê/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesmanEvent.java ('H
+%0Borg.esgi.trademe.tradesman.application.create.CreateTradesmanEvent"Borg.esgi.trademe.tradesman.application.create.CreateTradesmanEvent∞
+≠
+õ
+ê/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesmanEvent.java (4
+%1"{org.esgi.trademe.tradesman.application.create.CreateTradesmanEvent#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)V*J
+H
+%0Borg.esgi.trademe.tradesman.application.create.CreateTradesmanEvent*>
+<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID"Í
+õ
+ê/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesmanEvent.java (5J
+H
+%0Borg.esgi.trademe.tradesman.application.create.CreateTradesmanEvent:<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanIDBF"D
+Borg.esgi.trademe.tradesman.application.create.CreateTradesmanEvent

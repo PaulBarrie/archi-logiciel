@@ -1,0 +1,24 @@
+
+®org.esgi.trademe.project.application.update.ActivateProject#of(Lorg/esgi/trademe/project/domain/ProjectID;)Lorg/esgi/trademe/project/application/update/ActivateProject;î
+â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProject.java" ($"1*´
+1î
+â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProject.java# (-öó
+î
+â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProject.java ("A
+%0;org.esgi.trademe.project.application.update.ActivateProject";org.esgi.trademe.project.application.update.ActivateProjectí
+è
+î
+â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProject.java (.
+%1"porg.esgi.trademe.project.application.update.ActivateProject#<init>(Lorg/esgi/trademe/project/domain/ProjectID;)V*C
+A
+%0;org.esgi.trademe.project.application.update.ActivateProject*9
+7
+
+contractID)org.esgi.trademe.project.domain.ProjectID"‹
+î
+â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProject.java (/C
+A
+%0;org.esgi.trademe.project.application.update.ActivateProject:7
+
+contractID)org.esgi.trademe.project.domain.ProjectIDB?"=
+;org.esgi.trademe.project.application.update.ActivateProject

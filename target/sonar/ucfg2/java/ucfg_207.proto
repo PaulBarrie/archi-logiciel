@@ -1,0 +1,25 @@
+
+óorg.esgi.trademe.payment.domain.AccountIdentityPayment#of(Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/payment/domain/AccountIdentityPayment;è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java) (+"1*ã
+1è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java* (;ãà
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java ()<
+%06org.esgi.trademe.payment.domain.AccountIdentityPayment"6org.esgi.trademe.payment.domain.AccountIdentityPaymentê
+ç
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java (L
+%1"dorg.esgi.trademe.payment.domain.AccountIdentityPayment#<init>(Ljava/lang/String;Ljava/lang/String;)V*>
+<
+%06org.esgi.trademe.payment.domain.AccountIdentityPayment*'
+%
+accountIdentifierjava.lang.String*$
+"
+bankIdentifierjava.lang.String"“
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java (M>
+<
+%06org.esgi.trademe.payment.domain.AccountIdentityPayment:%
+accountIdentifierjava.lang.String:"
+bankIdentifierjava.lang.StringB:"8
+6org.esgi.trademe.payment.domain.AccountIdentityPayment

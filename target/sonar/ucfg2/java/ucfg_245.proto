@@ -1,0 +1,29 @@
+
+‡org.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository#nextIdentity()Lorg/esgi/trademe/contractor/domain/ContractorID; 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/InMemoryContractorRepository.java ($"1*ÿ
+
+1 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/InMemoryContractorRepository.java (µ
+²
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/InMemoryContractorRepository.java  (%/
+%0)java.util.concurrent.atomic.AtomicInteger"__id*V*TI
+Gorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository"
+countµ²
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/InMemoryContractorRepository.java  (7	
+%1int"<java.util.concurrent.atomic.AtomicInteger#incrementAndGet()I*1
+/
+%0)java.util.concurrent.atomic.AtomicInteger2incrementAndGet()‡
+„
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/InMemoryContractorRepository.java (85
+%2/org.esgi.trademe.contractor.domain.ContractorID"forg.esgi.trademe.contractor.domain.ContractorID#of(I)Lorg/esgi/trademe/contractor/domain/ContractorID;*3"1
+/org.esgi.trademe.contractor.domain.ContractorID*
+	
+%1int"Ü
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/InMemoryContractorRepository.java (97
+5
+%2/org.esgi.trademe.contractor.domain.ContractorIDBKI
+Gorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository

@@ -1,0 +1,36 @@
+
+¨org.esgi.trademe.kernel.exceptions.NoSuchEntityException#withId(Lorg/esgi/trademe/contract/domain/ContractID;)Lorg/esgi/trademe/kernel/exceptions/NoSuchEntityException;‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java( (."1*¿
+1‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java )  (/œ™
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java X  (e	
+%0int"7org.esgi.trademe.contract.domain.ContractID#getValue()I*3
+1
+id+org.esgi.trademe.contract.domain.ContractID2
+getValue()Ç
+Ä
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java )  (f
+%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String*!
+No contract found with ID %d.*
+	
+%0int‘Ž
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java   ((>
+%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException"8org.esgi.trademe.kernel.exceptions.NoSuchEntityExceptionÏ
+Ì
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java   (g
+%3"Torg.esgi.trademe.kernel.exceptions.NoSuchEntityException#<init>(Ljava/lang/String;)V*@
+>
+%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException*
+
+%1java.lang.String"Ö
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java   (h@
+>
+%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException:1
+id+org.esgi.trademe.contract.domain.ContractIDB<":
+8org.esgi.trademe.kernel.exceptions.NoSuchEntityException

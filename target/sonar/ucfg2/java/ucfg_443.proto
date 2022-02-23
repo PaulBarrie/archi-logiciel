@@ -1,0 +1,19 @@
+
+norg.esgi.trademe.Configuration#contractorRepository()Lorg/esgi/trademe/contractor/domain/ContractorRepository;v
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaw  w(4"1*Ö
+1v
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javax x(1ìê
+v
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javax x(/M
+%0Gorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository"Gorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository•
+¢
+v
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javax x(1
+%1"Qorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository#<init>()V*O
+M
+%0Gorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepository"…
+v
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javax x(2O
+M
+%0Gorg.esgi.trademe.contractor.infrastructure.InMemoryContractorRepositoryB" 
+org.esgi.trademe.Configuration

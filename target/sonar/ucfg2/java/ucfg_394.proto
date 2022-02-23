@@ -1,0 +1,22 @@
+
+Œorg.esgi.trademe.payment.exposition.PaymentDTO#of(Lorg/esgi/trademe/payment/domain/Payment;)Lorg/esgi/trademe/payment/exposition/PaymentDTO;†
+|/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/exposition/PaymentDTO.java ("1*«
+1†
+|/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/exposition/PaymentDTO.java (%òï
+†
+|/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/exposition/PaymentDTO.java (4
+%0.org.esgi.trademe.payment.exposition.PaymentDTO".org.esgi.trademe.payment.exposition.PaymentDTOã
+à
+†
+|/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/exposition/PaymentDTO.java (&
+%1"aorg.esgi.trademe.payment.exposition.PaymentDTO#<init>(Lorg/esgi/trademe/payment/domain/Payment;)V*6
+4
+%0.org.esgi.trademe.payment.exposition.PaymentDTO*4
+2
+payment'org.esgi.trademe.payment.domain.Payment"Á
+†
+|/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/exposition/PaymentDTO.java ('6
+4
+%0.org.esgi.trademe.payment.exposition.PaymentDTO:2
+payment'org.esgi.trademe.payment.domain.PaymentB2"0
+.org.esgi.trademe.payment.exposition.PaymentDTO

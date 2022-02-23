@@ -1,0 +1,16 @@
+
+zorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID#getId()Lorg/esgi/trademe/project/domain/ProjectID; 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByID.java ("1*»
+1 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByID.java (¹
+¶
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByID.java (/
+%0)org.esgi.trademe.project.domain.ProjectID"__id*Z*XI
+Gorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID"
+	projectID"Ö
+ 
+•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByID.java (1
+/
+%0)org.esgi.trademe.project.domain.ProjectIDBKI
+Gorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID

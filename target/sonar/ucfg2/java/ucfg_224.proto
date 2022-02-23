@@ -1,0 +1,22 @@
+
+Öorg.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEvent#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)Lorg/esgi/trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent;©
+ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.java- (/"1*ò	
+1©
+ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.java. (9ÙÖ
+©
+ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.java (-V
+%0Porg.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEvent"Porg.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEventÛ
+Ø
+©
+ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.java (:
+%1"‰org.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEvent#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)V*X
+V
+%0Porg.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEvent*>
+<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID"†
+©
+ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/by_id/RetrieveTradesmanByIDEvent.java (;X
+V
+%0Porg.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEvent:<
+tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanIDBT"R
+Porg.esgi.trademe.tradesman.application.retrieve.by_id.RetrieveTradesmanByIDEvent

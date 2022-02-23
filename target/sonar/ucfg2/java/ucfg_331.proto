@@ -1,0 +1,40 @@
+
+Éorg.esgi.trademe.contract.domain.Contract#of(Lorg/esgi/trademe/contract/domain/ContractID;Lorg/esgi/trademe/project/domain/ProjectID;Ljava/lang/Float;Ljava/lang/Integer;Lorg/esgi/trademe/tradesman/domain/WorkDomain;)Lorg/esgi/trademe/contract/domain/Contract;Å
+w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.java ("1*¿	
+1Å
+w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.java (&„‡
+Å
+w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.java (/
+%0)org.esgi.trademe.contract.domain.Contract")org.esgi.trademe.contract.domain.Contractñ
+ì
+Å
+w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.java (S
+%1"›org.esgi.trademe.contract.domain.Contract#<init>(Lorg/esgi/trademe/contract/domain/ContractID;Lorg/esgi/trademe/project/domain/ProjectID;Ljava/lang/Float;Ljava/lang/Integer;Lorg/esgi/trademe/tradesman/domain/WorkDomain;)V*1
+/
+%0)org.esgi.trademe.contract.domain.Contract*;
+9
+
+contractID+org.esgi.trademe.contract.domain.ContractID*8
+6
+	projectID)org.esgi.trademe.project.domain.ProjectID*
+
+
+hourlyWagejava.lang.Float*
+
+nbHoursjava.lang.Integer*<
+:
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomain"∑
+Å
+w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.java (T1
+/
+%0)org.esgi.trademe.contract.domain.Contract:9
+
+contractID+org.esgi.trademe.contract.domain.ContractID:6
+	projectID)org.esgi.trademe.project.domain.ProjectID:
+
+hourlyWagejava.lang.Float:
+nbHoursjava.lang.Integer::
+
+workDomain,org.esgi.trademe.tradesman.domain.WorkDomainB-"+
+)org.esgi.trademe.contract.domain.Contract

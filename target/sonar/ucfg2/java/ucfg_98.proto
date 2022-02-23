@@ -1,0 +1,16 @@
+
+gorg.esgi.trademe.tradesman.domain.Tradesman#getEducation()Lorg/esgi/trademe/tradesman/domain/Education;ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.javaF F(!"1*Ì
+1ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.javaG G(‚
+ÿ
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.javaG G(1
+%0+org.esgi.trademe.tradesman.domain.Education"__id*>*<-
++org.esgi.trademe.tradesman.domain.Tradesman"
+	education"»
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.javaG G(3
+1
+%0+org.esgi.trademe.tradesman.domain.EducationB/-
++org.esgi.trademe.tradesman.domain.Tradesman

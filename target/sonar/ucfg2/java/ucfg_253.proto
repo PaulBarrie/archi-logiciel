@@ -1,0 +1,22 @@
+
+¡org.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent#of(Ljava/util/List;)Lorg/esgi/trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent;Æ
+£/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.java1 (3"1*€	
+1Æ
+£/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.java2 (8ËÂ
+Æ
+£/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.java (1[
+%0Uorg.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent"Uorg.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent¶
+£
+Æ
+£/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.java (9
+%1"oorg.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent#<init>(Ljava/util/List;)V*]
+[
+%0Uorg.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent*
+
+domainjava.util.List"ê
+Æ
+£/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/search/RetrieveTradesmanByDomainEvent.java (:]
+[
+%0Uorg.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent:
+domainjava.util.ListBY"W
+Uorg.esgi.trademe.tradesman.application.retrieve.search.RetrieveTradesmanByDomainEvent
