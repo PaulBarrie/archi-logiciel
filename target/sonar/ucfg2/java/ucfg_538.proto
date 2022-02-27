@@ -1,0 +1,25 @@
+
+¹org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler#of(Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler;¿
+´/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler.java; (="1*È
+1¿
+´/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler.java< (O›˜
+¿
+´/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler.java (;l
+%0forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler"forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler­
+ª
+¿
+´/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler.java (f
+%1"Öorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)V*n
+l
+%0forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler*N
+L
+tradesmanRepository5org.esgi.trademe.tradesman.domain.TradesmanRepository*G
+E
+eventEventDispatcher-org.esgi.trademe.kernel.event.EventDispatcher"²
+¿
+´/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler.java (gn
+l
+%0forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler:L
+tradesmanRepository5org.esgi.trademe.tradesman.domain.TradesmanRepository:E
+eventEventDispatcher-org.esgi.trademe.kernel.event.EventDispatcherBj"h
+forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler

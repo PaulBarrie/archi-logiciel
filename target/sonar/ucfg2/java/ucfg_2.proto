@@ -1,0 +1,31 @@
+
+R__sonar_lambda_0$org.esgi.trademe.contractor.infrastructure.DefaultEventDispatcherö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/DefaultEventDispatcher.java# (S"startingBlock*¥
+startingBlockö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/DefaultEventDispatcher.java# (SÄ
+~
+
+__unknown_file (
+
+eventE"__id*P*NC
+Aorg.esgi.trademe.contractor.infrastructure.DefaultEventDispatcher"
+event*
+1*€
+1ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/DefaultEventDispatcher.java5 (Cäá
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/DefaultEventDispatcher.java5 (S
+
+%4void"\org.esgi.trademe.kernel.event.EventListener#listenTo(Lorg/esgi/trademe/kernel/event/Event;)V*?
+=
+eEventListener+org.esgi.trademe.kernel.event.EventListener*
+
+
+eventE2/listenTo(Lorg/esgi/trademe/kernel/event/Event;)"´
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/infrastructure/DefaultEventDispatcher.java5 (S
+
+
+%4void:=
+eEventListener+org.esgi.trademe.kernel.event.EventListenerB
+java.util.function.Consumer

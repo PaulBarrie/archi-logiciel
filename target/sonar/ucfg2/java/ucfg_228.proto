@@ -1,0 +1,30 @@
+
+3org.esgi.trademe.project.domain.Project#hashCode()I
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java- -("1*Ð
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java. .(÷
+ô
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java. .(%/
+%0)org.esgi.trademe.project.domain.ProjectID"__id*:*8)
+'org.esgi.trademe.project.domain.Project"
+	projectID€
+ý
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java.' .(35
+%1/org.esgi.trademe.contractor.domain.ContractorID"__id*=*;)
+'org.esgi.trademe.project.domain.Project"
+contractorIDÀ
+½
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java. .(4	
+%2int",java.util.Objects#hash([Ljava/lang/Object;)I*"
+java.util.Objects*1
+/
+%0)org.esgi.trademe.project.domain.ProjectID*7
+5
+%1/org.esgi.trademe.contractor.domain.ContractorID"‰
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java. .(5
+""B+)
+'org.esgi.trademe.project.domain.Project

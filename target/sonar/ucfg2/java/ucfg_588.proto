@@ -1,0 +1,51 @@
+
+Áorg.esgi.trademe.project.exposition.ExceptionProjectController#invalidParameterException(Lorg/esgi/trademe/kernel/exceptions/InvalidParameterException;)Lorg/springframework/http/ResponseEntity;—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java" (;"startingBlock*ì
+startingBlock—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java; (`º
+·
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (>
+%4"
+__annotate*<:
+8org.springframework.web.bind.annotation.ExceptionHandler*K
+I
+	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterExceptionþ
+û
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.javaV (_I
+	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterException"__annotation*
+
+%4*
+1*‹
+1—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java $  (-ÄÁ
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java $  (:
+%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*K
+I
+	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterException2getMessage()Ö
+Ó
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java <  (R)
+%1#org.springframework.http.HttpStatus"__id*
+""õò
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java   (#-
+%2'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity…
+‚
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java   (S
+%3"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%2'org.springframework.http.ResponseEntity*
+
+%0java.lang.String*+
+)
+%1#org.springframework.http.HttpStatus"Ë
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java   (T/
+-
+%2'org.springframework.http.ResponseEntity:I
+	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterExceptionBB@
+>org.esgi.trademe.project.exposition.ExceptionProjectController

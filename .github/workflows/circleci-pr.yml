@@ -9,10 +9,11 @@ jobs:
       - name: Trigger CircleCI
         env:
           CIRCLE_BRANCH: ${{ github.head_ref }}
+          CIRCLE_TOKEN: ${{ secrets.CIRCLE_TOKEN }}
         run: |
           curl -X POST \
-          -H 'Circle-Token: ${{secrets.CIRCLE_TOKEN}}' \
+          -H "Circle-Token: ${CIRCLE_TOKEN}" \
           -H 'Content-Type: application/json' \
           -H 'Accept: application/json' \
           -d "{\"branch\":\"${CIRCLE_BRANCH}\",\"parameters\":{\"pull_request\":true}}" \
-          https://circleci.com/api/v2/project/gh/ORG_NAME/REPO_NAME/pipeline
+          "https://circleci.com/api/v2/project/github/PaulBarrie/trade-me/pipeline"

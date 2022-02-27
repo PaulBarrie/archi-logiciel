@@ -1,0 +1,36 @@
+
+¦org.esgi.trademe.kernel.exceptions.NoSuchEntityException#withId(Lorg/esgi/trademe/payment/domain/PaymentID;)Lorg/esgi/trademe/kernel/exceptions/NoSuchEntityException;‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java( (."1*º
+1‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java) (/˜•
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.javaW (d	
+%0int"5org.esgi.trademe.payment.domain.PaymentID#getValue()I*1
+/
+id)org.esgi.trademe.payment.domain.PaymentID2
+getValue()Æ
+Ã
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java) (e
+%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
+java.lang.String* 
+No payment found with ID %d.*
+	
+%0int‘Ž
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java ((>
+%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException"8org.esgi.trademe.kernel.exceptions.NoSuchEntityExceptionÏ
+Ì
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java (f
+%3"Torg.esgi.trademe.kernel.exceptions.NoSuchEntityException#<init>(Ljava/lang/String;)V*@
+>
+%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException*
+
+%1java.lang.String"Ö
+‘
+†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java (g@
+>
+%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException:/
+id)org.esgi.trademe.payment.domain.PaymentIDB<":
+8org.esgi.trademe.kernel.exceptions.NoSuchEntityException

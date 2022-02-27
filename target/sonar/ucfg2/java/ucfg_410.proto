@@ -1,0 +1,46 @@
+
+Çorg.esgi.trademe.project.application.retrieve.all.RetrieveProjectsHandler#handle(Lorg/esgi/trademe/project/application/retrieve/all/RetrieveProjects;)Lorg/esgi/trademe/project/exposition/ProjectsDTO;¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java ("startingBlock*ë
+startingBlock¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (5¡
+ž
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (
+%3"
+__annotate*
+java.lang.Override*M
+K
+queryBorg.esgi.trademe.project.application.retrieve.all.RetrieveProjects‹
+ˆ
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java/ (4K
+queryBorg.esgi.trademe.project.application.retrieve.all.RetrieveProjects"__annotation*
+
+%3*
+1*à
+1¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (Ò
+Ï
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (0;
+%05org.esgi.trademe.project.exposition.ProjectRepository"__id*e*cK
+Iorg.esgi.trademe.project.application.retrieve.all.RetrieveProjectsHandler"
+contractRepositoryÙÖ
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (:
+%1java.util.List"Oorg.esgi.trademe.project.exposition.ProjectRepository#findAll()Ljava/util/List;*=
+;
+%05org.esgi.trademe.project.exposition.ProjectRepository2	findAll()£
+ 
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (;5
+%2/org.esgi.trademe.project.exposition.ProjectsDTO"uorg.esgi.trademe.project.exposition.ProjectsDTO#of(Ljava/util/List;)Lorg/esgi/trademe/project/exposition/ProjectsDTO;*3"1
+/org.esgi.trademe.project.exposition.ProjectsDTO*
+
+%1java.util.List"Þ
+¢
+—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/all/RetrieveProjectsHandler.java (<7
+5
+%2/org.esgi.trademe.project.exposition.ProjectsDTO:K
+queryBorg.esgi.trademe.project.application.retrieve.all.RetrieveProjectsBMK
+Iorg.esgi.trademe.project.application.retrieve.all.RetrieveProjectsHandler

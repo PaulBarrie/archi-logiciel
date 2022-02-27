@@ -1,0 +1,71 @@
+
+∫org.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorIDHandler#handle(Lorg/esgi/trademe/payment/application/retrieve/RetrievePaymentsByContractorID;)Ljava/util/List;¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (""startingBlock*ù
+startingBlock¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java" (Hµ
+≤
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (
+%7"
+__annotate*
+java.lang.Override*W
+U
+queryLorg.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorIDü
+ú
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.javaB (GU
+queryLorg.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorID"__annotation*
+
+%7*
+1*Ø
+1¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java ( ·
+ﬁ
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java ( 7
+%01org.esgi.trademe.payment.domain.PaymentRepository"__id*n*lU
+Sorg.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorIDHandler"
+paymentRepository⁄
+◊
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java2 (D5
+%1/org.esgi.trademe.contractor.domain.ContractorID"__id*i*g
+U
+queryLorg.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorID"
+contractorIDâÜ
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (E
+%2java.util.List"Öorg.esgi.trademe.payment.domain.PaymentRepository#findByContractor(Lorg/esgi/trademe/contractor/domain/ContractorID;)Ljava/util/List;*9
+7
+%01org.esgi.trademe.payment.domain.PaymentRepository*7
+5
+%1/org.esgi.trademe.contractor.domain.ContractorID2CfindByContractor(Lorg/esgi/trademe/contractor/domain/ContractorID;)´®
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (
+%3java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%2java.util.List2stream()Û
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java ($
+%4java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%3java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)∑
+¥
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (, 
+%5java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.CollectorsÖÇ
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (-
+%6java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%4java.util.stream.Stream*"
+ 
+%5java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"«
+¨
+°/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePaymentsByContractorIDHandler.java (.
+
+%6java.util.List:U
+queryLorg.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorIDBWU
+Sorg.esgi.trademe.payment.application.retrieve.RetrievePaymentsByContractorIDHandler

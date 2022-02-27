@@ -1,0 +1,197 @@
+
+Gorg.esgi.trademe.tradesman.domain.Tradesman#equals(Ljava/lang/Object;)Zƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java[ [("startingBlock*›
+13ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java\ \(""Ž
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java\ \(#
+""*…
+2ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java`A `(Hƒ
+€
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java`P `(Y2
+%14+org.esgi.trademe.tradesman.domain.Education"__id*>*<-
++org.esgi.trademe.tradesman.domain.Tradesman"
+	educationŽ
+‹
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java`[ `(n2
+%15+org.esgi.trademe.tradesman.domain.Education"__id*I*G
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"
+	educationÝ
+Ú
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java`A `(p
+%16boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*4
+2
+%14+org.esgi.trademe.tradesman.domain.Education*4
+2
+%15+org.esgi.trademe.tradesman.domain.Education*
+1*­
+startingBlockƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java[ [(#Í
+Ê
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.javaZ Z(
+%17"
+__annotate*
+java.lang.Override*
+
+ojava.lang.Object·
+´
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java[! [("
+ojava.lang.Object"__annotation*
+
+%17*
+13
+10
+11* 
+4ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java` `(ˆ
+…
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java`" `()9
+%112org.esgi.trademe.tradesman.domain.TradesmanAddress"__id*<*:-
++org.esgi.trademe.tradesman.domain.Tradesman"	
+address“
+
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java`+ `(<9
+%122org.esgi.trademe.tradesman.domain.TradesmanAddress"__id*G*E
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"	
+addressë
+è
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java` `(=
+%13boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*;
+9
+%112org.esgi.trademe.tradesman.domain.TradesmanAddress*;
+9
+%122org.esgi.trademe.tradesman.domain.TradesmanAddress*
+2
+1*
+6ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_c _(jç
+ä
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_r _({
+%8java.lang.String"__id*>*<-
++org.esgi.trademe.tradesman.domain.Tradesman"
+	firstnameó
+ð
+„
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_} _(
+%9java.lang.String"__id*I*G
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"
+	firstname¦
+£
+„
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_c _(‘
+%10boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+%8java.lang.String*
+
+%9java.lang.String*	
+2
+4
+1*›
+8ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_3 _(:æ
+ã
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_B _(J
+%5java.lang.String"__id*=*;-
++org.esgi.trademe.tradesman.domain.Tradesman"
+
+lastnameñ
+î
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_L _(^
+%6java.lang.String"__id*H*F
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"
+
+lastname¤
+¡
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_3 _(_
+%7boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*
+
+%5java.lang.String*
+
+%6java.lang.String*
+2
+4
+6
+1*ë	
+9ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java^* ^(+â
+ß
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java^ ^(,8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"__id*
+
+ojava.lang.Objectý
+ú
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_ _( 3
+%2-org.esgi.trademe.tradesman.domain.TradesmanID"__id*7*5-
++org.esgi.trademe.tradesman.domain.Tradesman"
+idˆ
+…
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_" _(.3
+%3-org.esgi.trademe.tradesman.domain.TradesmanID"__id*B*@
+8
+	tradesman+org.esgi.trademe.tradesman.domain.Tradesman"
+idÞ
+Û
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_ _(/
+%4boolean"?java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z*"
+java.util.Objects*5
+3
+%2-org.esgi.trademe.tradesman.domain.TradesmanID*5
+3
+%3-org.esgi.trademe.tradesman.domain.TradesmanID*
+2
+4
+6
+8
+1*›
+10ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java]< ](A"Ž
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java]5 ](B
+""*—
+11ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java] ](!‹ˆ
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java] ](#
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*/-
++org.esgi.trademe.tradesman.domain.Tradesman2
+getClass()óð
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java]' ](3
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
+
+ojava.lang.Object2
+getClass()*
+9
+10*š
+1ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_ `(q"Ž
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java_ `(q
+"":
+ojava.lang.ObjectB/-
++org.esgi.trademe.tradesman.domain.Tradesman

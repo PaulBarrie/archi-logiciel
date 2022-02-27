@@ -1,0 +1,27 @@
+
+ùorg.esgi.trademe.Configuration#createTradesmanCommandHandler()Lorg/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperienceCommandHandler;x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java◊0 ◊(M"1*ç
+1x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÿ ÿ(3‚ﬂ
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÿ7 ÿ(L;
+%05org.esgi.trademe.tradesman.domain.TradesmanRepository"korg.esgi.trademe.Configuration#tradesmanRepository()Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;*" 
+org.esgi.trademe.Configuration2tradesmanRepository()‹Ÿ
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÿN ÿ(h3
+%1-org.esgi.trademe.kernel.event.EventDispatcher"horg.esgi.trademe.Configuration#tradesmanEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
+org.esgi.trademe.Configuration2tradesmanEventDispatcher()Â
+‚
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÿ ÿ(ic
+%2]org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler"ßorg.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler#of(Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperienceCommandHandler;*a"_
+]org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler*=
+;
+%05org.esgi.trademe.tradesman.domain.TradesmanRepository*5
+3
+%1-org.esgi.trademe.kernel.event.EventDispatcher"·
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÿ ÿ(je
+c
+%2]org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandlerB" 
+org.esgi.trademe.Configuration

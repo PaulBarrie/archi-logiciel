@@ -1,0 +1,51 @@
+
+»org.esgi.trademe.project.exposition.ExceptionProjectController#invalidChoiceException(Lorg/esgi/trademe/kernel/exceptions/InvalidChoiceException;)Lorg/springframework/http/ResponseEntity;—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java" (8"startingBlock*æ
+startingBlock—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java8 (Z·
+´
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (;
+%4"
+__annotate*<:
+8org.springframework.web.bind.annotation.ExceptionHandler*H
+F
+	exception9org.esgi.trademe.kernel.exceptions.InvalidChoiceExceptionû
+ø
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.javaP (YF
+	exception9org.esgi.trademe.kernel.exceptions.InvalidChoiceException"__annotation*
+
+%4*
+1*ˆ
+1—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java$ (-Á¾
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java$ (:
+%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*H
+F
+	exception9org.esgi.trademe.kernel.exceptions.InvalidChoiceException2getMessage()Ö
+Ó
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java< (R)
+%1#org.springframework.http.HttpStatus"__id*
+""õò
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (#-
+%2'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity…
+‚
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (S
+%3"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%2'org.springframework.http.ResponseEntity*
+
+%0java.lang.String*+
+)
+%1#org.springframework.http.HttpStatus"Ë
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (T/
+-
+%2'org.springframework.http.ResponseEntity:F
+	exception9org.esgi.trademe.kernel.exceptions.InvalidChoiceExceptionBB@
+>org.esgi.trademe.project.exposition.ExceptionProjectController

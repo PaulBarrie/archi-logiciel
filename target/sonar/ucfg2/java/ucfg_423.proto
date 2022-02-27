@@ -1,0 +1,76 @@
+
+Zorg.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO#toString()Ljava/lang/String;–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java ("1*Ñ
+1–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java ( ã
+à
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (
+%0java.lang.String"__concat*
+CredentialsDTO{*
+
+username='‹
+ˆ
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java ('
+%1java.lang.String"__id*O*M?
+=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO"
+
+usernameò
+ï
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java ('
+%2java.lang.String"__concat*
+
+%0java.lang.String*
+
+%1java.lang.Stringà
+Ý
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (.
+%3java.lang.String"__concat*
+
+%2java.lang.String*
+\'è
+å
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+
+password='‹
+ˆ
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java ('
+%5java.lang.String"__id*O*M?
+=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO"
+
+passwordò
+ï
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java ('
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.Stringà
+Ý
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (.
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+\'ß
+Ü
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+}"³
+–
+‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (
+
+%8java.lang.StringBA?
+=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO

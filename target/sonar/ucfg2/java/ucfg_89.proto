@@ -1,0 +1,40 @@
+
+Ûorg.esgi.trademe.tradesman.domain.Tradesman#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/tradesman/domain/TradesmanCredentials;Lorg/esgi/trademe/tradesman/domain/Education;Lorg/esgi/trademe/tradesman/domain/TradesmanAddress;)Lorg/esgi/trademe/tradesman/domain/Tradesman;ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java ("1*‹
+1ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java (éæ
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java (1
+%0+org.esgi.trademe.tradesman.domain.Tradesman"+org.esgi.trademe.tradesman.domain.TradesmanÕ
+Ò
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java (]
+%1"³org.esgi.trademe.tradesman.domain.Tradesman#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/tradesman/domain/TradesmanCredentials;Lorg/esgi/trademe/tradesman/domain/Education;Lorg/esgi/trademe/tradesman/domain/TradesmanAddress;)V*3
+1
+%0+org.esgi.trademe.tradesman.domain.Tradesman*5
+3
+id-org.esgi.trademe.tradesman.domain.TradesmanID*
+
+lastnamejava.lang.String*
+
+	firstnamejava.lang.String*
+
+emailjava.lang.String*G
+E
+credentials6org.esgi.trademe.tradesman.domain.TradesmanCredentials*:
+8
+	education+org.esgi.trademe.tradesman.domain.Education*?
+=
+address2org.esgi.trademe.tradesman.domain.TradesmanAddress"»
+ƒ
+y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/Tradesman.java (^3
+1
+%0+org.esgi.trademe.tradesman.domain.Tradesman:3
+id-org.esgi.trademe.tradesman.domain.TradesmanID:
+lastnamejava.lang.String:
+	firstnamejava.lang.String:
+emailjava.lang.String:E
+credentials6org.esgi.trademe.tradesman.domain.TradesmanCredentials:8
+	education+org.esgi.trademe.tradesman.domain.Education:=
+address2org.esgi.trademe.tradesman.domain.TradesmanAddressB/"-
++org.esgi.trademe.tradesman.domain.Tradesman

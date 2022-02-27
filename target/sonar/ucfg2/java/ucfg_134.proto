@@ -1,0 +1,25 @@
+
+‰org.esgi.trademe.tradesman.exposition.EducationDTO#of(Ljava/util/Map;Ljava/util/Map;)Lorg/esgi/trademe/tradesman/exposition/EducationDTO;‹
+€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/EducationDTO.java (!"1*Ù
+1‹
+€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/EducationDTO.java  (.ÿü
+‹
+€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/EducationDTO.java (8
+%02org.esgi.trademe.tradesman.exposition.EducationDTO"2org.esgi.trademe.tradesman.exposition.EducationDTOö
+ó
+‹
+€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/EducationDTO.java (@
+%1"Zorg.esgi.trademe.tradesman.exposition.EducationDTO#<init>(Ljava/util/Map;Ljava/util/Map;)V*:
+8
+%02org.esgi.trademe.tradesman.exposition.EducationDTO*!
+
+educationLeveljava.util.Map*"
+ 
+yearExperiencesjava.util.Map"Ê
+‹
+€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/EducationDTO.java (A:
+8
+%02org.esgi.trademe.tradesman.exposition.EducationDTO:
+educationLeveljava.util.Map: 
+yearExperiencesjava.util.MapB6"4
+2org.esgi.trademe.tradesman.exposition.EducationDTO

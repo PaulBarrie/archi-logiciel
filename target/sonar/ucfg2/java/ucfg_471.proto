@@ -1,0 +1,35 @@
+
+Çorg.esgi.trademe.tradesman.validation.TradesmanHandler#setNext(Lorg/esgi/trademe/kernel/Handler;)Lorg/esgi/trademe/kernel/Handler;è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java (%"startingBlock*Í
+startingBlockè
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java% (>Í
+Á
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java (
+%0"
+__annotate*
+java.lang.Override*)
+'
+nextorg.esgi.trademe.kernel.Handler‘
+—
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java9 (='
+nextorg.esgi.trademe.kernel.Handler"__annotation*
+
+%0*
+1*‚
+1è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java' (+ä
+á
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java (+B8
+6org.esgi.trademe.tradesman.validation.TradesmanHandler"
+next"__id*)
+'
+nextorg.esgi.trademe.kernel.Handler"Ω
+è
+Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/validation/TradesmanHandler.java ()
+'
+nextorg.esgi.trademe.kernel.Handler:'
+nextorg.esgi.trademe.kernel.HandlerB:8
+6org.esgi.trademe.tradesman.validation.TradesmanHandler

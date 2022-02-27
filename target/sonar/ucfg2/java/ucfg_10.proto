@@ -1,0 +1,29 @@
+
+{org.esgi.trademe.project.infrastructure.InMemoryProjectRepository#nextIdentity()Lorg/esgi/trademe/project/domain/ProjectID;ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java1 1(!"1*Ω
+
+1ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java2 2(©
+¶
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java2 2(!/
+%0)java.util.concurrent.atomic.AtomicInteger"__id*P*NC
+Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository"
+countØ¨
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java2 2(3	
+%1int"<java.util.concurrent.atomic.AtomicInteger#incrementAndGet()I*1
+/
+%0)java.util.concurrent.atomic.AtomicInteger2incrementAndGet()È
+Ê
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java2 2(4/
+%2)org.esgi.trademe.project.domain.ProjectID"Zorg.esgi.trademe.project.domain.ProjectID#of(I)Lorg/esgi/trademe/project/domain/ProjectID;*-"+
+)org.esgi.trademe.project.domain.ProjectID*
+	
+%1int"–
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java2 2(51
+/
+%2)org.esgi.trademe.project.domain.ProjectIDBEC
+Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository

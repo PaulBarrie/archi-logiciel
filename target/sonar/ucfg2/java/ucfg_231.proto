@@ -1,0 +1,16 @@
+
+jorg.esgi.trademe.project.domain.Project#getContractorID()Lorg/esgi/trademe/contractor/domain/ContractorID;
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java? ?('"1*Ä
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java@ @(€
+ý
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java@ @(5
+%0/org.esgi.trademe.contractor.domain.ContractorID"__id*=*;)
+'org.esgi.trademe.project.domain.Project"
+contractorID"º
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java@ @(7
+5
+%0/org.esgi.trademe.contractor.domain.ContractorIDB+)
+'org.esgi.trademe.project.domain.Project

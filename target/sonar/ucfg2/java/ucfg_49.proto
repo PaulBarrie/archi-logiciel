@@ -1,0 +1,40 @@
+
+Êorg.esgi.trademe.contractor.exposition.ContractorDTO#of(Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/contractor/exposition/ContractorCredentialsDTO;Lorg/esgi/trademe/contractor/exposition/ContractorAddressDTO;)Lorg/esgi/trademe/contractor/exposition/ContractorDTO;ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorDTO.java  (""1*Œ
+1ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorDTO.java! (#ÖÇ
+ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorDTO.java ( :
+%04org.esgi.trademe.contractor.exposition.ContractorDTO"4org.esgi.trademe.contractor.exposition.ContractorDTOﬂ
+‹
+ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorDTO.java (]
+%1"µorg.esgi.trademe.contractor.exposition.ContractorDTO#<init>(Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/contractor/exposition/ContractorCredentialsDTO;Lorg/esgi/trademe/contractor/exposition/ContractorAddressDTO;)V*<
+:
+%04org.esgi.trademe.contractor.exposition.ContractorDTO*7
+5
+id/org.esgi.trademe.contractor.domain.ContractorID*
+
+lastnamejava.lang.String*
+
+	firstnamejava.lang.String*
+
+emailjava.lang.String*
+
+birthjava.lang.String*P
+N
+credentials?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO*H
+F
+address;org.esgi.trademe.contractor.exposition.ContractorAddressDTO"Œ
+ç
+Ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorDTO.java (^<
+:
+%04org.esgi.trademe.contractor.exposition.ContractorDTO:5
+id/org.esgi.trademe.contractor.domain.ContractorID:
+lastnamejava.lang.String:
+	firstnamejava.lang.String:
+emailjava.lang.String:
+birthjava.lang.String:N
+credentials?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO:F
+address;org.esgi.trademe.contractor.exposition.ContractorAddressDTOB8"6
+4org.esgi.trademe.contractor.exposition.ContractorDTO

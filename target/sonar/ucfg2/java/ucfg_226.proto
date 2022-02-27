@@ -1,0 +1,31 @@
+
+Öorg.esgi.trademe.project.domain.Project#of(Lorg/esgi/trademe/project/domain/ProjectID;Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/Integer;Ljava/lang/String;)Lorg/esgi/trademe/project/domain/Project;
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java ("1*Ì
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java ($ÜÙ
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java (-
+%0'org.esgi.trademe.project.domain.Project"'org.esgi.trademe.project.domain.Project±
+®
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java (J
+%1"²org.esgi.trademe.project.domain.Project#<init>(Lorg/esgi/trademe/project/domain/ProjectID;Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/Integer;Ljava/lang/String;)V*/
+-
+%0'org.esgi.trademe.project.domain.Project*8
+6
+	projectID)org.esgi.trademe.project.domain.ProjectID*A
+?
+contractorID/org.esgi.trademe.contractor.domain.ContractorID*"
+ 
+dayDurationjava.lang.Integer*
+
+locationjava.lang.String"²
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.java (K/
+-
+%0'org.esgi.trademe.project.domain.Project:6
+	projectID)org.esgi.trademe.project.domain.ProjectID:?
+contractorID/org.esgi.trademe.contractor.domain.ContractorID: 
+dayDurationjava.lang.Integer:
+locationjava.lang.StringB+")
+'org.esgi.trademe.project.domain.Project

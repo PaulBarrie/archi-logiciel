@@ -1,0 +1,37 @@
+
+∆org.esgi.trademe.tradesman.exposition.TradesmanDTO#of(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/tradesman/exposition/TradesmanCredentialsDTO;Lorg/esgi/trademe/tradesman/exposition/EducationDTO;Lorg/esgi/trademe/tradesman/exposition/AddressDTO;)Lorg/esgi/trademe/tradesman/exposition/TradesmanDTO;ã
+Ä/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanDTO.java (!"1*Ä
+1ã
+Ä/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanDTO.java  ((ˇ¸
+ã
+Ä/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanDTO.java (8
+%02org.esgi.trademe.tradesman.exposition.TradesmanDTO"2org.esgi.trademe.tradesman.exposition.TradesmanDTOù
+ö
+ã
+Ä/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanDTO.java (\
+%1"óorg.esgi.trademe.tradesman.exposition.TradesmanDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/tradesman/exposition/TradesmanCredentialsDTO;Lorg/esgi/trademe/tradesman/exposition/EducationDTO;Lorg/esgi/trademe/tradesman/exposition/AddressDTO;)V*:
+8
+%02org.esgi.trademe.tradesman.exposition.TradesmanDTO*
+
+lastnamejava.lang.String*
+
+	firstnamejava.lang.String*
+
+emailjava.lang.String*N
+L
+credentials=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO*A
+?
+	education2org.esgi.trademe.tradesman.exposition.EducationDTO*=
+;
+address0org.esgi.trademe.tradesman.exposition.AddressDTO" 
+ã
+Ä/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanDTO.java (]:
+8
+%02org.esgi.trademe.tradesman.exposition.TradesmanDTO:
+lastnamejava.lang.String:
+	firstnamejava.lang.String:
+emailjava.lang.String:L
+credentials=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO:?
+	education2org.esgi.trademe.tradesman.exposition.EducationDTO:;
+address0org.esgi.trademe.tradesman.exposition.AddressDTOB6"4
+2org.esgi.trademe.tradesman.exposition.TradesmanDTO

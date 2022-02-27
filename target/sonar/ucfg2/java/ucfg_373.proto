@@ -1,0 +1,22 @@
+
+¶org.esgi.trademe.contract.application.update.AcceptContractEvent#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)Lorg/esgi/trademe/contract/application/update/AcceptContractEvent;™
+Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContractEvent.java& (("1*â
+1™
+Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContractEvent.java' (3©¦
+™
+Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContractEvent.java (&F
+%0@org.esgi.trademe.contract.application.update.AcceptContractEvent"@org.esgi.trademe.contract.application.update.AcceptContractEvent«
+¨
+™
+Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContractEvent.java (4
+%1"yorg.esgi.trademe.contract.application.update.AcceptContractEvent#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)V*H
+F
+%0@org.esgi.trademe.contract.application.update.AcceptContractEvent*?
+=
+contractorID-org.esgi.trademe.tradesman.domain.TradesmanID"æ
+™
+Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContractEvent.java (5H
+F
+%0@org.esgi.trademe.contract.application.update.AcceptContractEvent:=
+contractorID-org.esgi.trademe.tradesman.domain.TradesmanIDBD"B
+@org.esgi.trademe.contract.application.update.AcceptContractEvent

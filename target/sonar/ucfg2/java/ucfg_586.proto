@@ -1,0 +1,51 @@
+
+¹org.esgi.trademe.project.exposition.ExceptionProjectController#invalidEntryException(Lorg/esgi/trademe/kernel/exceptions/InvalidEntryException;)Lorg/springframework/http/ResponseEntity;—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java" (7"startingBlock*ä
+startingBlock—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java7 (X¶
+³
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (:
+%4"
+__annotate*<:
+8org.springframework.web.bind.annotation.ExceptionHandler*G
+E
+	exception8org.esgi.trademe.kernel.exceptions.InvalidEntryExceptionú
+÷
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.javaN (WE
+	exception8org.esgi.trademe.kernel.exceptions.InvalidEntryException"__annotation*
+
+%4*
+1*‡
+1—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java$ (-À½
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java$ (:
+%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*G
+E
+	exception8org.esgi.trademe.kernel.exceptions.InvalidEntryException2getMessage()Ö
+Ó
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java< (Y)
+%1#org.springframework.http.HttpStatus"__id*
+""õò
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (#-
+%2'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity…
+‚
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java (Z
+%3"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
+-
+%2'org.springframework.http.ResponseEntity*
+
+%0java.lang.String*+
+)
+%1#org.springframework.http.HttpStatus"Ë
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/exposition/ExceptionProjectController.java ([/
+-
+%2'org.springframework.http.ResponseEntity:E
+	exception8org.esgi.trademe.kernel.exceptions.InvalidEntryExceptionBB@
+>org.esgi.trademe.project.exposition.ExceptionProjectController

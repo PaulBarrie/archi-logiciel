@@ -1,0 +1,28 @@
+
+[org.esgi.trademe.project.infrastructure.InMemoryProjectRepository#findAll()Ljava/util/List;ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java ( "1*ü	
+1ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java (å
+â
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java (
+%0java.util.Map"__id*O*MC
+Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository"
+dataãà
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java ((
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
+
+%0java.util.Map2values()ß
+§
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java ()
+%2java.util.List"=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;*"
+java.util.List*
+
+%1java.util.Collection"µ
+ö
+è/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/infrastructure/InMemoryProjectRepository.java (*
+
+%2java.util.ListBEC
+Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository

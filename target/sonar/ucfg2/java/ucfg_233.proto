@@ -1,0 +1,16 @@
+
+jorg.esgi.trademe.project.domain.Project#getContractStatus()Lorg/esgi/trademe/project/domain/ProjectStatus;
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.javaI I(*"1*Á
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.javaJ J(ÿ
+ü
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.javaJ J(3
+%0-org.esgi.trademe.project.domain.ProjectStatus"__id*>*<)
+'org.esgi.trademe.project.domain.Project"
+projectStatus"¸
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/Project.javaJ J(5
+3
+%0-org.esgi.trademe.project.domain.ProjectStatusB+)
+'org.esgi.trademe.project.domain.Project

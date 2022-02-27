@@ -1,3 +1,2 @@
-ContractorRestControllerIntegrationTest.class
-hash/HashEngine.class
-hash/SHA256Engine.class
+org/esgi/trademe/ContractorRestControllerIntegrationTest.class
+org/esgi/trademe/ProjectRestControllerIntegrationTest.class

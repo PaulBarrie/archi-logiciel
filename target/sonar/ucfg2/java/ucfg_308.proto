@@ -1,0 +1,22 @@
+
+3org.esgi.trademe.payment.domain.Payment#hashCode()I
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java5 5("1*ç
+1
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java6 6(
+Ì
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java6 6(/
+%0)org.esgi.trademe.payment.domain.PaymentID"__id*3*1)
+'org.esgi.trademe.payment.domain.Payment"
+idá
+Ñ
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java6 6(	
+%1int",java.util.Objects#hash([Ljava/lang/Object;)I*"
+java.util.Objects*1
+/
+%0)org.esgi.trademe.payment.domain.PaymentID"â
+
+u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java6 6( 
+""B+)
+'org.esgi.trademe.payment.domain.Payment

@@ -1,0 +1,62 @@
+
+¬org.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenHandler#handle(Lorg/esgi/trademe/tradesman/application/retrieve/all/RetrieveTradesmen;)Ljava/util/List;¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java ($"startingBlock*ú
+startingBlock¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java$ (=§
+¤
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (
+%6"
+__annotate*
+java.lang.Override*P
+N
+queryEorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmen‘
+Ž
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java7 (<N
+queryEorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmen"__annotation*
+
+%6*
+1*ó
+1¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java ("Ù
+Ö
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (";
+%05org.esgi.trademe.tradesman.domain.TradesmanRepository"__id*i*gN
+Lorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenHandler"
+tradesmanRepositoryÜÙ
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (,
+%1java.util.List"Oorg.esgi.trademe.tradesman.domain.TradesmanRepository#findAll()Ljava/util/List;*=
+;
+%05org.esgi.trademe.tradesman.domain.TradesmanRepository2	findAll()¤¡
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (
+%2java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%1java.util.List2stream()ìé
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (&
+%3java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;*
+
+%2java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)°
+­
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (, 
+%4java.util.stream.Collector"@java.util.stream.Collectors#toList()Ljava/util/stream/Collector;*"
+java.util.stream.Collectorsþû
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (-
+%5java.util.List"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;*
+
+%3java.util.stream.Stream*"
+ 
+%4java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)"À
+¥
+š/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenHandler.java (.
+
+%5java.util.List:N
+queryEorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenBPN
+Lorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenHandler

@@ -1,0 +1,19 @@
+
+korg.esgi.trademe.Configuration#tradesmanRepository()Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÅ Å(2"1*É
+1x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÅ> Å(_ëé
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÅB Å(]K
+%0Eorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository"Eorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository£
+†
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÅ> Å(_
+%1"Oorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository#<init>()V*M
+K
+%0Eorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository"…
+x
+l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÅ7 Å(`M
+K
+%0Eorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepositoryB" 
+org.esgi.trademe.Configuration

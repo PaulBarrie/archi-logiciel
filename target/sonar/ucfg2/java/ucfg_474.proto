@@ -1,0 +1,22 @@
+
+®org.esgi.trademe.project.application.create.CreateProjectEvent#of(Lorg/esgi/trademe/project/domain/ProjectID;)Lorg/esgi/trademe/project/application/create/CreateProjectEvent;—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectEvent.java% ('"1*Å
+1—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectEvent.java& (/£ 
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectEvent.java (%D
+%0>org.esgi.trademe.project.application.create.CreateProjectEvent">org.esgi.trademe.project.application.create.CreateProjectEventš
+—
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectEvent.java (0
+%1"sorg.esgi.trademe.project.application.create.CreateProjectEvent#<init>(Lorg/esgi/trademe/project/domain/ProjectID;)V*F
+D
+%0>org.esgi.trademe.project.application.create.CreateProjectEvent*8
+6
+	projectID)org.esgi.trademe.project.domain.ProjectID"â
+—
+Œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectEvent.java (1F
+D
+%0>org.esgi.trademe.project.application.create.CreateProjectEvent:6
+	projectID)org.esgi.trademe.project.domain.ProjectIDBB"@
+>org.esgi.trademe.project.application.create.CreateProjectEvent
