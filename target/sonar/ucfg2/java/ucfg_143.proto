@@ -1,60 +1,0 @@
-
-Iorg.esgi.trademe.tradesman.domain.TradesmanID#equals(Ljava/lang/Object;)Z…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java ("startingBlock*ž
-2…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java< (A"
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java5 (B
-""*
-3…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (!Œ
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (#
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*1/
--org.esgi.trademe.tradesman.domain.TradesmanID2
-getClass()õò
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java' (3
-%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-
-ojava.lang.Object2
-getClass()*
-2
-1*®
-startingBlock…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (#Î
-Ë
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (
-%2"
-__annotate*
-java.lang.Override*
-
-ojava.lang.Object¸
-µ
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java! ("
-ojava.lang.Object"__annotation*
-
-%2*	
-2
-3
-5*ž
-5…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (""
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (#
-""*‰
-1…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java0 (1è
-å
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (2<
-tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID"__id*
-
-ojava.lang.Object"
-…
-{/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanID.java (*
-"":
-ojava.lang.ObjectB1/
--org.esgi.trademe.tradesman.domain.TradesmanID

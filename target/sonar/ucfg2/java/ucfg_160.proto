@@ -1,22 +1,0 @@
-
-¿org.esgi.trademe.contractor.application.create.CreateContractorEvent#of(Lorg/esgi/trademe/contractor/domain/ContractorID;)Lorg/esgi/trademe/contractor/application/create/CreateContractorEvent;ù
-í/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/application/create/CreateContractorEvent.java( (*"1*ä	
-1ù
-í/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/application/create/CreateContractorEvent.java) (5µ≤
-ù
-í/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/application/create/CreateContractorEvent.java ((J
-%0Dorg.esgi.trademe.contractor.application.create.CreateContractorEvent"Dorg.esgi.trademe.contractor.application.create.CreateContractorEventª
-∏
-ù
-í/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/application/create/CreateContractorEvent.java (6
-%1"org.esgi.trademe.contractor.application.create.CreateContractorEvent#<init>(Lorg/esgi/trademe/contractor/domain/ContractorID;)V*L
-J
-%0Dorg.esgi.trademe.contractor.application.create.CreateContractorEvent*A
-?
-contractorID/org.esgi.trademe.contractor.domain.ContractorID"Ó
-ù
-í/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/application/create/CreateContractorEvent.java (7L
-J
-%0Dorg.esgi.trademe.contractor.application.create.CreateContractorEvent:?
-contractorID/org.esgi.trademe.contractor.domain.ContractorIDBH"F
-Dorg.esgi.trademe.contractor.application.create.CreateContractorEvent

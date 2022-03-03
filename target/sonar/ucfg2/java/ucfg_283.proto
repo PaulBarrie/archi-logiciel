@@ -1,151 +1,0 @@
-
-Xorg.esgi.trademe.contractor.exposition.ContractorAddressDTO#toString()Ljava/lang/String;î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java ("1*≈(
-1î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (·
-ﬁ
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java ( 
-%0java.lang.String"__concat*
-AddressDTO{*
-street_number=ã
-à
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java# (/
-%1java.lang.String"__id*Q*O=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO"
-streetNumber
-Ì
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (/
-%2java.lang.String"__concat*
-
-%0java.lang.String*
-
-%1java.lang.StringÎ
-Ë
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (!
-%3java.lang.String"__concat*
-
-%2java.lang.String*
-, street_name='â
-Ü
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java$ (.
-%4java.lang.String"__id*O*M=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO"
-
-streetName
-Ì
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (.
-%5java.lang.String"__concat*
-
-%3java.lang.String*
-
-%4java.lang.Stringﬁ
-€
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (5
-%6java.lang.String"__concat*
-
-%5java.lang.String*
-\'Ë
-Â
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (
-%7java.lang.String"__concat*
-
-%6java.lang.String*
-, zip_code='Ü
-É
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java! ((
-%8java.lang.String"__id*L*J=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO"	
-zipCode
-Ì
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java ((
-%9java.lang.String"__concat*
-
-%7java.lang.String*
-
-%8java.lang.Stringﬂ
-‹
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (/
-%10java.lang.String"__concat*
-
-%9java.lang.String*
-\'Ê
-„
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (
-%11java.lang.String"__concat*
-
-%10java.lang.String*
-
-, city='Ñ
-Å
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (!
-%12java.lang.String"__id*I*G=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO"
-cityÛ
-
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (!
-%13java.lang.String"__concat*
-
-%11java.lang.String*
-
-%12java.lang.String‡
-›
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java ((
-%14java.lang.String"__concat*
-
-%13java.lang.String*
-\'È
-Ê
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (
-%15java.lang.String"__concat*
-
-%14java.lang.String*
-, country='á
-Ñ
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java  ('
-%16java.lang.String"__id*L*J=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO"	
-countryÛ
-
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java ('
-%17java.lang.String"__concat*
-
-%15java.lang.String*
-
-%16java.lang.String‡
-›
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (.
-%18java.lang.String"__concat*
-
-%17java.lang.String*
-\'ﬂ
-‹
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (
-%19java.lang.String"__concat*
-
-%18java.lang.String*
-}"≤
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (
-
-%19java.lang.StringB?=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO

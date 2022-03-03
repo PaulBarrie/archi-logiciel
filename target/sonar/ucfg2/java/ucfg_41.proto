@@ -1,28 +1,0 @@
-
-_org.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository#findAll()Ljava/util/List;û
-ì/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java. .(""1*∑	
-1û
-ì/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java/ /(î
-ë
-û
-ì/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java/ /(
-%0java.util.Map"__id*S*QG
-Eorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository"
-dataèå
-û
-ì/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java/ /((
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
-
-%0java.util.Map2values()´
-®
-û
-ì/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java/ /()
-%2java.util.List"=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;*"
-java.util.List*
-
-%1java.util.Collection"π
-û
-ì/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/infrastructure/InMemoryTradesmanRepository.java/ /(*
-
-%2java.util.ListBIG
-Eorg.esgi.trademe.tradesman.infrastructure.InMemoryTradesmanRepository

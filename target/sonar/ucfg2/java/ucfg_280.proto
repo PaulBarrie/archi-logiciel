@@ -1,100 +1,0 @@
-
-´org.esgi.trademe.project.application.create.CreateProjectCommandHandler#handle(Lorg/esgi/trademe/project/application/create/CreateProject;)Lorg/esgi/trademe/project/domain/Project; 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java ("1*å,
-1 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java$ (5Í
-Ê
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java$ (5;
-%05org.esgi.trademe.project.exposition.ProjectRepository"__id*b*`I
-Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler"
-projectRepositoryëè
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java$ (D/
-%1)org.esgi.trademe.project.domain.ProjectID"Corg.esgi.trademe.kernel.Repository#nextIdentity()Ljava/lang/Object;*=
-;
-%05org.esgi.trademe.project.exposition.ProjectRepository2nextIdentity()—
-”
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (E6
-	projectID)org.esgi.trademe.project.domain.ProjectID"__id*1
-/
-%1)org.esgi.trademe.project.domain.ProjectID½º
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java1 (Q5
-%2/org.esgi.trademe.contractor.domain.ContractorID"|org.esgi.trademe.project.application.create.CreateProject#getContractorID()Lorg/esgi/trademe/contractor/domain/ContractorID;*M
-K
-createContract9org.esgi.trademe.project.application.create.CreateProject2getContractorID()ÿü
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (/
-%3java.lang.Integer"]org.esgi.trademe.project.application.create.CreateProject#getDayDuration()Ljava/lang/Integer;*M
-K
-createContract9org.esgi.trademe.project.application.create.CreateProject2getDayDuration()÷ô
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java1 (M
-%4java.lang.String"Yorg.esgi.trademe.project.application.create.CreateProject#getLocation()Ljava/lang/String;*M
-K
-createContract9org.esgi.trademe.project.application.create.CreateProject2getLocation()ƒ
-€
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (N-
-%5'org.esgi.trademe.project.domain.Project"Öorg.esgi.trademe.project.domain.Project#of(Lorg/esgi/trademe/project/domain/ProjectID;Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/Integer;Ljava/lang/String;)Lorg/esgi/trademe/project/domain/Project;*+")
-'org.esgi.trademe.project.domain.Project*8
-6
-	projectID)org.esgi.trademe.project.domain.ProjectID*7
-5
-%2/org.esgi.trademe.contractor.domain.ContractorID*
-
-%3java.lang.Integer*
-
-%4java.lang.String’
-
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (O3
-contract'org.esgi.trademe.project.domain.Project"__id*/
--
-%5'org.esgi.trademe.project.domain.ProjectÍ
-Ê
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java (;
-%65org.esgi.trademe.project.exposition.ProjectRepository"__id*b*`I
-Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler"
-projectRepositoryþû
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java ('
-
-%7void";org.esgi.trademe.kernel.Repository#add(Ljava/lang/Object;)V*=
-;
-%65org.esgi.trademe.project.exposition.ProjectRepository*5
-3
-contract'org.esgi.trademe.project.domain.Project2add(Ljava/lang/Object;)Ã
-À
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java   (3
-%8-org.esgi.trademe.kernel.event.EventDispatcher"__id*`*^I
-Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler"
-eventDispatcher¬©
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java %  (7D
-%9>org.esgi.trademe.project.application.create.CreateProjectEvent">org.esgi.trademe.project.application.create.CreateProjectEvent¤
-¡
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java !  (B
-%10"sorg.esgi.trademe.project.application.create.CreateProjectEvent#<init>(Lorg/esgi/trademe/project/domain/ProjectID;)V*F
-D
-%9>org.esgi.trademe.project.application.create.CreateProjectEvent*8
-6
-	projectID)org.esgi.trademe.project.domain.ProjectIDÃÀ
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java   (C
-%11void"^org.esgi.trademe.kernel.event.EventDispatcher#dispatch(Lorg/esgi/trademe/kernel/event/Event;)V*5
-3
-%8-org.esgi.trademe.kernel.event.EventDispatcher*F
-D
-%9>org.esgi.trademe.project.application.create.CreateProjectEvent2/dispatch(Lorg/esgi/trademe/kernel/event/Event;)"Ú
- 
-•/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProjectCommandHandler.java! !(5
-3
-contract'org.esgi.trademe.project.domain.Project:K
-createContract9org.esgi.trademe.project.application.create.CreateProjectBKI
-Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler

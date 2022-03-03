@@ -1,28 +1,0 @@
-
-œorg.esgi.trademe.project.application.create.CreateProject#of(Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/Integer;Ljava/lang/String;)Lorg/esgi/trademe/project/application/create/CreateProject;í
-á/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProject.java  (""1*ë	
-1í
-á/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProject.java! (-îë
-í
-á/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProject.java ( ?
-%09org.esgi.trademe.project.application.create.CreateProject"9org.esgi.trademe.project.application.create.CreateProjectÑ
-Å
-í
-á/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProject.java (E
-%1"ôorg.esgi.trademe.project.application.create.CreateProject#<init>(Lorg/esgi/trademe/contractor/domain/ContractorID;Ljava/lang/Integer;Ljava/lang/String;)V*A
-?
-%09org.esgi.trademe.project.application.create.CreateProject*A
-?
-contractorID/org.esgi.trademe.contractor.domain.ContractorID*"
- 
-dayDurationjava.lang.Integer*
-
-locationjava.lang.String"ÿ
-í
-á/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/create/CreateProject.java (FA
-?
-%09org.esgi.trademe.project.application.create.CreateProject:?
-contractorID/org.esgi.trademe.contractor.domain.ContractorID: 
-dayDurationjava.lang.Integer:
-locationjava.lang.StringB=";
-9org.esgi.trademe.project.application.create.CreateProject

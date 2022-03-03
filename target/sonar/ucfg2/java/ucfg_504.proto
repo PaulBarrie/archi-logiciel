@@ -1,24 +1,0 @@
-
-T__sonar_lambda_9$org.esgi.trademe.contract.infrastructure.InMemoryContractRepositoryœ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java& &(L"startingBlock*ñ
-startingBlockœ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java& &(L»
-¸
-
-__unknown_file (<
-tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID"__id*X*VE
-Corg.esgi.trademe.contract.infrastructure.InMemoryContractRepository"
-tradesmanID*
-1*Ü
-1œ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java&$ &(,Š
-œ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java&$ &(=3
-%4-org.esgi.trademe.tradesman.domain.TradesmanID"iorg.esgi.trademe.contract.domain.Contract#getTradesmanID()Lorg/esgi/trademe/tradesman/domain/TradesmanID;*7
-5
-contract)org.esgi.trademe.contract.domain.Contract2getTradesmanID()"§
-œ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java&$ &(L
-"":5
-contract)org.esgi.trademe.contract.domain.ContractB 
-java.util.function.Predicate

@@ -1,60 +1,0 @@
-
-Eorg.esgi.trademe.payment.domain.PaymentID#equals(Ljava/lang/Object;)ZÅ
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java ("startingBlock*ñ
-2Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java< (A"å
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java5 (B
-""*ç
-3Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (!áÑ
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (#
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*-+
-)org.esgi.trademe.payment.domain.PaymentID2
-getClass()ÒÓ
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java' (3
-%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-
-ojava.lang.Object2
-getClass()*
-2
-1*¢
-startingBlockÅ
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (# 
-«
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (
-%2"
-__annotate*
-java.lang.Override*
-
-ojava.lang.Object¥
-±
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java! ("
-ojava.lang.Object"__annotation*
-
-%2*	
-2
-3
-5*ñ
-5Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (""å
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (#
-""*˙
-1Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java- (.·
-ﬁ
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (/9
-contractorID)org.esgi.trademe.payment.domain.PaymentID"__id*
-
-ojava.lang.Object"å
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/PaymentID.java (+
-"":
-ojava.lang.ObjectB-+
-)org.esgi.trademe.payment.domain.PaymentID

@@ -1,60 +1,0 @@
-
-Eorg.esgi.trademe.project.domain.ProjectID#equals(Ljava/lang/Object;)ZÅ
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java ("startingBlock*ñ
-2Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java< (A"å
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java5 (B
-""*ç
-3Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (!áÑ
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (#
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*-+
-)org.esgi.trademe.project.domain.ProjectID2
-getClass()ÒÓ
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java' (3
-%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-
-ojava.lang.Object2
-getClass()*
-2
-1*¢
-startingBlockÅ
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (# 
-«
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (
-%2"
-__annotate*
-java.lang.Override*
-
-ojava.lang.Object¥
-±
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java! ("
-ojava.lang.Object"__annotation*
-
-%2*	
-2
-3
-5*ñ
-5Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (""å
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (#
-""*˘
-1Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java, (-‡
-›
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (.8
-tradesmanID)org.esgi.trademe.project.domain.ProjectID"__id*
-
-ojava.lang.Object"å
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/domain/ProjectID.java (*
-"":
-ojava.lang.ObjectB-+
-)org.esgi.trademe.project.domain.ProjectID

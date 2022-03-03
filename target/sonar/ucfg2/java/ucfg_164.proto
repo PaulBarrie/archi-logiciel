@@ -1,25 +1,0 @@
-
-©org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO#of(Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/contractor/exposition/ContractorCredentialsDTO;ò
-ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorCredentialsDTO.java+ (-"1*Õ
-1ò
-ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorCredentialsDTO.java, (4¶£
-ò
-ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorCredentialsDTO.java (+E
-%0?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO"?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTOú
-ô
-ò
-ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorCredentialsDTO.java (?
-%1"morg.esgi.trademe.contractor.exposition.ContractorCredentialsDTO#<init>(Ljava/lang/String;Ljava/lang/String;)V*G
-E
-%0?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO*
-
-usernamejava.lang.String*
-
-passwordjava.lang.String"‰
-ò
-ç/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorCredentialsDTO.java (@G
-E
-%0?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO:
-usernamejava.lang.String:
-passwordjava.lang.StringBC"A
-?org.esgi.trademe.contractor.exposition.ContractorCredentialsDTO

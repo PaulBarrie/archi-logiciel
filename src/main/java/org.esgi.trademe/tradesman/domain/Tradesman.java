@@ -78,11 +78,7 @@ public final class Tradesman implements Entity<TradesmanID> {
     public void setAddress(TradesmanAddress address) {
         this.address = address;
     }
-
-    public void changeAddress(TradesmanAddress address) {
-        this.address = address;
-    }
-
+    
     public TradesmanCredentials getCredentials() {
         return credentials;
     }
@@ -103,7 +99,7 @@ public final class Tradesman implements Entity<TradesmanID> {
 
     @Override
     public String toString() {
-        return "Contractor{" +
+        return "Tradesman{" +
                 "id=" + id +
                 ", lastname='" + lastname + '\'' +
                 ", firstname='" + firstname + '\'' +

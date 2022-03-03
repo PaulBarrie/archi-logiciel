@@ -1,60 +1,0 @@
-
-Gorg.esgi.trademe.contract.domain.ContractID#equals(Ljava/lang/Object;)Zƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java ("startingBlock*š
-2ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java< (A"Ž
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java5 (B
-""*•
-3ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (!‹ˆ
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (#
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*/-
-+org.esgi.trademe.contract.domain.ContractID2
-getClass()óð
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java' (3
-%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-
-ojava.lang.Object2
-getClass()*
-2
-1*¨
-startingBlockƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (#Ì
-É
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (
-%2"
-__annotate*
-java.lang.Override*
-
-ojava.lang.Object¶
-³
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java! ("
-ojava.lang.Object"__annotation*
-
-%2*	
-2
-3
-5*š
-5ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (""Ž
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (#
-""*
-1ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java. (/ä
-á
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (0:
-tradesmanID+org.esgi.trademe.contract.domain.ContractID"__id*
-
-ojava.lang.Object"Ž
-ƒ
-y/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/ContractID.java (*
-"":
-ojava.lang.ObjectB/-
-+org.esgi.trademe.contract.domain.ContractID

@@ -47,7 +47,7 @@ public final class ContractorController {
         final Contractor contractor = commandBus.send(CreateContractor.of(first_name, last_name, email, birth, ContractorCredentialsDTO.of(username, password),
                 ContractorAddressDTO.of(street_number, street_name, zip_code, city, country)));
         ContractorDTO contractorDTOResponse = ContractorDTO.of(contractor);
-        System.out.println(contractorDTOResponse);
+
         return ResponseEntity.ok(contractorDTOResponse);
     }
 

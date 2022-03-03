@@ -1,36 +1,0 @@
-
-Åorg.esgi.trademe.tradesman.domain.TradesmanAddress#of(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/tradesman/domain/TradesmanAddress;‹
-€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanAddress.java# (%"1*ñ
-1‹
-€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanAddress.java$ (0ÿü
-‹
-€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanAddress.java (#8
-%02org.esgi.trademe.tradesman.domain.TradesmanAddress"2org.esgi.trademe.tradesman.domain.TradesmanAddressŽ
-‹
-‹
-€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanAddress.java (W
-%1"–org.esgi.trademe.tradesman.domain.TradesmanAddress#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*:
-8
-%02org.esgi.trademe.tradesman.domain.TradesmanAddress*"
- 
-streetNumberjava.lang.String* 
-
-
-streetNamejava.lang.String*
-
-zipCodejava.lang.String*
-
-streetjava.lang.String*
-
-countryjava.lang.String"Ê
-‹
-€/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/domain/TradesmanAddress.java (X:
-8
-%02org.esgi.trademe.tradesman.domain.TradesmanAddress: 
-streetNumberjava.lang.String:
-
-streetNamejava.lang.String:
-zipCodejava.lang.String:
-streetjava.lang.String:
-countryjava.lang.StringB6"4
-2org.esgi.trademe.tradesman.domain.TradesmanAddress

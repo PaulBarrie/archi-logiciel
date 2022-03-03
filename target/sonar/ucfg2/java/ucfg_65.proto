@@ -1,28 +1,0 @@
-
-¸org.esgi.trademe.project.application.update.ActivateProjectCommandHandler#of(Lorg/esgi/trademe/project/exposition/ProjectRepository;Lorg/esgi/trademe/contract/exposition/ContractRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/project/application/update/ActivateProjectCommandHandler;¢
-—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java0 (2"1*Ë
-1¢
-—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java1 (BÄÁ
-¢
-—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java (0O
-%0Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler"Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandlerÞ
-Û
-¢
-—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java (m
-%1"òorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler#<init>(Lorg/esgi/trademe/project/exposition/ProjectRepository;Lorg/esgi/trademe/contract/exposition/ContractRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)V*Q
-O
-%0Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler*L
-J
-projectRepository5org.esgi.trademe.project.exposition.ProjectRepository*O
-M
-contractRepository7org.esgi.trademe.contract.exposition.ContractRepository*G
-E
-eventEventDispatcher-org.esgi.trademe.kernel.event.EventDispatcher"ø
-¢
-—/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/update/ActivateProjectCommandHandler.java (nQ
-O
-%0Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler:J
-projectRepository5org.esgi.trademe.project.exposition.ProjectRepository:M
-contractRepository7org.esgi.trademe.contract.exposition.ContractRepository:E
-eventEventDispatcher-org.esgi.trademe.kernel.event.EventDispatcherBM"K
-Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler

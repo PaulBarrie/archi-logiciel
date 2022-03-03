@@ -1,51 +1,0 @@
-
-Ãorg.esgi.trademe.contract.exposition.ExceptionContractController#invalidParameterException(Lorg/esgi/trademe/kernel/exceptions/InvalidParameterException;)Lorg/springframework/http/ResponseEntity;™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java" (;"startingBlock*ò
-startingBlock™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java; (`¼
-¹
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java (>
-%4"
-__annotate*<:
-8org.springframework.web.bind.annotation.ExceptionHandler*K
-I
-	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterException€
-ý
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.javaV (_I
-	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterException"__annotation*
-
-%4*
-1*—
-1™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java $  (-ÆÃ
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java $  (:
-%0java.lang.String"2java.lang.Throwable#getMessage()Ljava/lang/String;*K
-I
-	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterException2getMessage()Ø
-Õ
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java <  (R)
-%1#org.springframework.http.HttpStatus"__id*
-""÷ô
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java   (#-
-%2'org.springframework.http.ResponseEntity"'org.springframework.http.ResponseEntity‡
-„
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java   (S
-%3"horg.springframework.http.ResponseEntity#<init>(Ljava/lang/Object;Lorg/springframework/http/HttpStatus;)V*/
--
-%2'org.springframework.http.ResponseEntity*
-
-%0java.lang.String*+
-)
-%1#org.springframework.http.HttpStatus"Í
-™
-Ž/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ExceptionContractController.java   (T/
--
-%2'org.springframework.http.ResponseEntity:I
-	exception<org.esgi.trademe.kernel.exceptions.InvalidParameterExceptionBDB
-@org.esgi.trademe.contract.exposition.ExceptionContractController

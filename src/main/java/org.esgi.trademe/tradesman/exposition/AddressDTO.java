@@ -23,10 +23,10 @@ public final class AddressDTO {
     public String toString() {
         return "AddressDTO{" +
                 "streetNumber='" + streetNumber + '\'' +
-                "streetName='" + streetName + '\'' +
-                "zipCode='" + zipCode + '\'' +
-                "city='" + city + '\'' +
-                "country='" + country + '\'' +
+                ",streetName='" + streetName + '\'' +
+                ",zipCode='" + zipCode + '\'' +
+                ",city='" + city + '\'' +
+                ",country='" + country + '\'' +
                 '}';
     }
 

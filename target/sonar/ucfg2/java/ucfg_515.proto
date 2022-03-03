@@ -1,59 +1,0 @@
-
-áorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatusHandler#handle(Lorg/esgi/trademe/project/application/retrieve/by_status/RetrieveProjectByStatus;)Lorg/esgi/trademe/project/exposition/ProjectsDTO;¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java ("startingBlock*¬
-startingBlock¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java (<»
-¸
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java (
-%4"
-__annotate*
-java.lang.Override*Z
-X
-queryOorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatus¥
-¢
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java6 (;X
-queryOorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatus"__annotation*
-
-%4*
-1*«
-1¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java" (4ì
-é
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java" (4;
-%05org.esgi.trademe.project.exposition.ProjectRepository"__id*r*pX
-Vorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatusHandler"
-contractRepositoryàÝ
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.javaB (S3
-%1-org.esgi.trademe.project.domain.ProjectStatus"Šorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatus#getStatus()Lorg/esgi/trademe/project/domain/ProjectStatus;*Z
-X
-queryOorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatus2getStatus()†ƒ
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java" (T
-%2java.util.List"ƒorg.esgi.trademe.project.exposition.ProjectRepository#findByStatus(Lorg/esgi/trademe/project/domain/ProjectStatus;)Ljava/util/List;*=
-;
-%05org.esgi.trademe.project.exposition.ProjectRepository*5
-3
-%1-org.esgi.trademe.project.domain.ProjectStatus2=findByStatus(Lorg/esgi/trademe/project/domain/ProjectStatus;)ð
-í
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java (U
-	contractsjava.util.List"__id*
-
-%2java.util.List·
-´
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java ((5
-%3/org.esgi.trademe.project.exposition.ProjectsDTO"uorg.esgi.trademe.project.exposition.ProjectsDTO#of(Ljava/util/List;)Lorg/esgi/trademe/project/exposition/ProjectsDTO;*3"1
-/org.esgi.trademe.project.exposition.ProjectsDTO*
-
-	contractsjava.util.List"ë
-¯
-¤/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_status/RetrieveProjectByStatusHandler.java ()7
-5
-%3/org.esgi.trademe.project.exposition.ProjectsDTO:X
-queryOorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatusBZX
-Vorg.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatusHandler

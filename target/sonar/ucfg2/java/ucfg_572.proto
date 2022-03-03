@@ -1,35 +1,0 @@
-
-®org.esgi.trademe.tradesman.application.create.CreateTradesman#of(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/tradesman/exposition/TradesmanCredentialsDTO;Lorg/esgi/trademe/tradesman/exposition/AddressDTO;)Lorg/esgi/trademe/tradesman/application/create/CreateTradesman;ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesman.java" ($"1*Ï
-
-1ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesman.java# (+†ù
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesman.java ("C
-%0=org.esgi.trademe.tradesman.application.create.CreateTradesman"=org.esgi.trademe.tradesman.application.create.CreateTradesman«
-ƒ
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesman.java (T
-%1"Óorg.esgi.trademe.tradesman.application.create.CreateTradesman#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/esgi/trademe/tradesman/exposition/TradesmanCredentialsDTO;Lorg/esgi/trademe/tradesman/exposition/AddressDTO;)V*E
-C
-%0=org.esgi.trademe.tradesman.application.create.CreateTradesman*
-
-lastnamejava.lang.String*
-
-	firstnamejava.lang.String*
-
-emailjava.lang.String*N
-L
-credentials=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO*=
-;
-address0org.esgi.trademe.tradesman.exposition.AddressDTO"‡
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/CreateTradesman.java (UE
-C
-%0=org.esgi.trademe.tradesman.application.create.CreateTradesman:
-lastnamejava.lang.String:
-	firstnamejava.lang.String:
-emailjava.lang.String:L
-credentials=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO:;
-address0org.esgi.trademe.tradesman.exposition.AddressDTOBA"?
-=org.esgi.trademe.tradesman.application.create.CreateTradesman

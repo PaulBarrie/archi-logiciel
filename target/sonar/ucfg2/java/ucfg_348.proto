@@ -1,23 +1,0 @@
-
-æorg.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor#of(Lorg/esgi/trademe/contractor/domain/ContractorID;)Lorg/esgi/trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor;°
-¥/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.java. (0"1*¶
-
-1°
-¥/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.java/ (;îë
-°
-¥/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.java (.]
-%0Worg.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor"Worg.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractorõ
-ò
-°
-¥/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.java (<
-%1"’org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor#<init>(Lorg/esgi/trademe/contractor/domain/ContractorID;)V*_
-]
-%0Worg.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor*A
-?
-contractorID/org.esgi.trademe.contractor.domain.ContractorID"”
-°
-¥/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_contractor/RetrieveProjectByContractor.java (=_
-]
-%0Worg.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor:?
-contractorID/org.esgi.trademe.contractor.domain.ContractorIDB["Y
-Worg.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor

@@ -1,61 +1,0 @@
-
-Øorg.esgi.trademe.payment.infrastructure.StubbedPaymentService#pay(Lorg/esgi/trademe/payment/domain/PaymentMode;Lorg/esgi/trademe/payment/domain/PaymentMode;Ljava/lang/Float;)Zñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java	 	("startingBlock*œ
-startingBlockñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java	 	(TÑ
-Å
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java (
-%0"
-__annotate*
-java.lang.Override*<
-:
-fromPayment+org.esgi.trademe.payment.domain.PaymentModeÓ
-Î
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java	# 	(.:
-fromPayment+org.esgi.trademe.payment.domain.PaymentMode"__annotation*
-
-%0Ç
-ˇ
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java (
-%1"
-__annotate*
-java.lang.Override*:
-8
-	toPayment+org.esgi.trademe.payment.domain.PaymentModeÏ
-È
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java	< 	(E8
-	toPayment+org.esgi.trademe.payment.domain.PaymentMode"__annotation*
-
-%1„
-‡
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java (
-%2"
-__annotate*
-java.lang.Override*
-
-amountjava.lang.FloatÕ
- 
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java	M 	(S
-amountjava.lang.Float"__annotation*
-
-%2*
-1*¿
-1ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java
- 
-("°
-ñ
-ã/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/infrastructure/StubbedPaymentService.java
- 
-(
-""::
-fromPayment+org.esgi.trademe.payment.domain.PaymentMode:8
-	toPayment+org.esgi.trademe.payment.domain.PaymentMode:
-amountjava.lang.FloatBA?
-=org.esgi.trademe.payment.infrastructure.StubbedPaymentService

@@ -1,314 +1,0 @@
-
-Worg.esgi.trademe.Configuration#commandBus()Lorg/esgi/trademe/kernel/command/CommandBus;x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaì ì( "1*Ø›
-1x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaíP í(Sèå
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaîT î(j=
-%07org.esgi.trademe.contractor.domain.ContractorRepository"norg.esgi.trademe.Configuration#contractorRepository()Lorg/esgi/trademe/contractor/domain/ContractorRepository;*" 
-org.esgi.trademe.Configuration2contractorRepository()ßÜ
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaîl î(‡3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"iorg.esgi.trademe.Configuration#contractorEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2contractorEventDispatcher()ª
-§
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaî2 î(ˆS
-%2Morg.esgi.trademe.contractor.application.create.CreateContractorCommandHandler"‰org.esgi.trademe.contractor.application.create.CreateContractorCommandHandler#of(Lorg/esgi/trademe/contractor/domain/ContractorRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/contractor/application/create/CreateContractorCommandHandler;*Q"O
-Morg.esgi.trademe.contractor.application.create.CreateContractorCommandHandler*?
-=
-%07org.esgi.trademe.contractor.domain.ContractorRepository*5
-3
-%1-org.esgi.trademe.kernel.event.EventDispatcherÛ
-Ø
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaî î(‰
-%3java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*U
-S
-%2Morg.esgi.trademe.contractor.application.create.CreateContractorCommandHandlerÖÓ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaïN ï(a7
-%41org.esgi.trademe.payment.domain.PaymentRepository"eorg.esgi.trademe.Configuration#paymentRepository()Lorg/esgi/trademe/payment/domain/PaymentRepository;*" 
-org.esgi.trademe.Configuration2paymentRepository()ØÕ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaïc ï({3
-%5-org.esgi.trademe.kernel.event.EventDispatcher"forg.esgi.trademe.Configuration#paymentEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2paymentEventDispatcher()…
-‚
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaï/ ï(|M
-%6Gorg.esgi.trademe.payment.application.create.CreatePaymentCommandHandler"÷org.esgi.trademe.payment.application.create.CreatePaymentCommandHandler#of(Lorg/esgi/trademe/payment/domain/PaymentRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/payment/application/create/CreatePaymentCommandHandler;*K"I
-Gorg.esgi.trademe.payment.application.create.CreatePaymentCommandHandler*9
-7
-%41org.esgi.trademe.payment.domain.PaymentRepository*5
-3
-%5-org.esgi.trademe.kernel.event.EventDispatcherÔ
-Ñ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaï ï(}
-%7java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*O
-M
-%6Gorg.esgi.trademe.payment.application.create.CreatePaymentCommandHandlerÖÓ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaðH ð([7
-%81org.esgi.trademe.payment.domain.PaymentRepository"eorg.esgi.trademe.Configuration#paymentRepository()Lorg/esgi/trademe/payment/domain/PaymentRepository;*" 
-org.esgi.trademe.Configuration2paymentRepository()ÊÇ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javað] ð(m4
-%9.org.esgi.trademe.payment.domain.PaymentService"_org.esgi.trademe.Configuration#paymentService()Lorg/esgi/trademe/payment/domain/PaymentService;*" 
-org.esgi.trademe.Configuration2paymentService()Ú×
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaðo ð(‡4
-%10-org.esgi.trademe.kernel.event.EventDispatcher"forg.esgi.trademe.Configuration#paymentEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2paymentEventDispatcher()ä
-á
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javað, ð(ˆK
-%11Dorg.esgi.trademe.payment.application.update.UsePaymentCommandHandler"¡org.esgi.trademe.payment.application.update.UsePaymentCommandHandler#of(Lorg/esgi/trademe/payment/domain/PaymentRepository;Lorg/esgi/trademe/payment/domain/PaymentService;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/payment/application/update/UsePaymentCommandHandler;*H"F
-Dorg.esgi.trademe.payment.application.update.UsePaymentCommandHandler*9
-7
-%81org.esgi.trademe.payment.domain.PaymentRepository*6
-4
-%9.org.esgi.trademe.payment.domain.PaymentService*6
-4
-%10-org.esgi.trademe.kernel.event.EventDispatcherÔ
-Ñ
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javað ð(‰
-%12java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*M
-K
-%11Dorg.esgi.trademe.payment.application.update.UsePaymentCommandHandlerãà
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javañR ñ(g<
-%135org.esgi.trademe.tradesman.domain.TradesmanRepository"korg.esgi.trademe.Configuration#tradesmanRepository()Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;*" 
-org.esgi.trademe.Configuration2tradesmanRepository()ÞÛ
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javañi ñ(ƒ4
-%14-org.esgi.trademe.kernel.event.EventDispatcher"horg.esgi.trademe.Configuration#tradesmanEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2tradesmanEventDispatcher()¡
-ž
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javañ1 ñ(„R
-%15Korg.esgi.trademe.tradesman.application.create.CreateTradesmanCommandHandler"ƒorg.esgi.trademe.tradesman.application.create.CreateTradesmanCommandHandler#of(Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/tradesman/application/create/CreateTradesmanCommandHandler;*O"M
-Korg.esgi.trademe.tradesman.application.create.CreateTradesmanCommandHandler*>
-<
-%135org.esgi.trademe.tradesman.domain.TradesmanRepository*6
-4
-%14-org.esgi.trademe.kernel.event.EventDispatcherÛ
-Ø
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javañ ñ(…
-%16java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*T
-R
-%15Korg.esgi.trademe.tradesman.application.create.CreateTradesmanCommandHandlerãà
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaò` ò(u<
-%175org.esgi.trademe.tradesman.domain.TradesmanRepository"korg.esgi.trademe.Configuration#tradesmanRepository()Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;*" 
-org.esgi.trademe.Configuration2tradesmanRepository()ÞÛ
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaòw ò(‘4
-%18-org.esgi.trademe.kernel.event.EventDispatcher"horg.esgi.trademe.Configuration#tradesmanEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2tradesmanEventDispatcher()é
-æ
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaò8 ò(’d
-%19]org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler"§org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler#of(Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/tradesman/application/create/experience/AddTradesmanExperienceCommandHandler;*a"_
-]org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandler*>
-<
-%175org.esgi.trademe.tradesman.domain.TradesmanRepository*6
-4
-%18-org.esgi.trademe.kernel.event.EventDispatcherí
-ê
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaò ò(“
-%20java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*f
-d
-%19]org.esgi.trademe.tradesman.application.create.experience.AddTradesmanExperienceCommandHandlerãà
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaóh ó(}<
-%215org.esgi.trademe.tradesman.domain.TradesmanRepository"korg.esgi.trademe.Configuration#tradesmanRepository()Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;*" 
-org.esgi.trademe.Configuration2tradesmanRepository()ÞÛ
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaó ó(™4
-%22-org.esgi.trademe.kernel.event.EventDispatcher"horg.esgi.trademe.Configuration#tradesmanEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2tradesmanEventDispatcher()
-Š
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaó< ó(šm
-%23forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler"¹org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler#of(Lorg/esgi/trademe/tradesman/domain/TradesmanRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelCommandHandler;*j"h
-forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandler*>
-<
-%215org.esgi.trademe.tradesman.domain.TradesmanRepository*6
-4
-%22-org.esgi.trademe.kernel.event.EventDispatcherö
-ó
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaó ó(›
-%24java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*o
-m
-%23forg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelCommandHandlerßÜ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaôN ô(a<
-%255org.esgi.trademe.project.exposition.ProjectRepository"iorg.esgi.trademe.Configuration#projectRepository()Lorg/esgi/trademe/project/exposition/ProjectRepository;*" 
-org.esgi.trademe.Configuration2projectRepository()ÙÖ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaôc ô({4
-%26-org.esgi.trademe.kernel.event.EventDispatcher"forg.esgi.trademe.Configuration#projectEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2projectEventDispatcher()
-
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaô/ ô(|N
-%27Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler"ûorg.esgi.trademe.project.application.create.CreateProjectCommandHandler#of(Lorg/esgi/trademe/project/exposition/ProjectRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/project/application/create/CreateProjectCommandHandler;*K"I
-Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandler*>
-<
-%255org.esgi.trademe.project.exposition.ProjectRepository*6
-4
-%26-org.esgi.trademe.kernel.event.EventDispatcherÖ
-Ó
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaô ô(}
-%28java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*P
-N
-%27Gorg.esgi.trademe.project.application.create.CreateProjectCommandHandlerßÜ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaõR õ(e<
-%295org.esgi.trademe.project.exposition.ProjectRepository"iorg.esgi.trademe.Configuration#projectRepository()Lorg/esgi/trademe/project/exposition/ProjectRepository;*" 
-org.esgi.trademe.Configuration2projectRepository()åâ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaõg õ({>
-%307org.esgi.trademe.contract.exposition.ContractRepository"lorg.esgi.trademe.Configuration#contractRepository()Lorg/esgi/trademe/contract/exposition/ContractRepository;*" 
-org.esgi.trademe.Configuration2contractRepository()Ú×
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaõ} õ(•4
-%31-org.esgi.trademe.kernel.event.EventDispatcher"forg.esgi.trademe.Configuration#projectEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2projectEventDispatcher()”
-‘
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaõ1 õ(–P
-%32Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler"¸org.esgi.trademe.project.application.update.ActivateProjectCommandHandler#of(Lorg/esgi/trademe/project/exposition/ProjectRepository;Lorg/esgi/trademe/contract/exposition/ContractRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/project/application/update/ActivateProjectCommandHandler;*M"K
-Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandler*>
-<
-%295org.esgi.trademe.project.exposition.ProjectRepository*@
->
-%307org.esgi.trademe.contract.exposition.ContractRepository*6
-4
-%31-org.esgi.trademe.kernel.event.EventDispatcherÙ
-Ö
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaõ õ(—
-%33java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*R
-P
-%32Iorg.esgi.trademe.project.application.update.ActivateProjectCommandHandleråâ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaöP ö(d>
-%347org.esgi.trademe.contract.exposition.ContractRepository"lorg.esgi.trademe.Configuration#contractRepository()Lorg/esgi/trademe/contract/exposition/ContractRepository;*" 
-org.esgi.trademe.Configuration2contractRepository()ÛØ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaöf ö(4
-%35-org.esgi.trademe.kernel.event.EventDispatcher"gorg.esgi.trademe.Configuration#contractEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2contractEventDispatcher()
-š
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaö0 ö(€P
-%36Iorg.esgi.trademe.contract.application.create.CreateContractCommandHandler"org.esgi.trademe.contract.application.create.CreateContractCommandHandler#of(Lorg/esgi/trademe/contract/exposition/ContractRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/contract/application/create/CreateContractCommandHandler;*M"K
-Iorg.esgi.trademe.contract.application.create.CreateContractCommandHandler*@
->
-%347org.esgi.trademe.contract.exposition.ContractRepository*6
-4
-%35-org.esgi.trademe.kernel.event.EventDispatcherÙ
-Ö
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaö ö(
-%37java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*R
-P
-%36Iorg.esgi.trademe.contract.application.create.CreateContractCommandHandleråâ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java÷P ÷(d>
-%387org.esgi.trademe.contract.exposition.ContractRepository"lorg.esgi.trademe.Configuration#contractRepository()Lorg/esgi/trademe/contract/exposition/ContractRepository;*" 
-org.esgi.trademe.Configuration2contractRepository()ÛØ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java÷f ÷(4
-%39-org.esgi.trademe.kernel.event.EventDispatcher"gorg.esgi.trademe.Configuration#contractEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2contractEventDispatcher()
-š
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java÷0 ÷(€P
-%40Iorg.esgi.trademe.contract.application.update.AcceptContractCommandHandler"org.esgi.trademe.contract.application.update.AcceptContractCommandHandler#of(Lorg/esgi/trademe/contract/exposition/ContractRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/contract/application/update/AcceptContractCommandHandler;*M"K
-Iorg.esgi.trademe.contract.application.update.AcceptContractCommandHandler*@
->
-%387org.esgi.trademe.contract.exposition.ContractRepository*6
-4
-%39-org.esgi.trademe.kernel.event.EventDispatcherÙ
-Ö
-y
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java÷ ÷(
-%41java.util.Map$Entry"Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;*"
-java.util.Map*
-""*R
-P
-%40Iorg.esgi.trademe.contract.application.update.AcceptContractCommandHandler
-
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaíP ø(
-%42java.util.Map">java.util.Map#ofEntries([Ljava/util/Map$Entry;)Ljava/util/Map;*"
-java.util.Map*
-
-%3java.util.Map$Entry*
-
-%7java.util.Map$Entry*
-
-%12java.util.Map$Entry*
-
-%16java.util.Map$Entry*
-
-%20java.util.Map$Entry*
-
-%24java.util.Map$Entry*
-
-%28java.util.Map$Entry*
-
-%33java.util.Map$Entry*
-
-%37java.util.Map$Entry*
-
-%41java.util.Map$Entry¿
-¼
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaí ø("
-commandHandlerMapjava.util.Map"__id*
-
-%42java.util.Mapèå
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaù ù(#7
-%430org.esgi.trademe.kernel.command.SimpleCommandBus"0org.esgi.trademe.kernel.command.SimpleCommandBus°
-­
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaù ù(6
-%44"Iorg.esgi.trademe.kernel.command.SimpleCommandBus#<init>(Ljava/util/Map;)V*9
-7
-%430org.esgi.trademe.kernel.command.SimpleCommandBus*$
-"
-commandHandlerMapjava.util.Map"µ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaù ù(79
-7
-%430org.esgi.trademe.kernel.command.SimpleCommandBusB" 
-org.esgi.trademe.Configuration

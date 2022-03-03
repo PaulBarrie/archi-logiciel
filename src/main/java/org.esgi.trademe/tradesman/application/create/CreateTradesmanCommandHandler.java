@@ -35,13 +35,14 @@ public final class CreateTradesmanCommandHandler implements CommandHandler<Creat
 
     public Tradesman handle(CreateTradesman createTradesman) throws NoSuchAlgorithmException, InvalidEntryException {
         final TradesmanID tradesmanID = tradesmanRepository.nextIdentity();
-        Tradesman tradesman =  Tradesman.of(tradesmanID, createTradesman.lastname, createTradesman.firstname, createTradesman.email,
+        Tradesman tradesman =  Tradesman.of(tradesmanID, createTradesman.firstname, createTradesman.lastname, createTradesman.email,
                 TradesmanCredentials.of(createTradesman.credentials.getUsername(), createTradesman.credentials.getPassword()),
                 TradesmanAddress.of(createTradesman.address.getStreetNumber(), createTradesman.address.getStreetName(), createTradesman.address.getZipCode(),
                         createTradesman.address.getCity(), createTradesman.address.getCountry()));
         handler.check(tradesman);
         tradesmanRepository.add(tradesman);
         eventDispatcher.dispatch(new CreateTradesmanEvent(tradesmanID));
+
         return tradesman;
     }
 }

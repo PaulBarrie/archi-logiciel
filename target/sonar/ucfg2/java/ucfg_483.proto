@@ -1,59 +1,0 @@
-
-Îorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProjectHandler#handle(Lorg/esgi/trademe/contract/application/retrieve/by_project/RetrieveContractByProject;)Lorg/esgi/trademe/contract/exposition/ContractsDTO;≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java ("startingBlock*¿
-startingBlock≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java (?√
-¿
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java (
-%4"
-__annotate*
-java.lang.Override*^
-\
-querySorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProject≠
-™
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java9 (>\
-querySorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProject"__annotation*
-
-%4*
-1*◊
-1≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java# (5ˆ
-Û
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java# (5=
-%07org.esgi.trademe.contract.exposition.ContractRepository"__id*v*t\
-Zorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProjectHandler"
-contractRepositoryÍÁ
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.javaD (X/
-%1)org.esgi.trademe.project.domain.ProjectID"çorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProject#getProjectID()Lorg/esgi/trademe/project/domain/ProjectID;*^
-\
-querySorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProject2getProjectID()ÑÅ
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java# (Y
-%2java.util.List"Çorg.esgi.trademe.contract.exposition.ContractRepository#findByProject(Lorg/esgi/trademe/project/domain/ProjectID;)Ljava/util/List;*?
-=
-%07org.esgi.trademe.contract.exposition.ContractRepository*1
-/
-%1)org.esgi.trademe.project.domain.ProjectID2:findByProject(Lorg/esgi/trademe/project/domain/ProjectID;)Ù
-Ò
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java (Z
-	contractsjava.util.List"__id*
-
-%2java.util.List√
-¿
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java ()7
-%31org.esgi.trademe.contract.exposition.ContractsDTO"yorg.esgi.trademe.contract.exposition.ContractsDTO#of(Ljava/util/List;)Lorg/esgi/trademe/contract/exposition/ContractsDTO;*5"3
-1org.esgi.trademe.contract.exposition.ContractsDTO*
-
-	contractsjava.util.List"Ò
-≥
-®/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/retrieve/by_project/RetrieveContractByProjectHandler.java (*9
-7
-%31org.esgi.trademe.contract.exposition.ContractsDTO:\
-querySorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProjectB^\
-Zorg.esgi.trademe.contract.application.retrieve.by_project.RetrieveContractByProjectHandler
