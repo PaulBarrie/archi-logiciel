@@ -1,24 +1,0 @@
-
-U__sonar_lambda_10$org.esgi.trademe.contract.infrastructure.InMemoryContractRepositoryœ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java- -(J"startingBlock*é
-startingBlockœ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java- -(J³
-°
-
-__unknown_file (9
-status/org.esgi.trademe.contract.domain.ContractStatus"__id*S*QE
-Corg.esgi.trademe.contract.infrastructure.InMemoryContractRepository"
-status*
-1*æ
-1œ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java-$ -(,—”
-œ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java-$ -(@5
-%4/org.esgi.trademe.contract.domain.ContractStatus"norg.esgi.trademe.contract.domain.Contract#getContractStatus()Lorg/esgi/trademe/contract/domain/ContractStatus;*7
-5
-contract)org.esgi.trademe.contract.domain.Contract2getContractStatus()"§
-œ
-‘/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java-$ -(J
-"":5
-contract)org.esgi.trademe.contract.domain.ContractB 
-java.util.function.Predicate

@@ -1,17 +1,0 @@
-
-xorg.esgi.trademe.contract.application.update.AcceptContract#getContractID()Lorg/esgi/trademe/contract/domain/ContractID;î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContract.java (#"1*ê
-1î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContract.java (§
-°
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContract.java (1
-%0+org.esgi.trademe.contract.domain.ContractID"__id*O*M=
-;org.esgi.trademe.contract.application.update.AcceptContract"
-
-contractID"Ã
-î
-â/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/application/update/AcceptContract.java (3
-1
-%0+org.esgi.trademe.contract.domain.ContractIDB?=
-;org.esgi.trademe.contract.application.update.AcceptContract

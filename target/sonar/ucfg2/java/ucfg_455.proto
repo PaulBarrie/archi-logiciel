@@ -1,27 +1,0 @@
-
-Žorg.esgi.trademe.Configuration#createContractorCommandHandler()Lorg/esgi/trademe/contractor/application/create/CreateContractorCommandHandler;x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÆ* Æ(H"1*É
-1x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÇ Ç(-èå
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÇ1 Ç(G=
-%07org.esgi.trademe.contractor.domain.ContractorRepository"norg.esgi.trademe.Configuration#contractorRepository()Lorg/esgi/trademe/contractor/domain/ContractorRepository;*" 
-org.esgi.trademe.Configuration2contractorRepository()ÞÛ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÇI Ç(d3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"iorg.esgi.trademe.Configuration#contractorEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2contractorEventDispatcher()©
-¦
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÇ Ç(eS
-%2Morg.esgi.trademe.contractor.application.create.CreateContractorCommandHandler"‰org.esgi.trademe.contractor.application.create.CreateContractorCommandHandler#of(Lorg/esgi/trademe/contractor/domain/ContractorRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/contractor/application/create/CreateContractorCommandHandler;*Q"O
-Morg.esgi.trademe.contractor.application.create.CreateContractorCommandHandler*?
-=
-%07org.esgi.trademe.contractor.domain.ContractorRepository*5
-3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"Ñ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÇ Ç(fU
-S
-%2Morg.esgi.trademe.contractor.application.create.CreateContractorCommandHandlerB" 
-org.esgi.trademe.Configuration

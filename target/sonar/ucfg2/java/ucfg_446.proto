@@ -1,19 +1,0 @@
-
-iorg.esgi.trademe.Configuration#projectRepository()Lorg/esgi/trademe/project/exposition/ProjectRepository;x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java„ „(."1*ï
-1x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java„: „(Y‰†
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java„> „(WG
-%0Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository"Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository›
-˜
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java„: „(Y
-%1"Korg.esgi.trademe.project.infrastructure.InMemoryProjectRepository#<init>()V*I
-G
-%0Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepository"Å
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.java„3 „(ZI
-G
-%0Aorg.esgi.trademe.project.infrastructure.InMemoryProjectRepositoryB" 
-org.esgi.trademe.Configuration

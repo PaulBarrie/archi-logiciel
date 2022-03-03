@@ -1,16 +1,0 @@
-
-worg.esgi.trademe.payment.application.retrieve.RetrievePayment#getPaymentID()Lorg/esgi/trademe/payment/domain/PaymentID;–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePayment.java (!"1*“
-1–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePayment.java (¥
-¢
-–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePayment.java (/
-%0)org.esgi.trademe.payment.domain.PaymentID"__id*P*N?
-=org.esgi.trademe.payment.application.retrieve.RetrievePayment"
-	paymentID"Ì
-–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/application/retrieve/RetrievePayment.java (1
-/
-%0)org.esgi.trademe.payment.domain.PaymentIDBA?
-=org.esgi.trademe.payment.application.retrieve.RetrievePayment

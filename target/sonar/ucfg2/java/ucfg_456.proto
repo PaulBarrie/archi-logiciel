@@ -1,31 +1,0 @@
-
-–org.esgi.trademe.Configuration#modifyUserAddressCommandHandler()Lorg/esgi/trademe/contractor/application/update/ModifyContractorAddressCommandHandler;x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaË1 Ë(P"1*û
-1x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÌ9 Ì(Mèå
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÌ9 Ì(O=
-%07org.esgi.trademe.contractor.domain.ContractorRepository"norg.esgi.trademe.Configuration#contractorRepository()Lorg/esgi/trademe/contractor/domain/ContractorRepository;*" 
-org.esgi.trademe.Configuration2contractorRepository()ÞÛ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÌQ Ì(l3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"iorg.esgi.trademe.Configuration#contractorEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2contractorEventDispatcher()¯¬
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÌ Ì(8Z
-%2Torg.esgi.trademe.contractor.application.update.ModifyContractorAddressCommandHandler"Torg.esgi.trademe.contractor.application.update.ModifyContractorAddressCommandHandler¢
-Ÿ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÌ Ì(m
-%3"Æorg.esgi.trademe.contractor.application.update.ModifyContractorAddressCommandHandler#<init>(Lorg/esgi/trademe/contractor/domain/ContractorRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)V*\
-Z
-%2Torg.esgi.trademe.contractor.application.update.ModifyContractorAddressCommandHandler*?
-=
-%07org.esgi.trademe.contractor.domain.ContractorRepository*5
-3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"Ø
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÌ Ì(n\
-Z
-%2Torg.esgi.trademe.contractor.application.update.ModifyContractorAddressCommandHandlerB" 
-org.esgi.trademe.Configuration

@@ -1,36 +1,0 @@
-
-×org.esgi.trademe.contractor.exposition.ContractorAddressDTO#of(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/contractor/exposition/ContractorAddressDTO;”
-‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java' ()"1*À	
-1”
-‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java( (4š—
-”
-‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java ('A
-%0;org.esgi.trademe.contractor.exposition.ContractorAddressDTO";org.esgi.trademe.contractor.exposition.ContractorAddressDTO§
-¤
-”
-‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (Y
-%1"Ÿorg.esgi.trademe.contractor.exposition.ContractorAddressDTO#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*C
-A
-%0;org.esgi.trademe.contractor.exposition.ContractorAddressDTO*"
- 
-streetNumberjava.lang.String* 
-
-
-streetNamejava.lang.String*
-
-zipCodejava.lang.String*
-
-cityjava.lang.String*
-
-countryjava.lang.String"Ü
-”
-‰/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/exposition/ContractorAddressDTO.java (ZC
-A
-%0;org.esgi.trademe.contractor.exposition.ContractorAddressDTO: 
-streetNumberjava.lang.String:
-
-streetNamejava.lang.String:
-zipCodejava.lang.String:
-cityjava.lang.String:
-countryjava.lang.StringB?"=
-;org.esgi.trademe.contractor.exposition.ContractorAddressDTO

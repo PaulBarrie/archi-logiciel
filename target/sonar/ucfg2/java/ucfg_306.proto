@@ -1,16 +1,0 @@
-
-eorg.esgi.trademe.payment.domain.Payment#getPaymentMode()Lorg/esgi/trademe/payment/domain/PaymentMode;
-u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java' '(%"1*»
-1
-u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java( ((û
-ø
-
-u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java( ((1
-%0+org.esgi.trademe.payment.domain.PaymentMode"__id*<*:)
-'org.esgi.trademe.payment.domain.Payment"
-paymentMode"¶
-
-u/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/Payment.java( ((3
-1
-%0+org.esgi.trademe.payment.domain.PaymentModeB+)
-'org.esgi.trademe.payment.domain.Payment

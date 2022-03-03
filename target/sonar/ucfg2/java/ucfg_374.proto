@@ -1,35 +1,0 @@
-
-„org.esgi.trademe.contractor.validation.ContractorHandler#setNext(Lorg/esgi/trademe/kernel/Handler;)Lorg/esgi/trademe/kernel/Handler;‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java (&"startingBlock*ð
-startingBlock‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java& (@ì
-é
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java (
-%0"
-__annotate*
-java.lang.Override*)
-'
-nextorg.esgi.trademe.kernel.HandlerÖ
-Ó
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java; (?'
-nextorg.esgi.trademe.kernel.Handler"__annotation*
-
-%0*
-1*ê
-1‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java( (,Ž
-‹
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java (,D:
-8org.esgi.trademe.contractor.validation.ContractorHandler"
-next"__id*)
-'
-nextorg.esgi.trademe.kernel.Handler"¿
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contractor/validation/ContractorHandler.java ()
-'
-nextorg.esgi.trademe.kernel.Handler:'
-nextorg.esgi.trademe.kernel.HandlerB<:
-8org.esgi.trademe.contractor.validation.ContractorHandler

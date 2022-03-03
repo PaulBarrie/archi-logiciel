@@ -44,7 +44,6 @@ public final class TradesmanController {
 
         final Tradesman tradesman = commandBus.send(CreateTradesman.of(first_name, last_name, email, TradesmanCredentialsDTO.of(username, password),
                 AddressDTO.of(street_number, street_name, zip_code, city, country)));
-
         TradesmanDTO tradesmanDTOResponse = TradesmanDTO.of(tradesman);
         return ResponseEntity.ok(tradesmanDTOResponse);
     }

@@ -1,16 +1,0 @@
-
-corg.esgi.trademe.contract.domain.Contract#getProjectID()Lorg/esgi/trademe/project/domain/ProjectID;Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.javaB B(!"1*¿
-1Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.javaC C(¸
-˘
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.javaC C(/
-%0)org.esgi.trademe.project.domain.ProjectID"__id*<*:+
-)org.esgi.trademe.contract.domain.Contract"
-	projectID"∑
-Å
-w/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/domain/Contract.javaC C(1
-/
-%0)org.esgi.trademe.project.domain.ProjectIDB-+
-)org.esgi.trademe.contract.domain.Contract

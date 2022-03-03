@@ -1,25 +1,0 @@
-
-¥org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO#of(Ljava/lang/String;Ljava/lang/String;)Lorg/esgi/trademe/tradesman/exposition/TradesmanCredentialsDTO;–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java* (,"1*»
-1–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java+ (3 
-–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (*C
-%0=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO"=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO–
-“
-–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (>
-%1"korg.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO#<init>(Ljava/lang/String;Ljava/lang/String;)V*E
-C
-%0=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO*
-
-usernamejava.lang.String*
-
-passwordjava.lang.String"à
-–
-‹/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/exposition/TradesmanCredentialsDTO.java (?E
-C
-%0=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO:
-usernamejava.lang.String:
-passwordjava.lang.StringBA"?
-=org.esgi.trademe.tradesman.exposition.TradesmanCredentialsDTO

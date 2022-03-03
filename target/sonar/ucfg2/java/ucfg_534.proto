@@ -1,36 +1,0 @@
-
-ªorg.esgi.trademe.kernel.exceptions.NoSuchEntityException#withId(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)Lorg/esgi/trademe/kernel/exceptions/NoSuchEntityException;‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java( (."1*Ä
-1‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java) (/ 
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.javaY (f	
-%0int"9org.esgi.trademe.tradesman.domain.TradesmanID#getValue()I*5
-3
-id-org.esgi.trademe.tradesman.domain.TradesmanID2
-getValue()È
-Å
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java) (g
-%1java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*"
-java.lang.String*" 
-No tradesman found with ID %d.*
-	
-%0int‘Ž
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java ((>
-%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException"8org.esgi.trademe.kernel.exceptions.NoSuchEntityExceptionÏ
-Ì
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java (h
-%3"Torg.esgi.trademe.kernel.exceptions.NoSuchEntityException#<init>(Ljava/lang/String;)V*@
->
-%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException*
-
-%1java.lang.String"Ö
-‘
-†/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/kernel/exceptions/NoSuchEntityException.java (i@
->
-%28org.esgi.trademe.kernel.exceptions.NoSuchEntityException:3
-id-org.esgi.trademe.tradesman.domain.TradesmanIDB<":
-8org.esgi.trademe.kernel.exceptions.NoSuchEntityException

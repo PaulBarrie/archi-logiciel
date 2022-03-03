@@ -1,23 +1,0 @@
-
-ðorg.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)Lorg/esgi/trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent;¶
-«/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent.java2 (4"1*ç
-
-1¶
-«/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent.java3 (>€ý
-¶
-«/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent.java (2c
-%0]org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent"]org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent‚
-ÿ
-¶
-«/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent.java (?
-%1"–org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)V*e
-c
-%0]org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent*>
-<
-tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID" 
-¶
-«/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/create/education_level/AddTradesmanEducationLevelEvent.java (@e
-c
-%0]org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent:<
-tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanIDBa"_
-]org.esgi.trademe.tradesman.application.create.education_level.AddTradesmanEducationLevelEvent

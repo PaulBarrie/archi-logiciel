@@ -1,104 +1,0 @@
-
-Ðorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDHandler#handle(Lorg/esgi/trademe/project/application/retrieve/by_id/RetrieveProjectByID;)Lorg/esgi/trademe/project/exposition/ProjectDTO;§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java ("startingBlock*†
-startingBlock§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (7¬
-©
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (
-%10"
-__annotate*
-java.lang.Override*R
-P
-queryGorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID–
-“
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java1 (6P
-queryGorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID"__annotation*
-
-%10*
-1*´&
-1§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (+Û
-Ø
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (+;
-%05org.esgi.trademe.project.exposition.ProjectRepository"__id*i*gP
-Norg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDHandler"
-projectRepository·´
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java5 (B/
-%1)org.esgi.trademe.project.domain.ProjectID"zorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID#getId()Lorg/esgi/trademe/project/domain/ProjectID;*R
-P
-queryGorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID2getId()œ™
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (C-
-%2'org.esgi.trademe.project.domain.Project"”org.esgi.trademe.project.exposition.ProjectRepository#findById(Lorg/esgi/trademe/project/domain/ProjectID;)Lorg/esgi/trademe/project/domain/Project;*=
-;
-%05org.esgi.trademe.project.exposition.ProjectRepository*1
-/
-%1)org.esgi.trademe.project.domain.ProjectID25findById(Lorg/esgi/trademe/project/domain/ProjectID;)˜
-•
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (D2
-project'org.esgi.trademe.project.domain.Project"__id*/
--
-%2'org.esgi.trademe.project.domain.ProjectÞ
-Û
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java# (5=
-%37org.esgi.trademe.contract.exposition.ContractRepository"__id*j*hP
-Norg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDHandler"
-contractRepository‡„
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.javaD (Z/
-%4)org.esgi.trademe.project.domain.ProjectID"aorg.esgi.trademe.project.domain.Project#getProjectID()Lorg/esgi/trademe/project/domain/ProjectID;*4
-2
-project'org.esgi.trademe.project.domain.Project2getProjectID()øõ
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java# ([
-%5java.util.List"‚org.esgi.trademe.contract.exposition.ContractRepository#findByProject(Lorg/esgi/trademe/project/domain/ProjectID;)Ljava/util/List;*?
-=
-%37org.esgi.trademe.contract.exposition.ContractRepository*1
-/
-%4)org.esgi.trademe.project.domain.ProjectID2:findByProject(Lorg/esgi/trademe/project/domain/ProjectID;)è
-å
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (\
-	contractsjava.util.List"__id*
-
-%5java.util.ListÖ
-Ó
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (
-%6java.io.PrintStream"__id*
-""ÄÁ
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (%
-
-%7void"0java.io.PrintStream#println(Ljava/lang/Object;)V*
-
-%6java.io.PrintStream*
-
-	contractsjava.util.List2println(Ljava/lang/Object;)ýú
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (*
-
-%8void"Jorg.esgi.trademe.project.domain.Project#setContractList(Ljava/util/List;)V*4
-2
-project'org.esgi.trademe.project.domain.Project*
-
-	contractsjava.util.List2!setContractList(Ljava/util/List;)Ü
-Ù
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (%4
-%9.org.esgi.trademe.project.exposition.ProjectDTO"Œorg.esgi.trademe.project.exposition.ProjectDTO#of(Lorg/esgi/trademe/project/domain/Project;)Lorg/esgi/trademe/project/exposition/ProjectDTO;*2"0
-.org.esgi.trademe.project.exposition.ProjectDTO*4
-2
-project'org.esgi.trademe.project.domain.Project"â
-§
-œ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/project/application/retrieve/by_id/RetrieveProjectByIDHandler.java (&6
-4
-%9.org.esgi.trademe.project.exposition.ProjectDTO:P
-queryGorg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDBRP
-Norg.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDHandler

@@ -1,16 +1,0 @@
-
-\org.esgi.trademe.payment.domain.AccountIdentityPayment#getBankIdentifier()Ljava/lang/String;è
-Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java, ,(#"1* 
-1è
-Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java- -(É
-Ä
-è
-Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java- -(
-%0java.lang.String"__id*N*L8
-6org.esgi.trademe.payment.domain.AccountIdentityPayment"
-bankIdentifier"¨
-è
-Ñ/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/payment/domain/AccountIdentityPayment.java- -(
-
-%0java.lang.StringB:8
-6org.esgi.trademe.payment.domain.AccountIdentityPayment

@@ -1,22 +1,0 @@
-
-Êorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEvent#of(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)Lorg/esgi/trademe/tradesman/application/retrieve/all/RetrieveTradesmenEvent;£
-˜/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenEvent.java) (+"1*¼	
-1£
-˜/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenEvent.java* (5ÇÄ
-£
-˜/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenEvent.java ()P
-%0Jorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEvent"Jorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEventÉ
-Æ
-£
-˜/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenEvent.java (6
-%1"ƒorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEvent#<init>(Lorg/esgi/trademe/tradesman/domain/TradesmanID;)V*R
-P
-%0Jorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEvent*>
-<
-tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanID"ú
-£
-˜/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/tradesman/application/retrieve/all/RetrieveTradesmenEvent.java (7R
-P
-%0Jorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEvent:<
-tradesmanID-org.esgi.trademe.tradesman.domain.TradesmanIDBN"L
-Jorg.esgi.trademe.tradesman.application.retrieve.all.RetrieveTradesmenEvent

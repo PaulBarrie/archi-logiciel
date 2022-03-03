@@ -1,28 +1,0 @@
-
-]org.esgi.trademe.contract.infrastructure.InMemoryContractRepository#findAll()Ljava/util/List;ú
-ë/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (!"1*´	
-1ú
-ë/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (ê
-ç
-ú
-ë/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (
-%0java.util.Map"__id*Q*OE
-Corg.esgi.trademe.contract.infrastructure.InMemoryContractRepository"
-dataçä
-ú
-ë/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java ((
-%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
-
-%0java.util.Map2values()©
-¶
-ú
-ë/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java ()
-%2java.util.List"=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;*"
-java.util.List*
-
-%1java.util.Collection"∑
-ú
-ë/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/infrastructure/InMemoryContractRepository.java (*
-
-%2java.util.ListBGE
-Corg.esgi.trademe.contract.infrastructure.InMemoryContractRepository

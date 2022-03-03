@@ -1,31 +1,0 @@
-
-Ñorg.esgi.trademe.contract.exposition.ContractController#toProjectID(Ljava/lang/String;)Lorg/esgi/trademe/contract/domain/ContractID;ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javal l(("5*·
-3ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javan n(7"»
-ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javan n(73
-1
-%1+org.esgi.trademe.contract.domain.ContractID*Ö
-4ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javan n(6Á
-‰
-ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javan n(61
-%1+org.esgi.trademe.contract.domain.ContractID"^org.esgi.trademe.contract.domain.ContractID#of(I)Lorg/esgi/trademe/contract/domain/ContractID;*/"-
-+org.esgi.trademe.contract.domain.ContractID*
-	
-%0int*
-3*°
-5ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javan n(É
-Ä
-ê
-Ö/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/contract/exposition/ContractController.javan! n(5	
-%0int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
-java.lang.Integer*
-
-idjava.lang.String*
-4:
-idjava.lang.StringB;"9
-7org.esgi.trademe.contract.exposition.ContractController

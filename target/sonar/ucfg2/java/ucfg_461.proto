@@ -1,27 +1,0 @@
-
-àorg.esgi.trademe.Configuration#acceptContractCommandHandler()Lorg/esgi/trademe/contract/application/update/AcceptContractCommandHandler;x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaÁ( Á(D"1*Ø
-1x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaË Ë(+‰·
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaË/ Ë(C=
-%07org.esgi.trademe.contract.exposition.ContractRepository"lorg.esgi.trademe.Configuration#contractRepository()Lorg/esgi/trademe/contract/exposition/ContractRepository;*" 
-org.esgi.trademe.Configuration2contractRepository()‹Ÿ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaËE Ë(_3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"horg.esgi.trademe.Configuration#tradesmanEventDispatcher()Lorg/esgi/trademe/kernel/event/EventDispatcher;*" 
-org.esgi.trademe.Configuration2tradesmanEventDispatcher()ô
-ñ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaË Ë(`O
-%2Iorg.esgi.trademe.contract.application.update.AcceptContractCommandHandler"Åorg.esgi.trademe.contract.application.update.AcceptContractCommandHandler#of(Lorg/esgi/trademe/contract/exposition/ContractRepository;Lorg/esgi/trademe/kernel/event/EventDispatcher;)Lorg/esgi/trademe/contract/application/update/AcceptContractCommandHandler;*M"K
-Iorg.esgi.trademe.contract.application.update.AcceptContractCommandHandler*?
-=
-%07org.esgi.trademe.contract.exposition.ContractRepository*5
-3
-%1-org.esgi.trademe.kernel.event.EventDispatcher"Õ
-x
-l/home/paulb/Documents/cours/architecture-logiciel/trade-me/src/main/java/org.esgi.trademe/Configuration.javaË Ë(aQ
-O
-%2Iorg.esgi.trademe.contract.application.update.AcceptContractCommandHandlerB" 
-org.esgi.trademe.Configuration
