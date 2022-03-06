@@ -120,6 +120,9 @@ public final class TradesmanController {
         return ResponseEntity.ok(tradesmenDTO);
     }
 
+    
+
+
     @GetMapping(value = "/tradesmen", produces =  MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<TradesmenDTO> getAll() {
         final List<TradesmanDTO> tradesmen = queryBus.send(new RetrieveTradesmen());

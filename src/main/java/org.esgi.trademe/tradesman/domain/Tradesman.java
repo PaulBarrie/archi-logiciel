@@ -15,31 +15,31 @@ public final class Tradesman implements Entity<TradesmanID> {
     private  Education education;
     private TradesmanAddress address;
 
-    private Tradesman(TradesmanID id, String lastname, String firstname, String email, TradesmanCredentials credentials, Education education, TradesmanAddress address) {
+    private Tradesman(TradesmanID id,  String firstname, String lastname, String email, TradesmanCredentials credentials, Education education, TradesmanAddress address) {
         this.id = id;
-        this.lastname = lastname;
         this.firstname = firstname;
+        this.lastname = lastname;
         this.email = email;
         this.credentials = credentials;
         this.education = education;
         this.address = address;
     }
 
-    public static Tradesman of(TradesmanID id, String lastname, String firstname, String email, TradesmanCredentials credentials, Education education, TradesmanAddress address) {
-        return new Tradesman(id, lastname, firstname, email, credentials, education, address);
+    public static Tradesman of(TradesmanID id, String firstname, String lastname,  String email, TradesmanCredentials credentials, Education education, TradesmanAddress address) {
+        return new Tradesman(id, firstname, lastname,  email, credentials, education, address);
     }
 
-    private Tradesman(TradesmanID id, String lastname, String firstname, String email, TradesmanCredentials credentials, TradesmanAddress address) {
+    private Tradesman(TradesmanID id, String firstname, String lastname,  String email, TradesmanCredentials credentials, TradesmanAddress address) {
         this.id = id;
-        this.lastname = lastname;
         this.firstname = firstname;
+        this.lastname = lastname;
         this.email = email;
         this.credentials = credentials;
         this.address = address;
     }
 
-    public static Tradesman of(TradesmanID id, String lastname, String firstname, String email, TradesmanCredentials credentials, TradesmanAddress address) {
-        return new Tradesman(id, lastname, firstname, email, credentials, address);
+    public static Tradesman of(TradesmanID id,String firstname, String lastname,  String email, TradesmanCredentials credentials, TradesmanAddress address) {
+        return new Tradesman(id, firstname, lastname,  email, credentials, address);
     }
 
     public TradesmanID getId() {
@@ -100,7 +100,7 @@ public final class Tradesman implements Entity<TradesmanID> {
     @Override
     public String toString() {
         return "Tradesman{" +
-                "id=" + id +
+                "id=" + id + '\'' +
                 ", lastname='" + lastname + '\'' +
                 ", firstname='" + firstname + '\'' +
                 ", email='" + email + '\'' +

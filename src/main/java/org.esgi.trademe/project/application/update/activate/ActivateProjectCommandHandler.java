@@ -1,4 +1,4 @@
-package org.esgi.trademe.project.application.update;
+package org.esgi.trademe.project.application.update.activate;
 
 
 
@@ -30,8 +30,6 @@ public final class ActivateProjectCommandHandler implements CommandHandler<Activ
 
     public Project handle(ActivateProject activateProject) {
         Project project = projectRepository.findById(activateProject.getProjectID());
-
-        System.out.println("project : " + project);
         project.setContractStatus(ProjectStatus.VALIDATED);
         if(project.getContractList() != null) {
             for(Contract contract : project.getContractList()) {
@@ -40,7 +38,7 @@ public final class ActivateProjectCommandHandler implements CommandHandler<Activ
             }
             projectRepository.add(project);
         }
-
+        eventDispatcher.dispatch(new ActivateProjectEvent(project.getProjectID()));
         return project;
     }
 }

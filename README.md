@@ -54,6 +54,10 @@ professionnelle ou un diplôme dans l'un des domaines donnés. Pour ce faire, il
 `GET /tradesmen/search/?domains=<targeted_domain>` qui renverra une liste de tradesmen.
 
 >> ### Use case 3: match d'un tradesman
+Pour ce use case, lorsque la route `PUT /project/tradesman/match?project_id=?` est appelée, dans le command handler, la liste des
+candidats potentiels (ie: les tradesmen qui ont au moins un diplôme dans un des domaines du contra) est récupérée. Une engine est par la
+suite chargée de nommer le meilleur tradesman. Notre implémentation est en l'occurence naïve puisqu'elle retourne le premier tradesman
+de la liste.
 
 >> ### Use case 7: création d'un projet
 On suppose qu'un projet(`Project`) est une liste de contrats (`Contract`). Un contrat contient une série de renseignements 

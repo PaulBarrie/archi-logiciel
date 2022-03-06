@@ -16,6 +16,10 @@ public final class ProjectDTO {
         return new ProjectDTO(project);
     }
 
+    public Project getProject() {
+        return project;
+    }
+
     @Override
     public String toString() {
         return "ProjectDTO{" +

@@ -1,4 +1,4 @@
-package org.esgi.trademe.contract.application.update;
+package org.esgi.trademe.contract.application.update.accept;
 
 
 import org.esgi.trademe.contract.domain.ContractID;
