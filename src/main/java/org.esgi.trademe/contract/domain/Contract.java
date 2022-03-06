@@ -95,4 +95,8 @@ public final class Contract implements Entity<ContractID> {
     public void setContractStatus(ContractStatus contractStatus) {
         this.contractStatus = contractStatus;
     }
+
+    public void setTradesmanID(TradesmanID tradesmanID) {
+        this.tradesmanID = tradesmanID;
+    }
 }

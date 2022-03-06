@@ -24,10 +24,10 @@ import org.esgi.trademe.contract.application.retrieve.by_tradesman.RetrieveContr
 import org.esgi.trademe.contract.application.retrieve.by_tradesman.RetrieveContractByTradesmanHandler;
 import org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID;
 import org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByIDHandler;
-import org.esgi.trademe.contract.application.update.AcceptContract;
-import org.esgi.trademe.contract.application.update.AcceptContractCommandHandler;
-import org.esgi.trademe.contract.application.update.AcceptContractEvent;
-import org.esgi.trademe.contract.application.update.AcceptContractEventListener;
+import org.esgi.trademe.contract.application.update.accept.AcceptContract;
+import org.esgi.trademe.contract.application.update.accept.AcceptContractCommandHandler;
+import org.esgi.trademe.contract.application.update.accept.AcceptContractEvent;
+import org.esgi.trademe.contract.application.update.accept.AcceptContractEventListener;
 import org.esgi.trademe.contract.exposition.ContractRepository;
 import org.esgi.trademe.contract.infrastructure.InMemoryContractRepository;
 import org.esgi.trademe.project.application.create.CreateProject;
@@ -35,13 +35,27 @@ import org.esgi.trademe.project.application.create.CreateProjectCommandHandler;
 import org.esgi.trademe.project.application.create.CreateProjectEvent;
 import org.esgi.trademe.project.application.create.CreateProjectEventListener;
 import org.esgi.trademe.project.application.retrieve.all.RetrieveProjects;
+import org.esgi.trademe.project.application.retrieve.all.RetrieveProjectsEvent;
+import org.esgi.trademe.project.application.retrieve.all.RetrieveProjectsEventListener;
 import org.esgi.trademe.project.application.retrieve.all.RetrieveProjectsHandler;
 import org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor;
+import org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractorEvent;
+import org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractorEventListener;
 import org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractorHandler;
 import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID;
+import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDEvent;
+import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDEventListener;
 import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByIDHandler;
-import org.esgi.trademe.project.application.update.ActivateProject;
-import org.esgi.trademe.project.application.update.ActivateProjectCommandHandler;
+import org.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatusEvent;
+import org.esgi.trademe.project.application.retrieve.by_status.RetrieveProjectByStatusEventListener;
+import org.esgi.trademe.project.application.update.activate.ActivateProject;
+import org.esgi.trademe.project.application.update.activate.ActivateProjectCommandHandler;
+import org.esgi.trademe.project.application.update.activate.ActivateProjectEvent;
+import org.esgi.trademe.project.application.update.activate.ActivateProjectEventListener;
+import org.esgi.trademe.project.application.update.assign_tradesmen.AssignTradesmenToProject;
+import org.esgi.trademe.project.application.update.assign_tradesmen.AssignTradesmenToProjectCommandHandler;
+import org.esgi.trademe.project.application.update.assign_tradesmen.AssignTradesmenToProjectEvent;
+import org.esgi.trademe.project.application.update.assign_tradesmen.AssignTradesmenToProjectEventListener;
 import org.esgi.trademe.project.exposition.ProjectRepository;
 import org.esgi.trademe.project.infrastructure.InMemoryProjectRepository;
 import org.esgi.trademe.tradesman.application.create.CreateTradesman;
@@ -177,6 +191,12 @@ public class Configuration {
     public EventDispatcher<Event> projectEventDispatcher() {
         final Map<Class<? extends Event>, List<EventListener<? extends Event>>> listenerMap = new HashMap<>();
         listenerMap.put(CreateProjectEvent.class, List.of(new CreateProjectEventListener()));
+        listenerMap.put(ActivateProjectEvent.class, List.of(new ActivateProjectEventListener()));
+        listenerMap.put(AssignTradesmenToProjectEvent.class, List.of(new AssignTradesmenToProjectEventListener()));
+        listenerMap.put(RetrieveProjectsEvent.class, List.of(new RetrieveProjectsEventListener()));
+        listenerMap.put(RetrieveProjectByIDEvent.class, List.of(new RetrieveProjectByIDEventListener()));
+        listenerMap.put(RetrieveProjectByStatusEvent.class, List.of(new RetrieveProjectByStatusEventListener()));
+        listenerMap.put(RetrieveProjectByContractorEvent.class, List.of(new RetrieveProjectByContractorEventListener()));
         return new DefaultEventDispatcher(listenerMap);
     }
 
@@ -242,6 +262,7 @@ public class Configuration {
                 Map.entry(AddTradesmanExperience.class, AddTradesmanExperienceCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
                 Map.entry(AddTradesmanEducationLevel.class, AddTradesmanEducationLevelCommandHandler.of(tradesmanRepository(), tradesmanEventDispatcher())),
                 Map.entry(CreateProject.class, CreateProjectCommandHandler.of(projectRepository(), projectEventDispatcher())),
+                Map.entry(AssignTradesmenToProject.class, AssignTradesmenToProjectCommandHandler.of(projectRepository(), contractRepository(), tradesmanRepository(), projectEventDispatcher())),
                 Map.entry(ActivateProject.class, ActivateProjectCommandHandler.of(projectRepository(), contractRepository(), projectEventDispatcher())),
                 Map.entry(CreateContract.class, CreateContractCommandHandler.of(contractRepository(), contractEventDispatcher())),
                 Map.entry(AcceptContract.class, AcceptContractCommandHandler.of(contractRepository(), contractEventDispatcher()))

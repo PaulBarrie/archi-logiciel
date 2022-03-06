@@ -4,7 +4,7 @@ import org.esgi.trademe.contract.application.create.CreateContract;
 import org.esgi.trademe.contract.application.retrieve.all.RetrieveContracts;
 import org.esgi.trademe.contract.application.retrieve.by_id.RetrieveContractByID;
 import org.esgi.trademe.contract.application.retrieve.by_tradesman.RetrieveContractByTradesman;
-import org.esgi.trademe.contract.application.update.AcceptContract;
+import org.esgi.trademe.contract.application.update.accept.AcceptContract;
 import org.esgi.trademe.contract.domain.Contract;
 import org.esgi.trademe.contract.domain.ContractID;
 import org.esgi.trademe.kernel.command.CommandBus;

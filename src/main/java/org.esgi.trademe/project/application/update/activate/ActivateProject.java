@@ -1,4 +1,4 @@
-package org.esgi.trademe.project.application.update;
+package org.esgi.trademe.project.application.update.activate;
 
 
 import org.esgi.trademe.kernel.command.Command;

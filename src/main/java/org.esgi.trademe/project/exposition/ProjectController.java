@@ -4,7 +4,6 @@ package org.esgi.trademe.project.exposition;
 import org.esgi.trademe.contractor.domain.Contractor;
 import org.esgi.trademe.contractor.domain.ContractorID;
 import org.esgi.trademe.kernel.command.CommandBus;
-import org.esgi.trademe.kernel.exceptions.InvalidChoiceException;
 import org.esgi.trademe.kernel.exceptions.InvalidEntryException;
 import org.esgi.trademe.kernel.exceptions.InvalidParameterException;
 import org.esgi.trademe.kernel.query.QueryBus;
@@ -12,11 +11,10 @@ import org.esgi.trademe.project.application.create.CreateProject;
 import org.esgi.trademe.project.application.retrieve.all.RetrieveProjects;
 import org.esgi.trademe.project.application.retrieve.by_contractor.RetrieveProjectByContractor;
 import org.esgi.trademe.project.application.retrieve.by_id.RetrieveProjectByID;
-import org.esgi.trademe.project.application.update.ActivateProject;
+import org.esgi.trademe.project.application.update.activate.ActivateProject;
+import org.esgi.trademe.project.application.update.assign_tradesmen.AssignTradesmenToProject;
 import org.esgi.trademe.project.domain.Project;
 import org.esgi.trademe.project.domain.ProjectID;
-import org.esgi.trademe.tradesman.domain.EducationLevel;
-import org.esgi.trademe.tradesman.domain.WorkDomain;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -67,6 +65,12 @@ public final class ProjectController {
         return ResponseEntity.ok(String.format("Project %s activated by tradesman", project_id));
     }
 
+    @PutMapping(value = "/project/tradesmen/match", produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<ProjectDTO> matchTradesman(@RequestParam(required = true) String project_id) throws InvalidEntryException, NoSuchAlgorithmException {
+        ProjectDTO project = commandBus.send(AssignTradesmenToProject.of(ProjectID.of(Integer.parseInt(project_id))));
+        return ResponseEntity.ok(project);
+    }
+    
     @GetMapping(value = "/contractor/projects", produces =  MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<ProjectsDTO> getByContractor(@RequestParam(required = true) String contractor_id) {
         Contractor contractor = queryBus.send(RetrieveProjectByContractor.of(ContractorID.of(Integer.parseInt(contractor_id))));

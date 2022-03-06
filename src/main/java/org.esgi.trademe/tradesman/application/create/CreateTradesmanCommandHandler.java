@@ -41,6 +41,7 @@ public final class CreateTradesmanCommandHandler implements CommandHandler<Creat
                         createTradesman.address.getCity(), createTradesman.address.getCountry()));
         handler.check(tradesman);
         tradesmanRepository.add(tradesman);
+        System.out.println(tradesman.toString());
         eventDispatcher.dispatch(new CreateTradesmanEvent(tradesmanID));
 
         return tradesman;

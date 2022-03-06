@@ -63,7 +63,7 @@ public final class Project implements Entity<ProjectID> {
     public ContractorID getContractorID() {
         return contractorID;
     }
-
+    
 
     @Override
     public ProjectID id() {
