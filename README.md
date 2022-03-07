@@ -31,7 +31,7 @@ Pour l'inscription d'un contractor, il faut appeler la route `POST /contractor`.
 Par ailleurs, le profil d'un contractor peut être complété d'un ou plusieurs moyen de paiement. Pour cela, il faut appeler la
 route `POST /payment/?contractor_id=<id>`, en précisant les paramètres suivant:
 
-* Si le paiement est une carte de crédit: `number`, `owner`, `expiration`, `security_numner`.
+* Si le paiement est une carte de crédit: `number`, `owner`, `expiration`, `security_number`.
 * Si le paiement est un RIB: `account_identifier`, `bank_identifier`.
 
 Lorsqu'un paiement est enregistré, un cronjob s'assure de réaliser un paiement régulier (toutes les minutes), en guise d'abonnement
@@ -54,7 +54,7 @@ professionnelle ou un diplôme dans l'un des domaines donnés. Pour ce faire, il
 
 >> ### Use case 3: match d'un tradesman
 Pour ce use case, lorsque la route `PUT /project/tradesman/match?project_id=?` est appelée, dans le command handler, la liste des
-candidats potentiels (ie: les tradesmen qui ont au moins un diplôme dans un des domaines du contra) est récupérée. Une engine est par la
+candidats potentiels (ie: les tradesmen qui ont au moins un diplôme dans un des domaines du contrat) est récupérée. Une engine est par la
 suite chargée de nommer le meilleur tradesman. Notre implémentation est en l'occurence naïve puisqu'elle retourne le premier tradesman
 de la liste.
 

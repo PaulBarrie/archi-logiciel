@@ -26,6 +26,7 @@ public final class InMemoryTradesmanRepository implements TradesmanRepository {
     @Override
     public Tradesman findById(TradesmanID id) {
         final Tradesman tradesman = data.get(id);
+        System.out.println(data);
         if (tradesman == null) {
             throw NoSuchEntityException.withId(id);
         }

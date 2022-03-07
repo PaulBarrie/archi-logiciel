@@ -23,7 +23,7 @@ public final class TradesmanDTO {
         this.address = address;
     }
 
-    public static TradesmanDTO of(TradesmanID tradesmanID,String lastname, String firstname, String email, TradesmanCredentialsDTO credentials, EducationDTO education, AddressDTO address){
+    public static TradesmanDTO of(TradesmanID tradesmanID,  String firstname, String lastname, String email, TradesmanCredentialsDTO credentials, EducationDTO education, AddressDTO address){
         return new TradesmanDTO(tradesmanID, lastname, firstname, email, credentials, education, address);
     }
 
