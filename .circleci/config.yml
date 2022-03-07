@@ -82,9 +82,6 @@ workflows:
   test:
     when: << pipeline.parameters.pull_request >>
     jobs:
-      - build-and-test:
-          context:
-            - ci-esgi
       - docker-security:
             context:
               - ci-esgi
@@ -95,6 +92,9 @@ workflows:
   deploy:
     when: << pipeline.parameters.pull_request >>
     jobs:
+      - build-and-test:
+            context:
+              - ci-esgi
       - deploy-docker:
           context:
             - ci-esgi
